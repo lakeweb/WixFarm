@@ -1,0 +1,180 @@
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+The windows installer docs
+https://docs.microsoft.com/en-us/windows/win32/msi/windows-installer-portal
+
+If you have duplacate file names in your folder system, you will get a: ICE30 error. From what I read this is a bug that has been there for years.
+Go to the Wix tool settings and supress it. but you won't get valid errors, that is the catch.
+
+"C:\Program Files (x86)\WiX Toolset v3.11\bin\heat.exe" dir "C:\cpp\ReserveAnalyst_142\Program2" -gg -sfrag -template:fragment -out directory.wxs
+
+this is from the dark.........
+
+<Component Id="C__C75C6D2F85F9A976B2152D059D240159" Guid="{8099F3A7-F976-EEB8-38CA-3F90B4433F83}">
+    <File Id="_C75C6D2F85F9A976B2152D059D240159" Name="ars.exe" KeyPath="yes" ShortName="ARS.EXE" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\wix\dark\File\_C75C6D2F85F9A976B2152D059D240159" />
+    <ProgId Id="Reserve Analyst" Description="Reserve Analyst" Icon="_853F67D554F05449430E7E.exe" IconIndex="0" Advertise="yes">
+        <Extension Id="ars" Advertise="yes">
+            <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" Sequence="0" />
+        </Extension>
+    </ProgId>
+</Component>
+
+`````````````````````````````````````````````````````
+
+HKEY_CLASSES_ROOT (HKCR)
+HKEY_CURRENT_USER (HKCU)
+HKEY_LOCAL_MACHINE (HKLM)
+HKEY_USERS (HKU)
+HKEY_CURRENT_CONFIG (HKCC)
+
+https://www.codeproject.com/Articles/13875/Specify-a-different-location-for-Virtual-Directori
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<Directory Id="ProgramMenuFolder" SourceName="User's Programs Menu">
+  <Component Id="C__B8DDA4DC1D1C43E8B10D2FBE78066A4F" Guid="{A83B627C-7C1B-503C-18C7-15B0ECA25F63}">
+    <CreateFolder Directory="DesktopFolder" />
+    <RegistryValue Id="C__B8DDA4DC1D1C43E8B10D2FBE78066A4F" Root="HKCU" Key="Software\[Manufacturer]\[ProductName]\{A83B627C-7C1B-503C-18C7-15B0ECA25F63}" Name="DesktopFolder" Value="[DesktopFolder]" Type="string" KeyPath="yes" />
+    <RemoveFolder Id="C__B8DDA4DC1D1C43E8B10D2FBE78066A4F" Directory="DesktopFolder" On="uninstall" />
+    <Shortcut Id="_2738E3D6C3864E808C8BD27C10202DCC" Directory="DesktopFolder" Name="Reserve Analyst" Target="[DesktopFolder]" Description="Launch Reserve Analyst" Arguments="[ProgramFilesFolder]Highlands Electronics\Reserve Analyst\ars.exe" Icon="icon.ico" IconIndex="0" Show="normal" WorkingDirectory="DesktopFolder" />
+  </Component>
+</Directory>
+<Directory Id="DesktopFolder" SourceName="User's Desktop">
+  <Component Id="C__B8DDA4DC1D1C43E8B10D2FBE78066A4E" Guid="{A83B627C-7C1B-503C-18C7-05B0ECA25F63}">
+    <CreateFolder Directory="DesktopFolder" />
+    <RegistryValue Id="R__B8DDA4DC1D1C43E8B10D2FBE78066A4E" Root="HKCU" Key="Software\[Manufacturer]\[ProductName]\{A83B627C-7C1B-503C-18C7-05B0ECA25F63}" Name="DesktopFolder" Value="[DesktopFolder]" Type="string" KeyPath="yes" />
+    <RemoveFolder Id="_B8DDA4DC1D1C43E8B10D2FBE78066A4E" Directory="DesktopFolder" On="uninstall" />
+    <Shortcut Id="_2738E3D6C3864E808C8BD27C10202DCD" Directory="DesktopFolder" Name="Reserve Analyst" Target="[DesktopFolder]" Description="Launch Reserve Analyst" Arguments="[ProgramFilesFolder]Highlands Electronics\Reserve Analyst\ars.exe" Icon="icon.ico" IconIndex="0" Show="normal" WorkingDirectory="DesktopFolder" />
+  </Component>
+</Directory>
+
+
+<ComponentRef Id="C__B8DDA4DC1D1C43E8B10D2FBE78066A4F" />
+<ComponentRef Id="C__B8DDA4DC1D1C43E8B10D2FBE78066A4E" />
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<Control Id="LicenseText" Type="ScrollableText" X="130" Y="36" Width="226" Height="162" Sunken="yes" TabSkip="no">
+  <Text SourceFile="!(wix.WixUILicenseRtf=$(var.licenseRtf))" />
+</Control>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<Entries target="/Wix/Product/Directory">
+  <Directory Id="DesktopFolder" Name="Desktop">
+    <Component Id="ApplicationShortcutDesktop" Guid="*">
+      <Shortcut Id="ApplicationDesktopShortcut"
+          Name="Text under your icon"
+          Description="Comment field in your shortcut"
+          Target="[MYAPPDIRPROPERTY]MyApp.exe"
+          WorkingDirectory="MYAPPDIRPROPERTY"/>
+      <RemoveFolder Id="DesktopFolder" On="uninstall"/>
+      <RegistryValue
+          Root="HKCU"
+          Key="Software/MyAppName"
+          Name="installed"
+          Type="integer"
+          Value="1"
+          KeyPath="yes"/>
+    </Component>
+  </Directory>
+
+  <Directory Id="ProgramFilesFolder" Name="PFiles">
+    <Directory Id="MyCompany" Name="MyCompany">
+      <!--<Directory Id="MYAPPDIRPROPERTY" Name="MyAppName">-->
+      <!-- main installation files -->
+      <!--</Directory>-->
+    </Directory>
+  </Directory>
+</Entries>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" UpgradeCode="PUT-GUID-HERE" Version="1.0.0.0" Language="1033" Name="My Application Name" Manufacturer="My Manufacturer Name">
+    <Package InstallerVersion="300" Compressed="yes"/>
+    <Media Id="1" Cabinet="myapplication.cab" EmbedCab="yes" />
+
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="ProgramFilesFolder">
+        <Directory Id="APPLICATIONROOTDIRECTORY" Name="My Application Name"/>
+      </Directory>
+      <!-- Step 1: Define the directory structure -->
+      <Directory Id="ProgramMenuFolder">
+        <Directory Id="ApplicationProgramsFolder" Name="My Application Name"/>
+      </Directory>
+    </Directory>
+
+    <DirectoryRef Id="APPLICATIONROOTDIRECTORY">
+      <Component Id="myapplication.exe" Guid="PUT-GUID-HERE">
+        <File Id="myapplication.exe" Source="MySourceFiles\MyApplication.exe" KeyPath="yes" Checksum="yes"/>
+      </Component>
+      <Component Id="documentation.html" Guid="PUT-GUID-HERE">
+        <File Id="documentation.html" Source="MySourceFiles\documentation.html" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+    <!-- Step 2: Add the shortcut to your installer package -->
+    <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="ApplicationShortcut" Guid="PUT-GUID-HERE">
+        <Shortcut Id="ApplicationStartMenuShortcut"
+             Name="My Application Name"
+           Description="My Application Description"
+            Target="[#myapplication.exe]"
+                  WorkingDirectory="APPLICATIONROOTDIRECTORY"/>
+        <RemoveFolder Id="ApplicationProgramsFolder" On="uninstall"/>
+        <RegistryValue Root="HKCU" Key="Software\MyCompany\MyApplicationName" Name="installed" Type="integer" Value="1" KeyPath="yes"/>
+      </Component>
+    </DirectoryRef>
+
+    <Feature Id="MainApplication" Title="Main Application" Level="1">
+      <ComponentRef Id="myapplication.exe" />
+      <ComponentRef Id="documentation.html" />
+      <!-- Step 3: Tell WiX to install the shortcut -->
+      <ComponentRef Id="ApplicationShortcut" />
+    </Feature>
+  </Product>
+</Wix>
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+<Directory Id="ProgramMenuFolder" SourceName="User's Programs Menu">
+  <Component Id="C__B8DDA4DC1D1C43E8B10D2FBE78066A4F" Guid="*">
+    <CreateFolder Directory="DesktopFolder" />
+    <RegistryValue Id="C__B8DDA4DC1D1C43E8B10D2FBE78066A4F" Root="HKCU" Key="Software\[Manufacturer]\[ProductName]\{A83B627C-7C1B-503C-18C7-15B0ECA25F63}" Name="DesktopFolder" Value="[DesktopFolder]" Type="string" KeyPath="yes" />
+    <RemoveFolder Id="C__B8DDA4DC1D1C43E8B10D2FBE78066A4F" Directory="DesktopFolder" On="uninstall" />
+    <Shortcut Id="_2738E3D6C3864E808C8BD27C10202DCC" Directory="DesktopFolder" Name="Reserve Analyst" Target="[DesktopFolder]" Description="Launch Reserve Analyst" Arguments="[ProgramFilesFolder]Highlands Electronics\Reserve Analyst\ars.exe" Icon="icon.ico" IconIndex="0" Show="normal" WorkingDirectory="DesktopFolder" />
+  </Component>
+</Directory>
+<Directory Id="DesktopFolder" SourceName="User's Desktop">
+  <Component Id="C__B8DDA4DC1D1C43E8B10D2FBE78066A4E" Guid="*">
+    <CreateFolder Directory="DesktopFolder" />
+    <RegistryValue Id="R__B8DDA4DC1D1C43E8B10D2FBE78066A4E" Root="HKCU" Key="Software\[Manufacturer]\[ProductName]\{A83B627C-7C1B-503C-18C7-05B0ECA25F63}" Name="DesktopFolder" Value="[DesktopFolder]" Type="string" KeyPath="yes" />
+    <RemoveFolder Id="_B8DDA4DC1D1C43E8B10D2FBE78066A4E" Directory="DesktopFolder" On="uninstall" />
+    <Shortcut Id="_2738E3D6C3864E808C8BD27C10202DCD" Directory="DesktopFolder" Name="Reserve Analyst" Target="[DesktopFolder]" Description="Launch Reserve Analyst" Arguments="[ProgramFilesFolder]Highlands Electronics\Reserve Analyst\ars.exe" Icon="icon.ico" IconIndex="0" Show="normal" WorkingDirectory="DesktopFolder" />
+  </Component>
+</Directory>
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ <!--This is from Dark-->
+
+<Component Id="C__C75C6D2F85F9A976B2152D059D240159" Guid="{8099F3A7-F976-EEB8-38CA-3F90B4433F83}">
+  <File Id="_C75C6D2F85F9A976B2152D059D240159" Name="ars.exe" KeyPath="yes" ShortName="ARS.EXE" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\wix\dark\File\_C75C6D2F85F9A976B2152D059D240159" />
+  <ProgId Id="Reserve Analyst" Description="Reserve Analyst" Icon="_853F67D554F05449430E7E.exe" IconIndex="0" Advertise="yes">
+    <Extension Id="ars" Advertise="yes">
+      <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" Sequence="0" />
+    </Extension>
+  </ProgId>
+</Component>
+
+<Directory Id="ProgramMenuFolder" ShortSourceName="USER'S~1" SourceName="User's Programs Menu" />
+<Directory Id="DesktopFolder" ShortSourceName="USER'S~2" SourceName="User's Desktop">
+  <Component Id="C__B8DDA4DC1D1C43E8B10D2FBE78066A4E" Guid="{A83B627C-7C1B-503C-18C7-05B0ECA25F63}">
+    <CreateFolder Directory="DesktopFolder" />
+    <RegistryValue Id="R__B8DDA4DC1D1C43E8B10D2FBE78066A4E" Root="HKCU" Key="Software\[Manufacturer]\[ProductName]\{A83B627C-7C1B-503C-18C7-05B0ECA25F63}" Name="DesktopFolder" Value="[DesktopFolder]" Type="string" KeyPath="yes" />
+    <RemoveFolder Id="_B8DDA4DC1D1C43E8B10D2FBE78066A4E" Directory="DesktopFolder" On="uninstall" />
+    <Shortcut Id="_2738E3D6C3864E808C8BD27C10202DCD" Directory="DesktopFolder" Name="Reserve Analyst" ShortName="RESERV~1" Target="[DesktopFolder]" Description="Launch Reserve Analyst" Arguments="[ProgramFilesFolder]Highlands Electronics\Reserve Analyst\ars.exe" Icon="_A251E6987CB9DFC7102C0A.exe" IconIndex="0" Show="normal" WorkingDirectory="DesktopFolder" />
+  </Component>
+</Directory>

@@ -1,0 +1,14 @@
+
+
+    <!-- https://geoffwebbercross.blogspot.com/2012/11/converting-visual-studio-setup-project.html
+    <Binary Id="MSVBDPCADLL" SourceFile="FILE NOT EXPORTED, USE THE dark.exe -x OPTION TO EXPORT BINARIES" />
+    <Binary Id="VSDNETCFG" SourceFile="FILE NOT EXPORTED, USE THE dark.exe -x OPTION TO EXPORT BINARIES" />
+    <Binary Id="DefBannerBitmap" SourceFile="FILE NOT EXPORTED, USE THE dark.exe -x OPTION TO EXPORT BINARIES" />
+    <Binary Id="_7F14BC169F152CA61205EAFB143F848C" SourceFile="FILE NOT EXPORTED, USE THE dark.exe -x OPTION TO EXPORT BINARIES" />
+    <Binary Id="UpFldrBtn" SourceFile="FILE NOT EXPORTED, USE THE dark.exe -x OPTION TO EXPORT BINARIES" />
+    <Binary Id="NewFldrBtn" SourceFile="FILE NOT EXPORTED, USE THE dark.exe -x OPTION TO EXPORT BINARIES" />
+    -->
+    <!--<CustomAction Id="DIRCA_TARGETDIR" Property="TARGETDIR" Value="[ProgramFilesFolder]Highlands Electronics\Reserve Analyst" Execute="firstSequence" />-->
+<!--    <CustomAction Id="DIRCA_CheckFX" BinaryKey="MSVBDPCADLL" DllEntry="CheckFX" />
+-->
+

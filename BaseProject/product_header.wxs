@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <Product Id="*" UpgradeCode="$(var.UpgradeCode)" Codepage="1252" Language="1033"
+           Manufacturer="$(var.Manufacturer)" Name="$(var.ProductName)" Version="$(var.ProductVersion)">
+    <Package Compressed="yes" InstallerVersion="200" Languages="1033" Manufacturer="$(var.Manufacturer)" Platform="x86" />
+    <Media Id = "1" Cabinet = "myapplication.cab" EmbedCab = "yes"/>
+    <!-- banner-->
+    <Binary Id="MSVBDPCADLL" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\Binary\MSVBDPCADLL.idb" />
+    <Binary Id="VSDNETCFG" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\Binary\VSDNETCFG.idb" />
+    <Binary Id="UpFldrBtn" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\images\UpFldrBtn.ico" />
+    <Binary Id="NewFldrBtn" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\images\NewFldrBtn.ico" />
+
+    <!--<Upgrade Id="$(var.UpgradeCode)">
+      <UpgradeVersion Minimum="$(var.ProductMinVersion)" Property="PREVIOUSVERSIONSINSTALLED" />
+      <UpgradeVersion Maximum="$(var.ProductMaxVersion)" Property="NEWERPRODUCTFOUND" OnlyDetect="yes" IncludeMinimum="yes" />
+    </Upgrade>-->
+
+    <Upgrade Id="$(var.UpgradeCode)">
+      <UpgradeVersion OnlyDetect="yes"
+                      Minimum="$(var.ProductVersion)"
+                      Property="NEWERVERSIONDETECTED"
+                      IncludeMinimum="no" />
+
+      <UpgradeVersion OnlyDetect="no"
+                      Maximum="$(var.ProductVersion)"
+                      Property="OLDERVERSIONBEINGUPGRADED"
+                      IncludeMaximum="no" />
+
+      <!-- Detect for changes in 4th field only -->
+      <UpgradeVersion Property="ANOTHERBUILDINSTALLED"
+               Maximum="$(var.ProductVersion)" Minimum="$(var.ProductVersion)"
+               IncludeMinimum="yes" IncludeMaximum="yes" OnlyDetect="yes" />
+
+    </Upgrade>
+
+    <CustomAction Id="DIRCA_CheckFX" BinaryKey="MSVBDPCADLL" DllEntry="CheckFX" />
+    <CustomAction Id="VSDCA_VsdLaunchConditions" BinaryKey="MSVBDPCADLL" DllEntry="VsdLaunchConditions" />
+    <CustomAction Id="ERRCA_CANCELNEWERVERSION" Error="[VSDVERSIONMSG]" />
+    <CustomAction Id="ERRCA_UIANDADVERTISED" Error="[VSDUIANDADVERTISED]" />
+    <CustomAction Id="VSDCA_FolderForm_AllUsers" Property="FolderForm_AllUsers" Value="ALL" />
+    <CustomTable Id="_VsdLaunchCondition">
+      <Column Id="Condition" PrimaryKey="yes" Type="string" Width="255" Category="Condition" Description="Expression which must evaluate to TRUE in order for install to commence." Modularize="Condition" />
+      <Column Id="Description" Type="string" Width="255" Localizable="yes" Category="Formatted" Description="Localizable text to display when condition fails and install must abort." Modularize="Property" />
+      <Column Id="Url" Type="string" Width="0" Category="Text" Description="URL to navigate to when condition fails and install must abort." />
+      <Row>
+        <Data Column="Condition">VSDFXAvailable</Data>
+        <Data Column="Description">[VSDNETURLMSG]</Data>
+        <Data Column="Url">http://go.microsoft.com/fwlink/?LinkId=671728</Data>
+      </Row>
+    </CustomTable>
+ </Product>
+</Wix>

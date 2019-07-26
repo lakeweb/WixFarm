@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+        <Property Id="VSDFrameworkVersion" Value="v4.6.1" />
+        <Property Id="VSDAllowLaterFrameworkVersions" Value="False" />
+        <Property Id="ARPHELPTELEPHONE" Value="800-561-0173 ext 2" />
+        <Property Id="ARPHELPLINK" Value="https://reserveanalyst.com" />
+        <Property Id="ARPCONTACT" Value="Microsoft" />
+        <Property Id="ARPCOMMENTS" Value="Reserve Analyst Windows Installer" />
+        <Property Id="ARPURLINFOABOUT" Value="https://reserveanalyst.com" />
+        <Property Id="PREVIOUSVERSIONSINSTALLED" Secure="yes" />
+        <Property Id="NEWERPRODUCTFOUND" Secure="yes" />
+        <Property Id="VSDNETURLMSG" Value="This setup requires the .NET Framework version [1].  Please install the .NET Framework and run this setup again.  The .NET Framework can be obtained from the web.  Would you like to do this now?" />
+        <Property Id="VSDIISMSG" Value="This setup requires Internet Information Server 5.1 or higher and Windows XP or higher.  This setup cannot be installed on Windows 2000.  Please install Internet Information Server or a newer operating system and run this setup again." />
+        <Property Id="VSDUIANDADVERTISED" Value="This advertised application will not be installed because it might be unsafe. Contact your administrator to change the installation user interface option of the package to basic." />
+        <Property Id="VSDNETMSG" Value="This setup requires the .NET Framework version [1].  Please install the .NET Framework and run this setup again." />
+        <Property Id="VSDINVALIDURLMSG" Value="The specified path '[2]' is unavailable. The Internet Information Server might not be running or the path exists and is redirected to another machine. Please check the status of this virtual directory in the Internet Services Manager." />
+        <Property Id="VSDVERSIONMSG" Value="Unable to install because a newer version of this product is already installed." />
+        <Property Id="DefaultUIFont" Value="VsdDefaultUIFont.524F4245_5254_5341_4C45_534153783400" />
+        <Property Id="MaintenanceForm_Action" Value="Repair" />
+        <Property Id="ErrorDialog" Value="ErrorDialog" />
+        <Property Id="SFF_UpFldrBtn" Value="UpFldrBtn" />
+        <Property Id="SFF_NewFldrBtn" Value="NewFldrBtn" />
+        <Property Id="FolderForm_AllUsers" Value="ME" />
+        <Property Id="FolderForm_AllUsersVisible" Value="1" />
+        <Property Id="EulaForm_Property" Value="No" />
+        <Property Id="AdminMaintenanceForm_Action" Value="Repair" />
+        <Property Id="AdminWelcomeForm_NextArgs" Value="AdminFolderForm" />
+        <Property Id="AdminFolderForm_PrevArgs" Value="AdminWelcomeForm" />
+        <Property Id="AdminFolderForm_NextArgs" Value="AdminConfirmInstallForm" />
+        <Property Id="AdminConfirmInstallForm_PrevArgs" Value="AdminFolderForm" />
+        <Property Id="WelcomeForm_NextArgs" Value="FolderForm" />
+        <Property Id="FolderForm_PrevArgs" Value="WelcomeForm" />
+        <Property Id="FolderForm_NextArgs" Value="EulaForm" />
+        <Property Id="EulaForm_PrevArgs" Value="FolderForm" />
+</root>

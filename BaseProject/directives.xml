@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- required fields:
+    UpgradeCode
+    ProductVersion
+    ProductMinVersion
+    ProductMaxVersion
+  -->
+  <SourceFiles>
+    <OutputProductFile path="../wix/Product.wxs"/>
+    <PrimaryInputFile path="./product_header.wxs"/>
+    <SecondaryInputFile path="./property_source.xml"/>
+    <SecondaryInputFile path="./ui_source.xml"/>
+  </SourceFiles>
+  
+  <Project>
+    <UpgradeCode val="{54127D63-F422-4EBD-A6F5-902BF07CB098}"/>
+    <ProductVersion val="5.4.0"/>
+    <ProductMinVersion val="5.4.0"/>
+    <ProductMaxVersion val="5.4.2"/>
+  </Project>
+  
+  <Build type="Release">
+    <ProductVersion val="5.4.2"/>
+  </Build>
+
+  <Build type="Demo">
+    <ProductVersion val="5.4.1"/>
+  </Build>
+
+  <Entries> <!--//these will be inserted into the product.wxs after the 'PrimaryInputFile' data-->
+    <CustomAction Id="DIRCA_TARGETDIR" Property="TARGETDIR" Value="[ProgramFilesFolder]Highlands Electronics\Reserve Analyst" Execute="firstSequence"/>
+    <Icon Id="ProductIcon" SourceFile="./images/ra.ico"/>
+    <Binary Id="UpFldrBtn" SourceFile=".\images\UpFldrBtn.ico" />
+    <Binary Id="NewFldrBtn" SourceFile=".\images\NewFldrBtn.ico" />
+  </Entries>
+
+  <Folder Id="DIRCA_TARGETDIR" source =""/>
+
+</root>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- required variables:
+    UpgradeCode
+    ProductVersion
+    ProductMinVersion
+    ProductMaxVersion
+  -->
+  <Local> <!--declared first and used below-->
+  </Local>
+  
+  <Files>
+    <OutputProductFile path="./bin/Product.wxs"/>
+    <PrimaryInputFile path="../BaseProject/product_header.wxs"/>
+    <SecondaryInputFile path="../digger/test.xml"/>
+    <SecondaryInputFile path="../BaseProject/property_source.xml"/>
+    <SecondaryInputFile path="../BaseProject/ui_source.xml"/>
+    <SecondaryInputFile path="../BaseProject/Sequence.xml"/>
+  </Files>
+  
+  <Project><!-- variables-->
+    <!--usege: WixName="$(var.VarName)"-->
+    <UpgradeCode val="{54127D63-F422-4EBD-A6F5-902BF07CB098}"/>
+    <PrimaryFileName val="ars.exe" />
+
+    <Manufacturer val="Highlands Electronics"/>
+    <ProductName val="Reserve Analyst"/>
+    <ProductDescription val="Reserve Analyst Software"/>
+    <LicenseRtfPath val="C:\cpp\ReserveAnalyst_142\Program2\Contract.rtf"/>
+  </Project>
+  
+  <Build type="Release">
+    <ProductVersion val="5.4.10"/>
+    <PrmaryFileSource val="C:\cpp\ReserveAnalyst_142\Release\ars.exe"/>
+  </Build>
+
+  <Build type="Demo">
+    <ProductVersion val="5.4.1"/>
+    <PrmaryFileSource val="C:\cpp\ReserveAnalyst_142\DemoRelease\ars.exe"/>
+  </Build>
+
+  <Entries comment="First Entries"> <!-- these will be inserted into the product.wxs after the 'PrimaryInputFile' data-->
+    <CustomAction Id="DIRCA_TARGETDIR" Property="TARGETDIR" Value="[ProgramFilesFolder]\[Manufacturer]\[ProductName]" Execute="firstSequence"/>
+    <Binary Id="DefBannerBitmap" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\RaProject\images\install.jpg" />
+    <Icon Id="icon.ico" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\RaProject\images\ra.ico"/>
+    <Property Id="ARPPRODUCTICON" Value="icon.ico" />
+  </Entries>
+
+  <!--our regestry entries-->
+  <!--https://wixtoolset.org/documentation/manual/v3/howtos/files_and_registry/write_a_registry_entry.html-->
+  <Entries target="/Wix/Product" omit="false" comment="Registry Entries">
+    <DirectoryRef Id="TARGETDIR">
+      <Component Id="RegistryEntries" Guid="*">
+          <RegistryKey Root="HKCU"
+                       Key="Software\[Manufacturer]\[ProductName]\Property">
+              <RegistryValue Type="integer" Name="Default" Value="1" KeyPath="yes"/>
+              <RegistryValue Type="string" Name="User Directory" Value="[LocalAppDataFolder][ProductName]"/>
+              <RegistryValue Type="string" Name="Program Directory" Value="[ProgramFilesFolder][Manufacturer]\[ProductName]"/>
+              <RegistryValue Type="string" Name="ODBCDatasource" Value="MS Access Database"/>
+          </RegistryKey>
+      </Component>
+    </DirectoryRef>
+  </Entries>
+
+  <!--extention association, start menu, and desktop shortcuts-->
+  <Entries target="/Wix/Product/Directory" comment="Short Cuts">
+    https://wixtoolset.org/documentation/manual/v3/howtos/files_and_registry/write_a_registry_entry.html
+    <!-- association of fil eextension-->
+    <Component Id="ExtentionAssociation" Guid="{54127D63-F422-4EBD-A6F5-902BF07CB000}">
+      <File Id="_C75C6D2F85F9A976B2152D059D240159" Name="ars.exe" KeyPath="yes" DiskId="1" Source="$(var.PrmaryFileSource)" />
+      <ProgId Id="Reserve Analyst" Description="$(var.ProductDescription)" Icon="icon.ico" IconIndex="0" Advertise="yes">
+        <Extension Id="ars" Advertise="yes">
+          <Verb Id="open" Command="&amp;Open" Argument="&quot;%1&quot;" />
+        </Extension>
+      </ProgId>
+    </Component>
+    <!-- Start memu shortcut-->
+    <Directory Id="ProgramMenuFolder">
+      <Component Id="StartMenuShortcut" Guid="{54127D63-F422-4EBD-A6F5-902BF07CB091}">
+        <RegistryValue Id="R__B8DDA4DC1D1C43E8B10D2FBE78066A42" Root="HKCU" Key="Software\[Manufacturer]\[ProductName]\$(var.PrimaryFileName)"
+                       Name="ProgramMenuFolder" Value="[ProgramMenuFolder]" Type="string" KeyPath="yes" />
+        <RemoveFolder Id="ProgramMenuFolder" Directory="ProgramMenuFolder" On="uninstall" />
+        <Shortcut Id="_2738E3D6C3864E808C8BD27C10202DC2" Directory="ProgramMenuFolder" Name="Reserve Analyst"
+                  Target="[ProgramFilesFolder]\[Manufacturer]\[ProductName]\$(var.PrimaryFileName)"
+                  Description="Launch Reserve Analyst"  WorkingDirectory="DesktopFolder"
+                  Icon="icon.ico" IconIndex="0" Show="normal" />
+      </Component>
+    </Directory>
+    <!-- Desktop shortcut -->
+    <Directory Id="DesktopFolder">
+      <Component Id="DesktopShortcut" Guid="{54127D63-F422-4EBD-A6F5-902BF07CB090}">
+        <CreateFolder Directory="DesktopFolder" />
+        <RegistryValue Id="R__B8DDA4DC1D1C43E8B10D2FBE78066A4E" Root="HKCU" Key="Software\[Manufacturer]\[ProductName]\$(var.PrimaryFileName)"
+                       Name="DesktopFolder" Value="[DesktopFolder]" Type="string" KeyPath="yes" />
+        <RemoveFolder Id="DesktopShortcut" Directory="DesktopFolder" On="uninstall" />
+        <Shortcut Id="_2738E3D6C3864E808C8BD27C10202DCD" Directory="DesktopFolder" Name="Reserve Analyst"
+                  Target="[ProgramFilesFolder]\[Manufacturer]\[ProductName]\$(var.PrimaryFileName)"
+                  Description="Launch Reserve Analyst" WorkingDirectory="DesktopFolder"
+                  Icon="icon.ico" IconIndex="0" Show="normal"  />
+      </Component>
+    </Directory>
+    
+  </Entries>
+
+    
+  <Entries target="/Wix/Product/Feature">
+    <ComponentRef Id="RegistryEntries" />
+    <ComponentRef Id="ExtentionAssociation" />
+    <ComponentRef Id="StartMenuShortcut" />
+    <ComponentRef Id="DesktopShortcut" />
+  </Entries>
+
+
+  <Folder Id="DIRCA_TARGETDIR" source =""/>
+
+</root>

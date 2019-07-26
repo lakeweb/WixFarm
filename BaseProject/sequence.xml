@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <InstallExecuteSequence>
+    <Custom Action="DIRCA_CheckFX" Sequence="1" />
+    <Custom Action="ERRCA_CANCELNEWERVERSION" Sequence="201">NEWERPRODUCTFOUND AND NOT Installed</Custom>
+    <Custom Action="VSDCA_VsdLaunchConditions" Sequence="399">NOT Installed</Custom>
+    <Custom Action="DIRCA_TARGETDIR" Sequence="750">TARGETDIR=""</Custom>
+    <LaunchConditions Sequence="400">NOT Installed</LaunchConditions>
+    <FindRelatedProducts Sequence="200" />
+    <AppSearch Sequence="100" />
+    <CCPSearch Sequence="500">NOT Installed</CCPSearch>
+    <RMCCPSearch Sequence="600">NOT Installed</RMCCPSearch>
+    <ValidateProductID Sequence="700" />
+    <CostInitialize Sequence="800" />
+    <FileCost Sequence="900" />
+    <IsolateComponents Sequence="950">RedirectedDllSupport</IsolateComponents>
+    <CostFinalize Sequence="1000" />
+    <SetODBCFolders Sequence="1100">NOT Installed</SetODBCFolders>
+    <InstallValidate Sequence="1400" />
+    <InstallInitialize Sequence="1500" />
+    <AllocateRegistrySpace Sequence="1550">NOT Installed</AllocateRegistrySpace>
+    <ProcessComponents Sequence="1600" />
+    <UnpublishComponents Sequence="1700" />
+    <UnpublishFeatures Sequence="1800" />
+    <StopServices Sequence="1900">VersionNT</StopServices>
+    <DeleteServices Sequence="2000">VersionNT</DeleteServices>
+    <UnregisterComPlus Sequence="2100" />
+    <SelfUnregModules Sequence="2200" />
+    <UnregisterTypeLibraries Sequence="2300" />
+    <RemoveODBC Sequence="2400" />
+    <UnregisterFonts Sequence="2500" />
+    <RemoveRegistryValues Sequence="2600" />
+    <UnregisterClassInfo Sequence="2700" />
+    <UnregisterExtensionInfo Sequence="2800" />
+    <UnregisterProgIdInfo Sequence="2900" />
+    <UnregisterMIMEInfo Sequence="3000" />
+    <RemoveIniValues Sequence="3100" />
+    <RemoveShortcuts Sequence="3200" />
+    <RemoveEnvironmentStrings Sequence="3300" />
+    <RemoveDuplicateFiles Sequence="3400" />
+    <RemoveFiles Sequence="3500" />
+    <RemoveFolders Sequence="3600" />
+    <CreateFolders Sequence="3700" />
+    <MoveFiles Sequence="3800" />
+    <InstallFiles Sequence="4000" />
+    <DuplicateFiles Sequence="4210" />
+    <PatchFiles Sequence="4090" />
+    <BindImage Sequence="4300" />
+    <CreateShortcuts Sequence="4500" />
+    <RegisterClassInfo Sequence="4600" />
+    <RegisterExtensionInfo Sequence="4700" />
+    <RegisterProgIdInfo Sequence="4800" />
+    <RegisterMIMEInfo Sequence="4900" />
+    <WriteRegistryValues Sequence="5000" />
+    <WriteIniValues Sequence="5100" />
+    <WriteEnvironmentStrings Sequence="5200" />
+    <RegisterFonts Sequence="5300" />
+    <InstallODBC Sequence="5400" />
+    <RegisterTypeLibraries Sequence="5500" />
+    <SelfRegModules Sequence="5600" />
+    <RegisterComPlus Sequence="5700" />
+    <InstallServices Sequence="5800">VersionNT</InstallServices>
+    <StartServices Sequence="5900">VersionNT</StartServices>
+    <RegisterUser Sequence="6000" />
+    <RegisterProduct Sequence="6100" />
+    <PublishComponents Sequence="6200" />
+    <PublishFeatures Sequence="6300" />
+    <PublishProduct Sequence="6400" />
+    <InstallFinalize Sequence="6600" />
+    <RemoveExistingProducts Sequence="6550" />
+    <InstallExecute Sequence="6500" />
+    <MsiPublishAssemblies Sequence="6250" />
+    <MsiUnpublishAssemblies Sequence="1650" />
+  </InstallExecuteSequence>
+  <InstallUISequence>
+    <Custom Action="DIRCA_CheckFX" Sequence="1" />
+    <Custom Action="ERRCA_UIANDADVERTISED" Sequence="5">ProductState=1</Custom>
+    <Custom Action="VSDCA_VsdLaunchConditions" Sequence="399">NOT Installed</Custom>
+    <Custom Action="DIRCA_TARGETDIR" Sequence="750">TARGETDIR=""</Custom>
+    <Custom Action="VSDCA_FolderForm_AllUsers" Sequence="997">Installed="" AND NOT RESUME AND ALLUSERS=1</Custom>
+    <Show Dialog="FatalErrorForm" OnExit="error">NOT HideFatalErrorForm</Show>
+    <Show Dialog="UserExitForm" OnExit="cancel" />
+    <Show Dialog="FinishedForm" OnExit="success" />
+    <Show Dialog="ResumeForm" Sequence="998">Installed="" AND RESUME</Show>
+    <Show Dialog="MaintenanceForm" Sequence="999">Installed&lt;&gt;""</Show>
+    <Show Dialog="WelcomeForm" Sequence="1001">Installed="" AND NOT RESUME</Show>
+    <Show Dialog="ProgressForm" Sequence="1299" />
+    <LaunchConditions Sequence="400">NOT Installed</LaunchConditions>
+    <AppSearch Sequence="100" />
+    <CCPSearch Sequence="500">NOT Installed</CCPSearch>
+    <RMCCPSearch Sequence="600">NOT Installed</RMCCPSearch>
+    <ValidateProductID Sequence="700" />
+    <CostInitialize Sequence="800" />
+    <FileCost Sequence="900" />
+    <IsolateComponents Sequence="950">RedirectedDllSupport</IsolateComponents>
+    <CostFinalize Sequence="1000" />
+    <ExecuteAction Sequence="1300" />
+  </InstallUISequence>
+  <AdminExecuteSequence>
+    <Custom Action="DIRCA_TARGETDIR" Sequence="750">TARGETDIR=""</Custom>
+    <CostInitialize Sequence="800" />
+    <FileCost Sequence="900" />
+    <CostFinalize Sequence="1000" />
+    <InstallValidate Sequence="1400" />
+    <InstallInitialize Sequence="1500" />
+    <InstallAdminPackage Sequence="3900" />
+    <InstallFiles Sequence="4000" />
+    <InstallFinalize Sequence="6600" />
+  </AdminExecuteSequence>
+  <AdminUISequence>
+    <Custom Action="DIRCA_TARGETDIR" Sequence="750">TARGETDIR=""</Custom>
+    <Show Dialog="AdminFatalErrorForm" OnExit="error" />
+    <Show Dialog="AdminUserExitForm" OnExit="cancel" />
+    <Show Dialog="AdminFinishedForm" OnExit="success" />
+    <Show Dialog="AdminResumeForm" Sequence="998">Installed="" AND RESUME</Show>
+    <Show Dialog="AdminMaintenanceForm" Sequence="999">Installed&lt;&gt;""</Show>
+    <Show Dialog="AdminWelcomeForm" Sequence="1001">Installed="" AND NOT RESUME</Show>
+    <Show Dialog="AdminProgressForm" Sequence="1299" />
+    <CostInitialize Sequence="800" />
+    <FileCost Sequence="900" />
+    <CostFinalize Sequence="1000" />
+    <ExecuteAction Sequence="1300" />
+  </AdminUISequence>
+  <AdvertiseExecuteSequence>
+    <CostInitialize Sequence="800" />
+    <CostFinalize Sequence="1000" />
+    <Custom Action="DIRCA_TARGETDIR" Sequence="750">TARGETDIR=""</Custom>
+    <InstallValidate Sequence="1400" />
+    <InstallInitialize Sequence="1500" />
+    <CreateShortcuts Sequence="4500" />
+    <RegisterClassInfo Sequence="4600" />
+    <RegisterExtensionInfo Sequence="4700" />
+    <RegisterMIMEInfo Sequence="4900" />
+    <RegisterProgIdInfo Sequence="4800" />
+    <PublishComponents Sequence="6200" />
+    <PublishFeatures Sequence="6300" />
+    <PublishProduct Sequence="6400" />
+    <InstallFinalize Sequence="6600" />
+    <MsiPublishAssemblies Sequence="6250" />
+  </AdvertiseExecuteSequence>
+
+</root>
