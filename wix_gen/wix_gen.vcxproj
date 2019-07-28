@@ -175,10 +175,10 @@
   </ItemGroup>
   <ItemGroup>
     <Xml Include="..\BaseProject\property_source.xml" />
-    <Xml Include="..\BaseProject\sequence.xml" />
     <Xml Include="..\BaseProject\ui_source.xml" />
     <Xml Include="..\RaProject\components.xml" />
     <Xml Include="..\RaProject\project.xml" />
+    <Xml Include="..\RaProject\sequence.xml" />
     <Xml Include="example.xml" />
     <Xml Include="information.xml" />
   </ItemGroup>

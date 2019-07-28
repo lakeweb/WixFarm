@@ -61,9 +61,6 @@
     <Xml Include="example.xml">
       <Filter>wix</Filter>
     </Xml>
-    <Xml Include="..\BaseProject\sequence.xml">
-      <Filter>wix</Filter>
-    </Xml>
     <Xml Include="..\BaseProject\property_source.xml">
       <Filter>wix</Filter>
     </Xml>
@@ -74,6 +71,9 @@
       <Filter>Information</Filter>
     </Xml>
     <Xml Include="..\RaProject\components.xml">
+      <Filter>wix</Filter>
+    </Xml>
+    <Xml Include="..\RaProject\sequence.xml">
       <Filter>wix</Filter>
     </Xml>
   </ItemGroup>

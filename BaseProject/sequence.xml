@@ -66,8 +66,8 @@
     <PublishComponents Sequence="6200" />
     <PublishFeatures Sequence="6300" />
     <PublishProduct Sequence="6400" />
-    <InstallFinalize Sequence="6600" />
     <RemoveExistingProducts Sequence="6550" />
+    <InstallFinalize Sequence="6600" />
     <InstallExecute Sequence="6500" />
     <MsiPublishAssemblies Sequence="6250" />
     <MsiUnpublishAssemblies Sequence="1650" />

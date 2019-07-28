@@ -19,12 +19,13 @@
     <SecondaryInputFile path="../RaProject/components.xml"/>
     <SecondaryInputFile path="../BaseProject/property_source.xml"/>
     <SecondaryInputFile path="../BaseProject/ui_source.xml"/>
-    <SecondaryInputFile path="../BaseProject/Sequence.xml"/>
+    <SecondaryInputFile path="../RaProject/Sequence.xml"/>
   </Files>
   
   <Project><!-- variables-->
     <!--usege: WixName="$(var.VarName)"-->
     <UpgradeCode val="{54127D63-F422-4EBD-A6F5-902BF07CB098}"/>
+    <ProductCode val="{54000003-F411-4EBD-A6F5-902BF07CB098}"/>
     <PrimaryFileName val="ars.exe" />
 
     <Manufacturer val="Highlands Electronics"/>
@@ -34,9 +35,9 @@
   </Project>
   
   <Build type="Release">
-    <ProductVersion val="5.4.11"/>
-    <ProductMinVersion val="5.4.11"/>
-    <ProductMaxVersion val="5.4.11"/>
+    <ProductVersion val="5.4.13"/>
+    <ProductMinVersion val="1.0.0"/>
+    <!--<ProductMaxVersion val="5.4.12"/>-->
     <PrmaryFileSource val="C:\cpp\ReserveAnalyst_142\Release\ars.exe"/>
   </Build>
 

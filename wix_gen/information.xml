@@ -1,17 +1,34 @@
 
 
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-The windows installer docs
-https://docs.microsoft.com/en-us/windows/win32/msi/windows-installer-portal
 
-If you have duplacate file names in your folder system, you will get a: ICE30 error. From what I read this is a bug that has been there for years.
-Go to the Wix tool settings and supress it. but you won't get valid errors, that is the catch.
 
-"C:\Program Files (x86)\WiX Toolset v3.11\bin\heat.exe" dir "C:\cpp\ReserveAnalyst_142\Program2" -gg -sfrag -template:fragment -out directory.wxs
 
-this is from the dark.........
+READ THIS!!!!!!!!
+https://mohundro.com/blog/2009/02/23/getting-started-with-wix-and-major-upgrades/
+pay attention to the 'ProductCode' talk.
 
-<Component Id="C__C75C6D2F85F9A976B2152D059D240159" Guid="{8099F3A7-F976-EEB8-38CA-3F90B4433F83}">
+
+
+
+
+
+<Product Id="$(var.ProductCode)" UpgradeCode="$(var.UpgradeCode)" Codepage="1252" Language="1033" Manufacturer="$(var.Manufacturer)" Name="$(var.ProductName)" Version="$(var.ProductVersion)">
+
+
+  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+  The windows installer docs
+  https://docs.microsoft.com/en-us/windows/win32/msi/windows-installer-portal
+
+  If you have duplacate file names in your folder system, you will get a: ICE30 error. From what I read this is a bug that has been there for years.
+  Go to the Wix tool settings and supress it. but you won't get valid errors, that is the catch.
+
+  //but now we do our own heat, see commponents.xml
+  "C:\Program Files (x86)\WiX Toolset v3.11\bin\heat.exe" dir "C:\cpp\ReserveAnalyst_142\Program2" -gg -sfrag -template:fragment -out directory.wxs
+
+  this is from the dark.........
+  https://www.firegiant.com/wix/tutorial/com-expression-syntax-miscellanea/add-or-remove-programs-entries/
+
+  <Component Id="C__C75C6D2F85F9A976B2152D059D240159" Guid="{8099F3A7-F976-EEB8-38CA-3F90B4433F83}">
     <File Id="_C75C6D2F85F9A976B2152D059D240159" Name="ars.exe" KeyPath="yes" ShortName="ARS.EXE" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\wix\dark\File\_C75C6D2F85F9A976B2152D059D240159" />
     <ProgId Id="Reserve Analyst" Description="Reserve Analyst" Icon="_853F67D554F05449430E7E.exe" IconIndex="0" Advertise="yes">
         <Extension Id="ars" Advertise="yes">
@@ -90,6 +107,8 @@ https://www.codeproject.com/Articles/13875/Specify-a-different-location-for-Virt
 </Entries>
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+http://www.installsite.org/pages/en/msi/tips.htm
 
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
