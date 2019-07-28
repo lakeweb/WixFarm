@@ -1,5 +1,10 @@
 #pragma once
 
+/*
+TODO
+using _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING
+fix this
+*/
 //windows namespace
 namespace fs = std::experimental::filesystem;
 
@@ -200,9 +205,3 @@ struct tree_helper {
 	iterator end() { return iterator(nullptr); }
 };
 
-// ............................................................
-using dir_node = tree_node<fs::path>;
-using dir_tree = tree_type<fs::path>;
-using dir_helper = tree_helper<fs::path>;
-
-dir_tree get_components(const fs::path& path);

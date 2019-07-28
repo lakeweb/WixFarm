@@ -4,16 +4,10 @@
            Manufacturer="$(var.Manufacturer)" Name="$(var.ProductName)" Version="$(var.ProductVersion)">
     <Package Compressed="yes" InstallerVersion="200" Languages="1033" Manufacturer="$(var.Manufacturer)" Platform="x86" />
     <Media Id = "1" Cabinet = "myapplication.cab" EmbedCab = "yes"/>
-    <!-- banner-->
     <Binary Id="MSVBDPCADLL" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\Binary\MSVBDPCADLL.idb" />
     <Binary Id="VSDNETCFG" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\Binary\VSDNETCFG.idb" />
     <Binary Id="UpFldrBtn" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\images\UpFldrBtn.ico" />
     <Binary Id="NewFldrBtn" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\images\NewFldrBtn.ico" />
-
-    <!--<Upgrade Id="$(var.UpgradeCode)">
-      <UpgradeVersion Minimum="$(var.ProductMinVersion)" Property="PREVIOUSVERSIONSINSTALLED" />
-      <UpgradeVersion Maximum="$(var.ProductMaxVersion)" Property="NEWERPRODUCTFOUND" OnlyDetect="yes" IncludeMinimum="yes" />
-    </Upgrade>-->
 
     <Upgrade Id="$(var.UpgradeCode)">
       <UpgradeVersion OnlyDetect="yes"
@@ -26,12 +20,16 @@
                       Property="OLDERVERSIONBEINGUPGRADED"
                       IncludeMaximum="no" />
 
-      <!-- Detect for changes in 4th field only -->
+       <!--Detect for changes in 4th field only--> 
       <UpgradeVersion Property="ANOTHERBUILDINSTALLED"
                Maximum="$(var.ProductVersion)" Minimum="$(var.ProductVersion)"
                IncludeMinimum="yes" IncludeMaximum="yes" OnlyDetect="yes" />
 
     </Upgrade>
+    <!--<Upgrade Id="$(var.UpgradeCode)">
+      <UpgradeVersion Maximum="$(var.ProductMinVersion)" Property="PREVIOUSVERSIONSINSTALLED" />
+      <UpgradeVersion Minimum="$(var.ProductMaxVersion)" Property="NEWERPRODUCTFOUND" OnlyDetect="yes" IncludeMinimum="yes" />
+    </Upgrade>-->
 
     <CustomAction Id="DIRCA_CheckFX" BinaryKey="MSVBDPCADLL" DllEntry="CheckFX" />
     <CustomAction Id="VSDCA_VsdLaunchConditions" BinaryKey="MSVBDPCADLL" DllEntry="VsdLaunchConditions" />

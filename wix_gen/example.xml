@@ -1,4 +1,7 @@
 
+
+<!--https://github.com/github/VisualStudio/blob/master/docs/using/publishing-an-existing-project-to-github.md-->
+
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
   <Product Id="*" UpgradeCode="PUT-GUID-HERE" Version="1.0.0.0" Language="1033" Name="My Application Name" Manufacturer="My Manufacturer Name">
@@ -29,8 +32,9 @@
     </Feature>
   </Product>
 </Wix>
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-            <Component Id="C__C75C6D2F85F9A976B2152D059D240159" Guid="{8099F3A7-F976-EEB8-38CA-3F90B4433F83}">
+<Component Id="C__C75C6D2F85F9A976B2152D059D240159" Guid="{8099F3A7-F976-EEB8-38CA-3F90B4433F83}">
                 <File Id="_C75C6D2F85F9A976B2152D059D240159" Name="ars.exe" KeyPath="yes" ShortName="ARS.EXE" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\wix\dark\File\_C75C6D2F85F9A976B2152D059D240159" />
                 <ProgId Id="Reserve Analyst" Description="Reserve Analyst" Icon="_853F67D554F05449430E7E.exe" IconIndex="0" Advertise="yes">
                     <Extension Id="ars" Advertise="yes">
@@ -40,3 +44,33 @@
             </Component>
 
 <ComponentRef Id="C__C75C6D2F85F9A976B2152D059D240159" Primary="yes" />
+
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi"
+     xmlns:bal="http://schemas.microsoft.com/wix/BalExtension"
+     xmlns:util="http://schemas.microsoft.com/wix/UtilExtension">
+  <Bundle Name="..." Version="..." Manufacturer="..." UpgradeCode="..." Copyright="..." IconSourceFile="..." AboutUrl="...">
+    <BootstrapperApplicationRef Id="WixStandardBootstrapperApplication.RtfLicense" />
+
+    <util:RegistrySearch Root="HKLM" Key="SOFTWARE\Microsoft\Net Framework Setup\NDP\v4\Full" Value="Version" Variable="Net4FullVersion" />
+    <util:RegistrySearch Root="HKLM" Key="SOFTWARE\Microsoft\Net Framework Setup\NDP\v4\Full" Value="Version" Variable="Net4x64FullVersion" Win64="yes" />
+
+    <Chain>
+      <ExePackage Id="Net45" Name="Microsoft .NET Framework 4.5.1 Setup" Cache="no" Compressed="yes" PerMachine="yes" Permanent="yes" Vital="yes" InstallCommand="/q"
+        SourceFile="NDP451-KB2859818-Web.exe"
+        DetectCondition="(Net4FullVersion = &quot;4.5.50938&quot;) AND (NOT VersionNT64 OR (Net4x64FullVersion = &quot;4.5.50938&quot;))"
+        InstallCondition="(VersionNT >= v6.0 OR VersionNT64 >= v6.0) AND (NOT (Net4FullVersion = &quot;4.5.50938&quot; OR Net4x64FullVersion = &quot;4.5.50938&quot;))"/>
+
+      <ExePackage Id="Net4Full" Name="Microsoft .NET Framework 4.0 Setup" Cache="no" Compressed="yes" PerMachine="yes" Permanent="yes" Vital="yes" InstallCommand="/q"
+        SourceFile="dotNetFx40_Full_setup.exe"
+        DetectCondition="Net4FullVersion AND (NOT VersionNT64 OR Net4x64FullVersion)"
+        InstallCondition="(VersionNT &lt; v6.0 OR VersionNT64 &lt; v6.0) AND (NOT (Net4FullVersion OR Net4x64FullVersion))"/> />
+
+      <RollbackBoundary />
+
+      <MsiPackage Id="MainPackage" SourceFile="Main_package.msi" DisplayInternalUI="yes" Compressed="yes" Vital="yes" />
+    </Chain>
+  </Bundle>
+</Wix>
+

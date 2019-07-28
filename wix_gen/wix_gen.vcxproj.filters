@@ -32,9 +32,6 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\..\include\xml\xml.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="..\..\..\include\xml\pugixpath.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -51,6 +48,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="tree_variant.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\include\xml\xml.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -73,8 +73,8 @@
     <Xml Include="information.xml">
       <Filter>Information</Filter>
     </Xml>
-    <Xml Include="..\digger\test.xml">
-      <Filter>Information</Filter>
+    <Xml Include="..\RaProject\components.xml">
+      <Filter>wix</Filter>
     </Xml>
   </ItemGroup>
   <ItemGroup>
@@ -83,9 +83,6 @@
     </None>
     <None Include="..\BaseProject\product_header.wxs">
       <Filter>wix</Filter>
-    </None>
-    <None Include="..\dark.wxs">
-      <Filter>Information</Filter>
     </None>
   </ItemGroup>
 </Project>

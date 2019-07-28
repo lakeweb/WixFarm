@@ -1,6 +1,12 @@
 // wix_gen.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
+/*
+handy paths.........
+C:\Program Files (x86)\WiX Toolset v3.11\bin
+C:\Users\Dan\AppData\Local\Temp
+*/
+
 //#include <windows.h>
 #include <iostream>
 #include <string>
@@ -24,7 +30,17 @@ using namespace XML;
 
 //log the msi install:
 //msiexec /i reserveanalyst.msi /l*vx test.log
+namespace {
 
+	enum processes {
+		process_digger,
+	};
+	static const char* label_processes[] = {
+		"Digger",
+	};
+	AStrTFlag<processes, char> process_set(label_processes, _countof(label_processes));
+
+}
 /*
 https://www.codeproject.com/Articles/21442/Creating-an-installer-using-Wix-v3-0-Votive-and-Vi
 https://www.codeproject.com/Articles/21472/Creating-an-installer-using-Wix-v3-0-Votive-and-2
@@ -37,12 +53,6 @@ https://channel9.msdn.com/blogs/scobleizer/wix-team-the-most-used-piece-of-softw
 // ............................................................................
 int main(int argc, char* argv[])
 {
-	//SetCurrentDirectoryA("C:\cpp\ReserveAnalyst_142\WixSetup\RaProject");
-	//{
-	//	char buf[260];
-	//	GetCurrentDirectoryA(260, buf);
-	//	std::cout << "Current Directory: " << buf << std::endl;
-	//}
 	std::string build("Release");//from command line
 	program_options prog_opts;
 	if (prog_opts.init(argc, argv))
@@ -65,6 +75,40 @@ int main(int argc, char* argv[])
 	}
 	COUT("Project file: " << directives_file);
 
+	//process first
+	{
+		auto node = directives.GetNode("/root/Process",false);
+		if (node)
+		{
+			for (auto child : node)
+			{
+				if (child.type() != pugi::node_element || child.attribute("omit").as_bool())
+					continue;
+				switch (process_set.GetFlags(child.value()))
+				{
+				case process_digger:
+
+				fs::path source(child.attribute("folder").value());
+				if (!fs::exists(source) || !fs::is_directory(source)) {
+					WARN("Can not access digger folder: " << source);
+					continue;
+				}
+				CXML xml;
+				if( ! xml.Open(child.attribute("output").value())){
+					WARN("Can not open digger output: " << xml.file_name());
+					continue;
+				}
+				xml.Clear();
+				auto node = xml.root().first_child();// .append_child("DirectoryRef");
+				//node.append_attribute("Id").set_value("APPDIR");
+				auto comps = get_components(source);
+				write_components(comps, node);
+				xml.Close();//wrties file
+				break;
+				}
+			}
+		}
+	}
 	// gather the variables
 	instruct_set i_set;
 	{
@@ -181,40 +225,3 @@ int main(int argc, char* argv[])
 		fs::copy_options::overwrite_existing);
 }
 
-/*
-	<!-- testing this gets deleted !!!!!!!!!!!!! -->
-	<Directory Id="TARGETDIR" Name="SourceDir">
-		<Component Id="testfile" Guid="{36F6E6AA-8EF3-94E0-21D1-05D70AA87697}">
-			<File Id="test_file.xml" Name="test_file.xml" Source="File1.wxs" />
-		</Component>
-	</Directory>
-    <Feature Id="DefaultFeature" Level="1">
-      <ComponentRef Id="testfile"/>
-    </Feature>
-
-
-const char test[] = R"(
-<root>
-    <Binary Id="DefBannerBitmap" SourceFile=".\images\gyro.bmp" />
-
-	<Directory Id ="TARGETDIR" Name="SourceDir">
-		<Directory Id="ProgramFilesFolder">
-			<Directory Id="APPLICATIONROOTDIRECTORY" Name="Highland Electronics"/>
-		</Directory>
-	</Directory>
-	<DirectoryRef Id="APPLICATIONROOTDIRECTORY">
-		<Component Id="ars.exe" Guid="{CA479801-3BD9-4008-897B-E4AC90E0D72B}">
-			<File Id="ars.exe" Source="C:\cpp\ReserveAnalyst_142\patch\ars.exe" KeyPath="yes" Checksum="yes"/>
-		</Component>
-	</DirectoryRef>
-	<Feature Id="MainApplication" Title="Main Application" Level="1">
-		<ComponentRef Id="ars.exe" />
-	</Feature>
-</root>
-)";
-//CXML testxml;
-//auto loadr = testxml.load_buffer(test, sizeof(test));
-//for(const auto node : testxml.root().first_child())
-//	product_dest.append_copy(node);
-
-*/

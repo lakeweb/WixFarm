@@ -90,10 +90,11 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(BOOST_ROOT);../include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -125,10 +126,11 @@
       <FunctionLevelLinking>true</FunctionLevelLinking>
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <AdditionalIncludeDirectories>$(BOOST_ROOT);../include</AdditionalIncludeDirectories>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -166,7 +168,7 @@
     <ClInclude Include="..\..\..\include\xml\pugiconfig.hpp" />
     <ClInclude Include="..\..\..\include\xml\pugixml.hpp" />
     <ClInclude Include="..\..\..\include\xml\pugixpath.hpp" />
-    <ClInclude Include="..\..\..\include\xml\xml.h" />
+    <ClInclude Include="..\include\xml\xml.h" />
     <ClInclude Include="program_options.h" />
     <ClInclude Include="tree_variant.h" />
     <ClInclude Include="utils.h" />
@@ -175,14 +177,13 @@
     <Xml Include="..\BaseProject\property_source.xml" />
     <Xml Include="..\BaseProject\sequence.xml" />
     <Xml Include="..\BaseProject\ui_source.xml" />
-    <Xml Include="..\digger\test.xml" />
+    <Xml Include="..\RaProject\components.xml" />
     <Xml Include="..\RaProject\project.xml" />
     <Xml Include="example.xml" />
     <Xml Include="information.xml" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\BaseProject\product_header.wxs" />
-    <None Include="..\dark.wxs" />
     <None Include="..\RaProject\bin\Product.wxs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

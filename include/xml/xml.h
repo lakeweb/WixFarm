@@ -231,6 +231,7 @@ namespace XML
 		XMLNODE GetXMLRoot()
 			{return root().find_child([](const pugi::xml_node& node) {return node.type() == pugi::node_element; });}
 	public:
+		const char* file_name()const { return doc_path.string().c_str(); }
 		//if root name not specified, will take from open existing or on create file, set to 'root'
 		XMLNODE Open(const filesystem::path& path, size_t flags = 0/* TODO flags; like create and program*/, const char* rootname = nullptr)
 		{
