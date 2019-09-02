@@ -25,7 +25,8 @@
   <Project><!-- variables-->
     <!--usege: WixName="$(var.VarName)"-->
     <UpgradeCode val="{54127D63-F422-4EBD-A6F5-902BF07CB098}"/>
-    <ProductCode val="{54000003-F411-4EBD-A6F5-902BF07CB098}"/>
+    
+    <ProductCode val="{52200003-F411-4EBD-A6F5-902BF07CB098}"/>
     <PrimaryFileName val="ars.exe" />
 
     <Manufacturer val="Highlands Electronics"/>
@@ -35,7 +36,7 @@
   </Project>
   
   <Build type="Release">
-    <ProductVersion val="5.4.13"/>
+    <ProductVersion val="5.4.15"/>
     <ProductMinVersion val="1.0.0"/>
     <!--<ProductMaxVersion val="5.4.12"/>-->
     <PrmaryFileSource val="C:\cpp\ReserveAnalyst_142\Release\ars.exe"/>

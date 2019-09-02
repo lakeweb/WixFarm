@@ -1,891 +1,897 @@
 <?xml version="1.0"?>
 <root>
   <DirectoryRef Id="TARGETDIR">
-    <Component Id="_dafc159b_3b1f_46a0_9e58_2aefa58a3b33" Guid="2a799737-2741-4d0c-afc3-9cc501dd0e06">
-      <File Id="_dafc159b_3b1f_46a0_9e58_2aefa58a3b33" Name="ChartEditor.exe" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\ChartEditor.exe" />
+    <Component Id="_4d48d217_e8ed_40c2_9df2_8e96c5c97df7" Guid="607e52d0-bc95-4335-b290-63d5f133ec79">
+      <File Id="_4d48d217_e8ed_40c2_9df2_8e96c5c97df7" Name="ars.exe" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\ars.exe" />
     </Component>
-    <Component Id="_6b2d8336_fffb_4eb4_b17e_4478c34e1e24" Guid="78c2db7c-1a79-4199-aac0-163974a20810">
-      <File Id="_6b2d8336_fffb_4eb4_b17e_4478c34e1e24" Name="ChartMaker.exe" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\ChartMaker.exe" />
+    <Component Id="_95311328_c5f9_4b69_8ff6_5257b3b61080" Guid="af8e3c2b-a60e-48a3-b173-9d69df6dfda5">
+      <File Id="_95311328_c5f9_4b69_8ff6_5257b3b61080" Name="ChartEditor.exe" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\ChartEditor.exe" />
     </Component>
-    <Component Id="_43b1c3c8_7d31_4e99_95f0_2f970b4e703a" Guid="92222a05-ad3d-46ea-b1d6-a0d249d9b5b4">
-      <File Id="_43b1c3c8_7d31_4e99_95f0_2f970b4e703a" Name="Contract.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\Contract.rtf" />
+    <Component Id="_58a9b519_da86_4002_92c1_8e42097100c3" Guid="9a270a51-329e-4705-a355-0b6829744660">
+      <File Id="_58a9b519_da86_4002_92c1_8e42097100c3" Name="ChartMaker.exe" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\ChartMaker.exe" />
     </Component>
-    <Component Id="_68ebaf79_6415_4581_a4d4_0819b66d955a" Guid="947432ab-9b35-48fb-9dee-76da55b3ef00">
-      <File Id="_68ebaf79_6415_4581_a4d4_0819b66d955a" Name="copyright.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\copyright.rtf" />
+    <Component Id="_26427548_5af1_4237_b96b_cf9f8cfab2bd" Guid="ebdc8dbe-b4f2-494e-a87d-e93a80c115ff">
+      <File Id="_26427548_5af1_4237_b96b_cf9f8cfab2bd" Name="Contract.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\Contract.rtf" />
     </Component>
-    <Component Id="_226cfad0_f197_4cb1_9917_76ebcdba1459" Guid="6672d4cb-1a33-4c1c-bf2d-606f4ec815c7">
-      <File Id="_226cfad0_f197_4cb1_9917_76ebcdba1459" Name="costMod.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\costMod.xml" />
+    <Component Id="_2096c3cb_f8d3_4aa2_858b_ebecd5ff2ccd" Guid="0d9dad07-9c0c-4877-86a0-1b18d891f8ed">
+      <File Id="_2096c3cb_f8d3_4aa2_858b_ebecd5ff2ccd" Name="copyright.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\copyright.rtf" />
     </Component>
-    <Component Id="_f2086149_9e1b_403a_b944_9e51205d600e" Guid="67aceca0-9f10-4622-86e2-95a5cd90c0ae">
-      <File Id="_f2086149_9e1b_403a_b944_9e51205d600e" Name="dbConnect.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\dbConnect.xml" />
+    <Component Id="_7965aec6_33ae_49ca_97d7_f4c2d96ea1bd" Guid="c42007cc-eac3-4f44-b512-e40da83b9523">
+      <File Id="_7965aec6_33ae_49ca_97d7_f4c2d96ea1bd" Name="costMod.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\costMod.xml" />
     </Component>
-    <Component Id="_d0a46ac7_62d8_4b8c_beb6_42814e1e0881" Guid="7ff42762-5615-439d-b8e3-8aac3dba05b3">
-      <File Id="_d0a46ac7_62d8_4b8c_beb6_42814e1e0881" Name="default.mdb" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\default.mdb" />
+    <Component Id="_66e5a52a_00d0_4771_8df3_61d2f6fb5346" Guid="3b251aee-54a6-4899-819d-6b1ae98b26d8">
+      <File Id="_66e5a52a_00d0_4771_8df3_61d2f6fb5346" Name="dbConnect.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\dbConnect.xml" />
     </Component>
-    <Component Id="_547a0aba_b546_414b_93f6_ecf972486bfe" Guid="680f72ca-eee0-493b-9b2a-86b7bdeae2a1">
-      <File Id="_547a0aba_b546_414b_93f6_ecf972486bfe" Name="DialogImport.exe" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\DialogImport.exe" />
+    <Component Id="_29f66343_63a4_4e5c_be73_4ddd54e9e8c6" Guid="29e47bee-cad2-4037-bf28-0c8740f52e81">
+      <File Id="_29f66343_63a4_4e5c_be73_4ddd54e9e8c6" Name="default.mdb" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\default.mdb" />
     </Component>
-    <Component Id="_e654b95f_7394_41e1_8f39_41090803a93d" Guid="36dab88f-8bcc-4dbd-ba2d-ca16a93d5467">
-      <File Id="_e654b95f_7394_41e1_8f39_41090803a93d" Name="directivex.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\directivex.xml" />
+    <Component Id="_663ba022_2e02_43d0_b8c7_392401a0c35d" Guid="1a807c1a-3d97-49d3-b706-5b4956e8cf24">
+      <File Id="_663ba022_2e02_43d0_b8c7_392401a0c35d" Name="DialogImport.exe" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\DialogImport.exe" />
     </Component>
-    <Component Id="_023959f0_1326_4784_b661_cee777bf118b" Guid="635e7d39-6932-4d65-a2d0-5a6f4f86a7f3">
-      <File Id="_023959f0_1326_4784_b661_cee777bf118b" Name="hexml_142.dll" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\hexml_142.dll" />
+    <Component Id="_fec76809_a126_47f1_b32e_7122032a159f" Guid="bb1633ef-8383-47c6-8afe-b3f797a7ebf1">
+      <File Id="_fec76809_a126_47f1_b32e_7122032a159f" Name="directivex.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\directivex.xml" />
     </Component>
-    <Component Id="_51e6c1e7_9683_45de_a4a7_3092e2aa8302" Guid="9509f0ba-7a91-4ab0-8e51-fd3ede2afb86">
-      <File Id="_51e6c1e7_9683_45de_a4a7_3092e2aa8302" Name="image001.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\image001.jpg" />
+    <Component Id="_51e0102c_a5f2_42a5_ac26_108281e6f4c5" Guid="c7edcff6-6c75-4f50-82b0-d81b30be3689">
+      <File Id="_51e0102c_a5f2_42a5_ac26_108281e6f4c5" Name="hexml_142.dll" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\hexml_142.dll" />
     </Component>
-    <Component Id="_6cef5715_3e70_48a2_9965_6ae0801fcb6f" Guid="c6487338-0502-4b64-8d50-0b27bb946444">
-      <File Id="_6cef5715_3e70_48a2_9965_6ae0801fcb6f" Name="majorTips.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\majorTips.xml" />
+    <Component Id="_e6d3af57_0473_407d_a20f_8790f2ab834b" Guid="d05f0499-5752-41aa-b139-20fa143056f8">
+      <File Id="_e6d3af57_0473_407d_a20f_8790f2ab834b" Name="image001.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\image001.jpg" />
     </Component>
-    <Component Id="_ecada459_0cb6_4cf6_b710_8cc5d3f429fb" Guid="c22bfe7b-eec0-43dc-bfaf-0aa3e52bdd87">
-      <File Id="_ecada459_0cb6_4cf6_b710_8cc5d3f429fb" Name="no_cross.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\no_cross.jpg" />
+    <Component Id="_2cd938fa_5f85_428b_b6f1_5c21dad12667" Guid="a63e05fc-e80a-48fa-ae92-2034179c2a2e">
+      <File Id="_2cd938fa_5f85_428b_b6f1_5c21dad12667" Name="majorTips.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\majorTips.xml" />
     </Component>
-    <Component Id="_41e0473f_a601_4443_86c6_631b532baa54" Guid="40e9b628-de20-46ea-ac73-3aae24ab9e59">
-      <File Id="_41e0473f_a601_4443_86c6_631b532baa54" Name="PrintComponent.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\PrintComponent.xml" />
+    <Component Id="_2163c0bd_fa07_4af5_baf3_903c1372341e" Guid="1788ad9d-723a-4391-8bfa-7dd4db76e1cb">
+      <File Id="_2163c0bd_fa07_4af5_baf3_903c1372341e" Name="no_cross.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\no_cross.jpg" />
     </Component>
-    <Component Id="_d29bb104_e91a_4b3a_a4fe_2dbdc22cd098" Guid="0cd09572-ef89-411a-b6a6-6b8fcfb29279">
-      <File Id="_d29bb104_e91a_4b3a_a4fe_2dbdc22cd098" Name="RA_Gyro_small.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\RA-Gyro-small.jpg" />
+    <Component Id="_8a1eb83c_df63_439b_88e0_ae6565686351" Guid="52a7d990-7496-4ac4-a770-f2de3c7735ae">
+      <File Id="_8a1eb83c_df63_439b_88e0_ae6565686351" Name="PrintComponent.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\PrintComponent.xml" />
     </Component>
-    <Component Id="_ca3a8d08_dd4d_4fda_ac09_d0d9751e5968" Guid="c78768cb-116f-446a-87fe-cb90e4e425cb">
-      <File Id="_ca3a8d08_dd4d_4fda_ac09_d0d9751e5968" Name="ra.ico" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\ra.ico" />
+    <Component Id="_45208b0e_1334_4cd4_9418_ebcf43b8fc61" Guid="a327fe94-de61-44c9-90ad-4a7fb79ad744">
+      <File Id="_45208b0e_1334_4cd4_9418_ebcf43b8fc61" Name="RA_Gyro_small.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\RA-Gyro-small.jpg" />
     </Component>
-    <Component Id="_031b3982_f882_49fe_ac9e_c643ac2122f9" Guid="3b1a36d7-a0fe-4480-8436-02d0ef968dc4">
-      <File Id="_031b3982_f882_49fe_ac9e_c643ac2122f9" Name="ReportHeaders.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\ReportHeaders.xml" />
+    <Component Id="_a93e30c2_49c7_42e7_ae42_147bbc59cae5" Guid="387bba43-16e1-4645-82d8-b92f81ecdae6">
+      <File Id="_a93e30c2_49c7_42e7_ae42_147bbc59cae5" Name="ra.ico" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\ra.ico" />
     </Component>
-    <Component Id="_fcd8d0a6_7262_4f40_967d_da81e1b489e6" Guid="a08856a4-c239-49f9-a18a-03e02baa9862">
-      <File Id="_fcd8d0a6_7262_4f40_967d_da81e1b489e6" Name="reportSections.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\reportSections.xml" />
+    <Component Id="_494982bb_6628_46ca_82e7_b4d5ef938c1e" Guid="5395948d-5d81-4c40-bc28-5837d6e1b7c0">
+      <File Id="_494982bb_6628_46ca_82e7_b4d5ef938c1e" Name="ReportHeaders.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\ReportHeaders.xml" />
     </Component>
-    <Component Id="_69cf3543_b6b6_4804_87e2_dca284aaf574" Guid="84b4877c-16e6-43eb-844b-5509bd57820a">
-      <File Id="_69cf3543_b6b6_4804_87e2_dca284aaf574" Name="RESERVE.chm" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\RESERVE.chm" />
+    <Component Id="_d20b7a37_e298_4e2a_a3d5_4efb1ec719d9" Guid="d9a6c398-ca84-42d3-9fa0-428f7820a334">
+      <File Id="_d20b7a37_e298_4e2a_a3d5_4efb1ec719d9" Name="reportSections.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\reportSections.xml" />
     </Component>
-    <Component Id="_078cf09f_a80c_443a_bf26_62333fa9db95" Guid="1ee59af8-6f74-4869-82d4-c8f3a9568917">
-      <File Id="_078cf09f_a80c_443a_bf26_62333fa9db95" Name="resize_jpg.exe" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\resize_jpg.exe" />
+    <Component Id="_cb1b6576_bad8_457a_b460_18b3494f7265" Guid="d456ec5f-e7d4-41c7-ae0e-5ee87824faa7">
+      <File Id="_cb1b6576_bad8_457a_b460_18b3494f7265" Name="RESERVE.chm" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\RESERVE.chm" />
     </Component>
-    <Component Id="_a8044e3e_4274_458b_8096_2b68e3f91f6e" Guid="b198d7f4-9fc6-4e77-8483-d854dd6bbcba">
-      <File Id="_a8044e3e_4274_458b_8096_2b68e3f91f6e" Name="rtfParse_142.dll" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\rtfParse_142.dll" />
+    <Component Id="_448bbb54_906c_4858_a55d_df6029ca20d9" Guid="04199a31-25b0-41b3-a405-de701d1d7b9d">
+      <File Id="_448bbb54_906c_4858_a55d_df6029ca20d9" Name="resize_jpg.exe" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\resize_jpg.exe" />
     </Component>
-    <Component Id="_ae59cd0e_d7cf_46a6_91db_659551b00eeb" Guid="44b47fad-df2d-453a-955e-7b2b84ecbff2">
-      <File Id="_ae59cd0e_d7cf_46a6_91db_659551b00eeb" Name="rtf_tagset.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\rtf_tagset.xml" />
+    <Component Id="_4047ad39_204e_4111_b544_ad74fdbdcaa8" Guid="46b5feae-4ccc-4d6a-a2d0-dc8ef990ffc4">
+      <File Id="_4047ad39_204e_4111_b544_ad74fdbdcaa8" Name="rtfParse_142.dll" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\rtfParse_142.dll" />
     </Component>
-    <Component Id="_2fc0c4d4_573f_4c2c_948d_e72b4f710dc5" Guid="1961e8cb-a124-4465-b317-0c4594bab80b">
-      <File Id="_2fc0c4d4_573f_4c2c_948d_e72b4f710dc5" Name="sqlite3.dll" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\sqlite3.dll" />
+    <Component Id="_6aad30ac_0d04_4b84_8687_dfa1bf36494f" Guid="9698f1d1-63f7-4411-b330-f5cc649cda25">
+      <File Id="_6aad30ac_0d04_4b84_8687_dfa1bf36494f" Name="rtf_tagset.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\rtf_tagset.xml" />
     </Component>
-    <Component Id="_ed9e1dd9_da22_4256_a2f0_099b3dac520f" Guid="89712752-4430-409f-bbaa-d86e7aa75d74">
-      <File Id="_ed9e1dd9_da22_4256_a2f0_099b3dac520f" Name="tv.exe" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\tv.exe" />
+    <Component Id="_012544cd_44b2_4313_a114_cf653c882958" Guid="76c18e78-d059-479a-b217-891155dbcaa6">
+      <File Id="_012544cd_44b2_4313_a114_cf653c882958" Name="sqlite3.dll" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\sqlite3.dll" />
     </Component>
-    <Component Id="_2e7ff093_8f1f_46d1_afd3_7f1752f5377c" Guid="29c67ab8-484f-485e-99ec-178d9a7242ce">
-      <File Id="_2e7ff093_8f1f_46d1_afd3_7f1752f5377c" Name="zlib.dll" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\zlib.dll" />
+    <Component Id="_f18bf86b_112f_4b1f_afaf_15d61ba17579" Guid="a45cd449-7280-4c7a-8667-ba8c85e7013d">
+      <File Id="_f18bf86b_112f_4b1f_afaf_15d61ba17579" Name="tv.exe" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\tv.exe" />
     </Component>
-    <Directory Name="User" Id="_8938bcab_3028_4283_ad91_9d6e92950050">
-      <Component Id="_3d1d6229_5e56_425e_8811_bdfbf5c440af" Guid="e74c5889-e579-46f2-a942-a1b361b4baea">
-        <File Id="_3d1d6229_5e56_425e_8811_bdfbf5c440af" Name="AltMont.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\AltMont.jpg" />
+    <Component Id="_ee74f091_940b_40b9_b8b6_e55b6c9a84f7" Guid="4088d8d3-d0ba-41c1-99ad-653294224d01">
+      <File Id="_ee74f091_940b_40b9_b8b6_e55b6c9a84f7" Name="zlib.dll" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\zlib.dll" />
+    </Component>
+    <Directory Name="User" Id="_e98fb480_5584_49c4_a4b8_979a3ca30bc2">
+      <Component Id="_8e8cb881_aaff_4b35_8d90_4728215b7115" Guid="89e762fa-4d1a-43c1-8ccd-fa6f05ce0138">
+        <File Id="_8e8cb881_aaff_4b35_8d90_4728215b7115" Name="AltMont.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\AltMont.jpg" />
       </Component>
-      <Component Id="_8f55ded9_bcf3_4883_9e21_171f98876a9a" Guid="ed4fff80-9138-4ac2-9c1c-d713ef945a33">
-        <File Id="_8f55ded9_bcf3_4883_9e21_171f98876a9a" Name="catimp.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\catimp.txt" />
+      <Component Id="_169f38d2_a8b4_4963_99ad_fe18fe9615f9" Guid="4cc74ed7-dc27-4d9b-b0be-8a27e37e9167">
+        <File Id="_169f38d2_a8b4_4963_99ad_fe18fe9615f9" Name="catimp.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\catimp.txt" />
       </Component>
-      <Component Id="_8f38781c_730b_4f73_9a63_2e0017b63780" Guid="b9c9c19b-56cf-4665-b863-96292a1694a6">
-        <File Id="_8f38781c_730b_4f73_9a63_2e0017b63780" Name="ChartsCatSet.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ChartsCatSet.txt" />
+      <Component Id="_0c152163_8d80_4842_ac01_a4da6dcb2bf4" Guid="bc22655b-2d1b-4bb4-8758-3f988f85ba3a">
+        <File Id="_0c152163_8d80_4842_ac01_a4da6dcb2bf4" Name="ChartsCatSet.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ChartsCatSet.txt" />
       </Component>
-      <Component Id="_975c201f_bf52_46dc_81fd_1e65bd634e69" Guid="f274183b-2e89-408e-b44d-ab93ffe6814d">
-        <File Id="_975c201f_bf52_46dc_81fd_1e65bd634e69" Name="ChartsGroupSet.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ChartsGroupSet.txt" />
+      <Component Id="_666ea05b_8620_4ed7_9ab9_5bdd56d5c5ea" Guid="5024c16e-e4e3-4fa7-a56c-068bb1aeb503">
+        <File Id="_666ea05b_8620_4ed7_9ab9_5bdd56d5c5ea" Name="ChartsGroupSet.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ChartsGroupSet.txt" />
       </Component>
-      <Component Id="_4810969e_2c8f_4afe_b9f1_39a2f9a8cbe2" Guid="3114eeee-795b-4ea3-8a21-e2faaa012ac1">
-        <File Id="_4810969e_2c8f_4afe_b9f1_39a2f9a8cbe2" Name="ChartsInfo.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ChartsInfo.xml" />
+      <Component Id="_1778e73b_c64f_42e8_83d1_091549e7f701" Guid="dbfa1db9-0c5e-4f36-826b-ca2d4f14c2ca">
+        <File Id="_1778e73b_c64f_42e8_83d1_091549e7f701" Name="ChartsInfo.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ChartsInfo.xml" />
       </Component>
-      <Component Id="_f32b31bf_2843_41da_8d9e_8c2528db1cab" Guid="04b2137b-2180-4fa5-9d4d-4e8402699afb">
-        <File Id="_f32b31bf_2843_41da_8d9e_8c2528db1cab" Name="cover_2.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\cover-2.jpg" />
+      <Component Id="_826720b1_eca8_4f57_a471_ad7df16f1380" Guid="e26b8490-6789-4fa6-85cc-50ef5ea39546">
+        <File Id="_826720b1_eca8_4f57_a471_ad7df16f1380" Name="cover_2.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\cover-2.jpg" />
       </Component>
-      <Component Id="_6cc14baf_fb54_443b_a43b_4272dd6f2e11" Guid="fac29533-8ae3-41bc-89f2-ddff064ecf8a">
-        <File Id="_6cc14baf_fb54_443b_a43b_4272dd6f2e11" Name="cover.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\cover.jpg" />
+      <Component Id="_4d202d53_ad4f_447f_82a6_b08fad8c1b3f" Guid="cccaad4e-1126-44ca-b97a-3cdfafde1800">
+        <File Id="_4d202d53_ad4f_447f_82a6_b08fad8c1b3f" Name="cover.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\cover.jpg" />
       </Component>
-      <Component Id="_7d370460_ba00_4e57_80f0_dffd5203be47" Guid="84a3699d-c8c5-4f6e-8e82-c82655944c21">
-        <File Id="_7d370460_ba00_4e57_80f0_dffd5203be47" Name="CoverLogo.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\CoverLogo.jpg" />
+      <Component Id="_7135b660_670e_4b06_bf69_94a2f8318605" Guid="ab915975-3f9c-4b3f-8fef-1da4e7c95af9">
+        <File Id="_7135b660_670e_4b06_bf69_94a2f8318605" Name="CoverLogo.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\CoverLogo.jpg" />
       </Component>
-      <Component Id="_d2898bbc_1002_4144_9f28_cc5e0b899df4" Guid="d8898c95-6751-416d-bf0e-2fcd36110d03">
-        <File Id="_d2898bbc_1002_4144_9f28_cc5e0b899df4" Name="dbUser.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\dbUser.xml" />
+      <Component Id="_7eeb41ee_06ba_4f13_a9e3_dcddfb419dc6" Guid="bb299483-ace3-43b5-a0d8-5c5f9dab37a0">
+        <File Id="_7eeb41ee_06ba_4f13_a9e3_dcddfb419dc6" Name="dbUser.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\dbUser.xml" />
       </Component>
-      <Component Id="_90bd8b98_7968_44fe_aa66_2dfb99231605" Guid="096f7231-1ce6-45c0-940a-d5df1b192ef8">
-        <File Id="_90bd8b98_7968_44fe_aa66_2dfb99231605" Name="default.ars" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\default.ars" />
+      <Component Id="_3382d3d7_39b9_44af_97a7_20691074e076" Guid="2e90742b-f9ff-49df-bb1e-7c1410db514c">
+        <File Id="_3382d3d7_39b9_44af_97a7_20691074e076" Name="default.ars" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\default.ars" />
       </Component>
-      <Component Id="_25ff57dc_f8c7_4c82_8a51_ad217723b718" Guid="adb19fac-397e-4194-81ec-9f65ba9658de">
-        <File Id="_25ff57dc_f8c7_4c82_8a51_ad217723b718" Name="Default.log" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\Default.log" />
+      <Component Id="_f3da9a5d_435e_4168_890b_9e268d536df8" Guid="2441ae35-c32a-4d64-b132-2b408c35ef81">
+        <File Id="_f3da9a5d_435e_4168_890b_9e268d536df8" Name="Default.log" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\Default.log" />
       </Component>
-      <Component Id="_9426009b_1d9b_4f49_bab9_65e1cdf6d676" Guid="779607d8-25d3-4438-a7ab-4abbb52b3ea7">
-        <File Id="_9426009b_1d9b_4f49_bab9_65e1cdf6d676" Name="defaultRU1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\defaultRU1.rtf" />
+      <Component Id="_a21afde5_aeaf_430e_b495_f2a38eee92e3" Guid="febdccb2-7a35-4e82-bb78-3135b059f422">
+        <File Id="_a21afde5_aeaf_430e_b495_f2a38eee92e3" Name="defaultRU1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\defaultRU1.rtf" />
       </Component>
-      <Component Id="_ffeef211_3138_4c84_a863_4d77805ea7c2" Guid="6d2c14ab-3669-4f27-9c05-9842d4a6502c">
-        <File Id="_ffeef211_3138_4c84_a863_4d77805ea7c2" Name="defaultRU2.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\defaultRU2.rtf" />
+      <Component Id="_b579fdd9_d520_4363_88e6_a899a8e023d9" Guid="0a014d07-f873-4cc9-af44-0f2f208fb7e7">
+        <File Id="_b579fdd9_d520_4363_88e6_a899a8e023d9" Name="defaultRU2.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\defaultRU2.rtf" />
       </Component>
-      <Component Id="_ca0abb8e_5833_4cd3_9f72_3089acd662e7" Guid="8432b7bc-3c6d-40ca-8f13-e993b6045f41">
-        <File Id="_ca0abb8e_5833_4cd3_9f72_3089acd662e7" Name="defaultRU3.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\defaultRU3.rtf" />
+      <Component Id="_824bdaa8_4d0e_482f_8788_78ea724d2f6e" Guid="493a795e-7340-4d1b-a31c-66d250e5eea9">
+        <File Id="_824bdaa8_4d0e_482f_8788_78ea724d2f6e" Name="defaultRU3.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\defaultRU3.rtf" />
       </Component>
-      <Component Id="_2dfdbe25_35f7_4509_a9f8_23573f9cab3a" Guid="b712cf8d-d90c-429f-9349-c56037f1c2be">
-        <File Id="_2dfdbe25_35f7_4509_a9f8_23573f9cab3a" Name="excelCatSet.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\excelCatSet.txt" />
+      <Component Id="_762b14ea_bd8a_4c02_bf72_a5601cfaed7e" Guid="88729277-5f37-4911-ab8d-1f14ebf979e1">
+        <File Id="_762b14ea_bd8a_4c02_bf72_a5601cfaed7e" Name="excelCatSet.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\excelCatSet.txt" />
       </Component>
-      <Component Id="_67266ca8_b471_4dda_9be1_510f7a9cddd5" Guid="76f09c6d-6594-44d3-8983-59e182e4cb0d">
-        <File Id="_67266ca8_b471_4dda_9be1_510f7a9cddd5" Name="excelModels.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\excelModels.txt" />
+      <Component Id="_c675ebdb_c8e1_42d5_81f5_7fce819d485b" Guid="d8e8850c-6a54-43e7-9392-175d93678d98">
+        <File Id="_c675ebdb_c8e1_42d5_81f5_7fce819d485b" Name="excelModels.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\excelModels.txt" />
       </Component>
-      <Component Id="_7adc5e7e_cedd_435d_b81c_0a8b9e671382" Guid="895e3b5a-fdcb-4810-b408-58714cfbfd16">
-        <File Id="_7adc5e7e_cedd_435d_b81c_0a8b9e671382" Name="groupimp.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\groupimp.txt" />
+      <Component Id="_b171cb17_bab1_421c_9bb2_e30751f95b5f" Guid="d1bc0feb-fb98-45f2-ae1a-3fb989600d5c">
+        <File Id="_b171cb17_bab1_421c_9bb2_e30751f95b5f" Name="groupimp.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\groupimp.txt" />
       </Component>
-      <Component Id="_6b6d94aa_f350_4ed0_ba6b_7fad03bd4fa6" Guid="c50a5ece-d4f0-4967-8907-a38f09f1b5de">
-        <File Id="_6b6d94aa_f350_4ed0_ba6b_7fad03bd4fa6" Name="PrinterInfo.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\PrinterInfo.xml" />
+      <Component Id="_e73738ce_f12d_4d38_96cc_36d0b73e6e37" Guid="a8c89f79-5c95-4948-82ca-c911cf6cdce9">
+        <File Id="_e73738ce_f12d_4d38_96cc_36d0b73e6e37" Name="PrinterInfo.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\PrinterInfo.xml" />
       </Component>
-      <Component Id="_e0bf98fe_0189_4314_bb05_0b9ed6998bbb" Guid="5f6e33e8-1a62-4208-b562-df59665fb728">
-        <File Id="_e0bf98fe_0189_4314_bb05_0b9ed6998bbb" Name="ReportChartPages.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportChartPages.xml" />
+      <Component Id="_fc46e4c7_dcdc_4b37_9fbc_b1f5900c726f" Guid="3cae9c95-1999-4ca9-a653-8b04d2ecb31b">
+        <File Id="_fc46e4c7_dcdc_4b37_9fbc_b1f5900c726f" Name="ReportChartPages.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportChartPages.xml" />
       </Component>
-      <Component Id="_4902210b_03b3_484d_90bf_5cff89c536ba" Guid="a7dec717-7fec-4c19-9470-8bc1a5cdd82e">
-        <File Id="_4902210b_03b3_484d_90bf_5cff89c536ba" Name="ReportHeaders.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportHeaders.xml" />
+      <Component Id="_5dcc0d17_31fe_4bd5_ac05_5df50de8b272" Guid="2271c07b-9c1b-4719-a86a-8891e38f3ece">
+        <File Id="_5dcc0d17_31fe_4bd5_ac05_5df50de8b272" Name="ReportHeaders.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportHeaders.xml" />
       </Component>
-      <Component Id="_2056b846_2e64_47d8_84ca_fe0fbe8337cd" Guid="76cdc6ab-a7f3-4748-8d64-47e52fc519a6">
-        <File Id="_2056b846_2e64_47d8_84ca_fe0fbe8337cd" Name="ReserveAnalystPart1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReserveAnalystPart1.rtf" />
+      <Component Id="_3052afa4_0eab_4371_a979_48f5da3d3dc0" Guid="7201ad67-7a60-472d-b962-a36e749f56b7">
+        <File Id="_3052afa4_0eab_4371_a979_48f5da3d3dc0" Name="ReserveAnalystPart1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReserveAnalystPart1.rtf" />
       </Component>
-      <Component Id="_5e3c91f5_fb6f_4930_89d1_8b8d80491603" Guid="7a4bb555-d70a-45b5-bb43-6a8d029a770b">
-        <File Id="_5e3c91f5_fb6f_4930_89d1_8b8d80491603" Name="ReserveAnalystPart1Cont.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReserveAnalystPart1Cont.txt" />
+      <Component Id="_c39f87e7_c4a8_47e4_8b72_6a6a721e0dab" Guid="b12c699c-ea44-485d-b524-f353cd70991a">
+        <File Id="_c39f87e7_c4a8_47e4_8b72_6a6a721e0dab" Name="ReserveAnalystPart1Cont.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReserveAnalystPart1Cont.txt" />
       </Component>
-      <Component Id="_98071d50_3291_41b3_b946_a09230436d20" Guid="23121ab4-1d83-41a8-8b42-eae3526dd292">
-        <File Id="_98071d50_3291_41b3_b946_a09230436d20" Name="SampleReportfilelist.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReportfilelist.xml" />
+      <Component Id="_4d78c5dc_ce3d_4ef7_81e7_c3a7916d7ac2" Guid="5b277bc1-9a1e-4f47-b405-aa922e4e59c2">
+        <File Id="_4d78c5dc_ce3d_4ef7_81e7_c3a7916d7ac2" Name="SampleReportfilelist.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReportfilelist.xml" />
       </Component>
-      <Component Id="_b2bd7c50_1922_4aa7_a289_561e1b73c556" Guid="8ea91f40-d010-4c84-80ff-8b783f9a429a">
-        <File Id="_b2bd7c50_1922_4aa7_a289_561e1b73c556" Name="StockComments.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\StockComments.rtf" />
+      <Component Id="_d23f79e7_fdb3_469c_a0de_7577f1b3d712" Guid="0d7a648c-df81-41ff-a4cb-eac6d646a9fe">
+        <File Id="_d23f79e7_fdb3_469c_a0de_7577f1b3d712" Name="StockComments.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\StockComments.rtf" />
       </Component>
-      <Component Id="_f460bf1e_93f4_419b_9d93_79e3f0099ea7" Guid="f00ada92-9714-4bd3-b7c2-ddd8f0a08955">
-        <File Id="_f460bf1e_93f4_419b_9d93_79e3f0099ea7" Name="stockimp.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\stockimp.txt" />
+      <Component Id="_aff1db15_656e_4e12_8773_c0c99f311964" Guid="1d5a88ec-6387-4469-ab77-936a63f4e4e2">
+        <File Id="_aff1db15_656e_4e12_8773_c0c99f311964" Name="stockimp.txt" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\stockimp.txt" />
       </Component>
-      <Component Id="_a715c7fb_7ed0_40a3_82e8_b516215c05c1" Guid="2b5f6545-da7f-4ec6-b480-9e1e7631a6e6">
-        <File Id="_a715c7fb_7ed0_40a3_82e8_b516215c05c1" Name="UserSettings.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\UserSettings.xml" />
+      <Component Id="_39f592f4_15ba_41dd_bf7c_180ec0a5732d" Guid="19ef4e8e-09f5-4f4f-87a8-4d99e098afd0">
+        <File Id="_39f592f4_15ba_41dd_bf7c_180ec0a5732d" Name="UserSettings.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\UserSettings.xml" />
       </Component>
-      <Directory Name="ReportRepository" Id="_86120f9e_c421_4532_8162_fae76e46f56a">
-        <Directory Name="Main" Id="_b28ced3c_f9c2_4807_806a_2ed3643fe3c7">
-          <Component Id="_ca8b9e24_6fb7_4d82_af4a_e67ca8d8a7d3" Guid="c9ffb10e-ba03-432e-b3a8-0d84bf9e10e9">
-            <File Id="_ca8b9e24_6fb7_4d82_af4a_e67ca8d8a7d3" Name="MainRU1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU1.rtf" />
+      <Directory Name="ReportRepository" Id="_7a038d16_40f7_40cf_ae5f_74d1a6a10f54">
+        <Directory Name="Main" Id="_5b862f2e_3711_497f_a0f2_1e65d444cb4a">
+          <Component Id="_f234c5ff_9758_483d_8c1e_31f7ec9d8cb4" Guid="cb9e58a0-4caf-4aa8-9201-8f53153c6860">
+            <File Id="_f234c5ff_9758_483d_8c1e_31f7ec9d8cb4" Name="MainRU1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU1.rtf" />
           </Component>
-          <Component Id="_4d50b86e_6155_4e97_a7ce_791f08850896" Guid="43ba6e97-8109-4745-9efc-846837f3323a">
-            <File Id="_4d50b86e_6155_4e97_a7ce_791f08850896" Name="MainRU10.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU10.rtf" />
+          <Component Id="_d5a5b6ae_a7e8_43f1_8c12_42a1d5b84180" Guid="b40284cd-88b0-483b-932f-4243f0bf4d4e">
+            <File Id="_d5a5b6ae_a7e8_43f1_8c12_42a1d5b84180" Name="MainRU10.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU10.rtf" />
           </Component>
-          <Component Id="_76bce35b_9a26_41ac_aa98_2abebce1da8c" Guid="b88216ad-aaf7-47f0-bee3-996bffda7f06">
-            <File Id="_76bce35b_9a26_41ac_aa98_2abebce1da8c" Name="MainRU11.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU11.rtf" />
+          <Component Id="_06fb9b5e_68ff_41e2_b698_aac5001ea59d" Guid="589dd6ba-a294-42e0-9eb3-819c022c6933">
+            <File Id="_06fb9b5e_68ff_41e2_b698_aac5001ea59d" Name="MainRU11.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU11.rtf" />
           </Component>
-          <Component Id="_c71276bb_07d3_4d90_89a0_674706c7bb56" Guid="20c74abb-b4bd-4eea-a611-6af68e5f0946">
-            <File Id="_c71276bb_07d3_4d90_89a0_674706c7bb56" Name="MainRU12.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU12.rtf" />
+          <Component Id="_fe6c898c_6f93_4f13_a698_d9493805b765" Guid="6304c883-0332-4d7f-8094-7d189ae3a97b">
+            <File Id="_fe6c898c_6f93_4f13_a698_d9493805b765" Name="MainRU12.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU12.rtf" />
           </Component>
-          <Component Id="_7f70845d_229b_42fc_a1ba_c21778d02b2c" Guid="eace4292-ec6b-48b2-b901-cbc041962f60">
-            <File Id="_7f70845d_229b_42fc_a1ba_c21778d02b2c" Name="MainRU13.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU13.rtf" />
+          <Component Id="_2cc57a33_d61d_40b2_b352_190dd6ebcf6f" Guid="953f5571-ea63-4185-9ebb-405ae6a59423">
+            <File Id="_2cc57a33_d61d_40b2_b352_190dd6ebcf6f" Name="MainRU13.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU13.rtf" />
           </Component>
-          <Component Id="_ff0cf2f9_21c3_4a99_a1a1_c2d777a55e33" Guid="9ca65904-fb01-4497-9b93-3311c7854343">
-            <File Id="_ff0cf2f9_21c3_4a99_a1a1_c2d777a55e33" Name="MainRU14.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU14.rtf" />
+          <Component Id="_d80f0c50_15c4_4585_b054_05a1c080a867" Guid="6c747f51-e45b-440a-a033-f510e00c12bb">
+            <File Id="_d80f0c50_15c4_4585_b054_05a1c080a867" Name="MainRU14.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU14.rtf" />
           </Component>
-          <Component Id="_1333a87c_e65b_41b2_9052_27b8cb925292" Guid="065568ec-2c78-4c9b-b249-013046e6aa09">
-            <File Id="_1333a87c_e65b_41b2_9052_27b8cb925292" Name="MainRU15.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU15.rtf" />
+          <Component Id="_ed380b9b_69d8_4a41_8108_77abb23abcee" Guid="1e7db39d-097b-4395-b6d3-65e518cc311a">
+            <File Id="_ed380b9b_69d8_4a41_8108_77abb23abcee" Name="MainRU15.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU15.rtf" />
           </Component>
-          <Component Id="_6211f4d9_e30e_4d1a_b652_5ef55d036958" Guid="5bb89078-ae07-4915-a1ca-aee2da341f10">
-            <File Id="_6211f4d9_e30e_4d1a_b652_5ef55d036958" Name="MainRU16.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU16.rtf" />
+          <Component Id="_d9a5d04a_e8b9_4ff5_8f67_01f4374ca4ae" Guid="d7bf151b-6304-4c40-accf-ccbf2a2c55f1">
+            <File Id="_d9a5d04a_e8b9_4ff5_8f67_01f4374ca4ae" Name="MainRU16.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU16.rtf" />
           </Component>
-          <Component Id="_eb01ed2d_d594_40c0_a8b6_4c8524d0ea2e" Guid="bb116ec2-e9cf-48d6-a9cd-f83234285aef">
-            <File Id="_eb01ed2d_d594_40c0_a8b6_4c8524d0ea2e" Name="MainRU17.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU17.rtf" />
+          <Component Id="_8e38c433_30eb_4e2b_be3e_587f4fe14016" Guid="479d853a-cda6-4b0b-868d-5b84c8d27433">
+            <File Id="_8e38c433_30eb_4e2b_be3e_587f4fe14016" Name="MainRU17.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU17.rtf" />
           </Component>
-          <Component Id="_18d2340e_6ca2_414a_b487_b1112f68529e" Guid="24a925f2-16f7-4a23-bb20-301cde6a320d">
-            <File Id="_18d2340e_6ca2_414a_b487_b1112f68529e" Name="MainRU18.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU18.rtf" />
+          <Component Id="_8aed29dd_d340_4c1c_8b86_d3f8b4af56f0" Guid="9b00fc86-d8ac-4f65-9708-3b796545c3f8">
+            <File Id="_8aed29dd_d340_4c1c_8b86_d3f8b4af56f0" Name="MainRU18.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU18.rtf" />
           </Component>
-          <Component Id="_d54d1a04_3f4b_4143_877e_e6417175f4d1" Guid="c2c23469-68ed-4d59-8031-ab105f0ccb7d">
-            <File Id="_d54d1a04_3f4b_4143_877e_e6417175f4d1" Name="MainRU19.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU19.rtf" />
+          <Component Id="_79046065_893d_4c09_9893_6aef2f91398c" Guid="b3671a58-08cf-4a7b-9141-b047b208ed09">
+            <File Id="_79046065_893d_4c09_9893_6aef2f91398c" Name="MainRU19.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU19.rtf" />
           </Component>
-          <Component Id="_ea1cc0df_2904_491e_847f_b45db083cd2a" Guid="a6b3c335-0b58-46a6-a50c-a1d728857ab2">
-            <File Id="_ea1cc0df_2904_491e_847f_b45db083cd2a" Name="MainRU2.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU2.rtf" />
+          <Component Id="_fe007799_2cae_4401_bb09_12fd3e84c70b" Guid="f505729d-ec46-4b83-8bf9-564084ade96d">
+            <File Id="_fe007799_2cae_4401_bb09_12fd3e84c70b" Name="MainRU2.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU2.rtf" />
           </Component>
-          <Component Id="_6dfa2a51_a874_45a5_ba07_4731cfccf31c" Guid="d4f5bc27-d7b6-46b4-90c6-9742eed15220">
-            <File Id="_6dfa2a51_a874_45a5_ba07_4731cfccf31c" Name="MainRU20.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU20.rtf" />
+          <Component Id="_0619afc1_8fda_4fac_88a3_43d82b396e13" Guid="d411a094-6ea4-450e-907a-eeca41f02c6a">
+            <File Id="_0619afc1_8fda_4fac_88a3_43d82b396e13" Name="MainRU20.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU20.rtf" />
           </Component>
-          <Component Id="_0c61c8b4_e085_4ae6_8500_19ec29104445" Guid="f745416c-0599-4a2c-8269-796454c8612e">
-            <File Id="_0c61c8b4_e085_4ae6_8500_19ec29104445" Name="MainRU21.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU21.rtf" />
+          <Component Id="_187c6e61_7fd3_404f_86b5_93e448b9e151" Guid="d3726b0d-20e8-426c-aad3-3305ac2acefc">
+            <File Id="_187c6e61_7fd3_404f_86b5_93e448b9e151" Name="MainRU21.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU21.rtf" />
           </Component>
-          <Component Id="_52f4bf4e_7ed7_4708_a7d4_a7ce679e9e53" Guid="dbd62ac9-9138-4395-8cf5-78ff4efed464">
-            <File Id="_52f4bf4e_7ed7_4708_a7d4_a7ce679e9e53" Name="MainRU22.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU22.rtf" />
+          <Component Id="_2a5a61c6_c1c2_47df_b4d7_60c5e913c708" Guid="73d41100-f7f2-48fb-a203-a8feaba7270d">
+            <File Id="_2a5a61c6_c1c2_47df_b4d7_60c5e913c708" Name="MainRU22.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU22.rtf" />
           </Component>
-          <Component Id="_1014be40_5e71_4c5d_a08b_b3fbaa575831" Guid="652855f6-a810-418d-ad3c-3bab1ba517ef">
-            <File Id="_1014be40_5e71_4c5d_a08b_b3fbaa575831" Name="MainRU23.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU23.rtf" />
+          <Component Id="_229a16bb_8e16_4185_9517_5637a4632667" Guid="a129a309-8b46-4950-a17b-0a80d5b239a0">
+            <File Id="_229a16bb_8e16_4185_9517_5637a4632667" Name="MainRU23.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU23.rtf" />
           </Component>
-          <Component Id="_e3eb63ba_75b5_4be0_a40c_aa616075f4cd" Guid="d149bff7-c685-40c9-a1a2-4b14845b2498">
-            <File Id="_e3eb63ba_75b5_4be0_a40c_aa616075f4cd" Name="MainRU24.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU24.rtf" />
+          <Component Id="_0fbe2d3a_0e59_4be7_a7c1_ca0a8abdad16" Guid="272455d0-aabb-4f30-b8c0-b113e15c48d8">
+            <File Id="_0fbe2d3a_0e59_4be7_a7c1_ca0a8abdad16" Name="MainRU24.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU24.rtf" />
           </Component>
-          <Component Id="_3570f10a_25c5_4823_977c_3adcbe30750e" Guid="901311e0-9d72-4704-a095-f3463d35bf95">
-            <File Id="_3570f10a_25c5_4823_977c_3adcbe30750e" Name="MainRU25.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU25.rtf" />
+          <Component Id="_55cc9871_be88_4fec_9f34_30d54510777b" Guid="534c1c5e-46c0-4951-a865-b5add5806ccb">
+            <File Id="_55cc9871_be88_4fec_9f34_30d54510777b" Name="MainRU25.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU25.rtf" />
           </Component>
-          <Component Id="_d456ac5a_f19d_4dc2_9d6a_cdbf79728404" Guid="0d2aa500-78c9-4ea6-ab96-0289fac24bfb">
-            <File Id="_d456ac5a_f19d_4dc2_9d6a_cdbf79728404" Name="MainRU26.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU26.rtf" />
+          <Component Id="_4b481f89_1742_45cf_adcf_c020655b52dd" Guid="cc961a5b-071e-4edb-bcb3-3a472012f638">
+            <File Id="_4b481f89_1742_45cf_adcf_c020655b52dd" Name="MainRU26.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU26.rtf" />
           </Component>
-          <Component Id="_39ea4a8d_2eb9_4ef9_a193_d11dba69cf33" Guid="2399e8da-402c-44de-ab47-f90d7225dee9">
-            <File Id="_39ea4a8d_2eb9_4ef9_a193_d11dba69cf33" Name="MainRU27.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU27.rtf" />
+          <Component Id="_15ac66a4_c2ad_4820_bff1_1c43a10042a9" Guid="6c30734d-1f0e-41bf-bafc-05cc904dceae">
+            <File Id="_15ac66a4_c2ad_4820_bff1_1c43a10042a9" Name="MainRU27.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU27.rtf" />
           </Component>
-          <Component Id="_016df013_0d3b_4fc6_8492_c7d43a0cb62f" Guid="adec91b1-4113-49fc-b1bf-eb4a5c81c1bd">
-            <File Id="_016df013_0d3b_4fc6_8492_c7d43a0cb62f" Name="MainRU28.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU28.rtf" />
+          <Component Id="_85653eb8_8306_4305_8a95_19a474bf3b2b" Guid="e74237d8-c925-488c-b279-afa4c00cb04b">
+            <File Id="_85653eb8_8306_4305_8a95_19a474bf3b2b" Name="MainRU28.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU28.rtf" />
           </Component>
-          <Component Id="_40aea0ae_3ab3_4aa6_9b63_9d130dad7c8a" Guid="70100543-f1fa-4a7f-a178-c2819e590217">
-            <File Id="_40aea0ae_3ab3_4aa6_9b63_9d130dad7c8a" Name="MainRU29.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU29.rtf" />
+          <Component Id="_4dc74c2a_da09_497e_9085_00d67b332939" Guid="0e01bc03-876e-466a-8989-96299a215f25">
+            <File Id="_4dc74c2a_da09_497e_9085_00d67b332939" Name="MainRU29.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU29.rtf" />
           </Component>
-          <Component Id="_9b3e8a7f_004c_4b04_9cd2_8c1264a7a91d" Guid="b2f9ed21-a2ec-4eb3-9490-6df490635601">
-            <File Id="_9b3e8a7f_004c_4b04_9cd2_8c1264a7a91d" Name="MainRU3.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU3.rtf" />
+          <Component Id="_40596299_b883_43ed_950f_511b979dbcca" Guid="873d5682-d4be-4edc-821e-1f9adae403f2">
+            <File Id="_40596299_b883_43ed_950f_511b979dbcca" Name="MainRU3.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU3.rtf" />
           </Component>
-          <Component Id="_762dd863_fd2e_4383_9cdc_56bdab860205" Guid="2d4a2843-9fd3-4071-af4f-569c4de0a2dc">
-            <File Id="_762dd863_fd2e_4383_9cdc_56bdab860205" Name="MainRU30.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU30.rtf" />
+          <Component Id="_a8228ac5_cbb1_4604_8926_a7e2863c4432" Guid="ef6371a3-798f-4238-8586-bda5c231a1b7">
+            <File Id="_a8228ac5_cbb1_4604_8926_a7e2863c4432" Name="MainRU30.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU30.rtf" />
           </Component>
-          <Component Id="_5b9ffca8_8607_4b2b_872a_4b90094060c2" Guid="163c9ac6-4fc4-47d2-b731-7af36e010fdb">
-            <File Id="_5b9ffca8_8607_4b2b_872a_4b90094060c2" Name="MainRU31.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU31.rtf" />
+          <Component Id="_5cea34e2_0e8a_40af_8dc9_8a8a073f5089" Guid="b9b741d6-ee0a-4815-b469-7ec524c4a279">
+            <File Id="_5cea34e2_0e8a_40af_8dc9_8a8a073f5089" Name="MainRU31.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU31.rtf" />
           </Component>
-          <Component Id="_0d42f842_d5a8_4a66_a419_1fa4d8465287" Guid="7270e2a9-1e30-4026-845a-58da91e03919">
-            <File Id="_0d42f842_d5a8_4a66_a419_1fa4d8465287" Name="MainRU32.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU32.rtf" />
+          <Component Id="_55a91aed_7209_4043_90a1_90ee06806c9d" Guid="21759aff-30eb-4fec-bfe2-45223ac11c69">
+            <File Id="_55a91aed_7209_4043_90a1_90ee06806c9d" Name="MainRU32.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU32.rtf" />
           </Component>
-          <Component Id="_162d0b99_1d76_483c_835e_051762375898" Guid="1fbbc1ac-cde4-4cc2-99ec-012c13e646c6">
-            <File Id="_162d0b99_1d76_483c_835e_051762375898" Name="MainRU33.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU33.rtf" />
+          <Component Id="_7d32dc91_bdd1_40ea_8bc9_6aebe7a460a1" Guid="7b047199-199d-48ef-ab12-c358946295ea">
+            <File Id="_7d32dc91_bdd1_40ea_8bc9_6aebe7a460a1" Name="MainRU33.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU33.rtf" />
           </Component>
-          <Component Id="_af19eb0e_01cd_4d2e_9c75_a05014f3916a" Guid="4080ae15-2efb-424a-872c-96690a3ef269">
-            <File Id="_af19eb0e_01cd_4d2e_9c75_a05014f3916a" Name="MainRU34.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU34.rtf" />
+          <Component Id="_3fdcedc7_4945_4436_ac72_1c3275702c1e" Guid="48c7550f-f1fd-48b4-b3e3-7b8274f3bf69">
+            <File Id="_3fdcedc7_4945_4436_ac72_1c3275702c1e" Name="MainRU34.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU34.rtf" />
           </Component>
-          <Component Id="_b8ad8469_fa21_4341_aee9_600c6c0ef089" Guid="2a1353bd-fd6e-4c04-b195-83896e43c0ab">
-            <File Id="_b8ad8469_fa21_4341_aee9_600c6c0ef089" Name="MainRU35.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU35.rtf" />
+          <Component Id="_c40f0539_9659_4de1_9a3b_6b9e277d54b2" Guid="51054877-fa28-4f5e-b69c-ef9be6b327f1">
+            <File Id="_c40f0539_9659_4de1_9a3b_6b9e277d54b2" Name="MainRU35.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU35.rtf" />
           </Component>
-          <Component Id="_83b9197c_063a_408c_933b_186263f8dd9a" Guid="c9bebf74-f203-40f8-bb05-25a1f4fd44da">
-            <File Id="_83b9197c_063a_408c_933b_186263f8dd9a" Name="MainRU36.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU36.xml" />
+          <Component Id="_f3fd3ac0_2b8a_4855_a736_555dba82bb07" Guid="77057619-2237-4108-a4de-5e7692e9782c">
+            <File Id="_f3fd3ac0_2b8a_4855_a736_555dba82bb07" Name="MainRU36.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU36.xml" />
           </Component>
-          <Component Id="_0c69d846_a77f_4191_9d1d_22c3def62d57" Guid="17148875-0024-4cef-9fce-be1d69e06bb3">
-            <File Id="_0c69d846_a77f_4191_9d1d_22c3def62d57" Name="MainRU4.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU4.rtf" />
+          <Component Id="_c0480433_2f6b_4883_a37c_446f04ec6035" Guid="d25d7cdf-15c2-42e7-9ca7-903748764aa7">
+            <File Id="_c0480433_2f6b_4883_a37c_446f04ec6035" Name="MainRU4.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU4.rtf" />
           </Component>
-          <Component Id="_81a8703f_38fb_4300_b1db_78e357209ba7" Guid="e0e44537-9069-4506-95c7-4aa405b60db7">
-            <File Id="_81a8703f_38fb_4300_b1db_78e357209ba7" Name="MainRU5.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU5.rtf" />
+          <Component Id="_d0871d5f_dd56_4c15_853d_fc2ba187e6d8" Guid="bd4b2c5c-198d-47ac-bac4-c21d8728df08">
+            <File Id="_d0871d5f_dd56_4c15_853d_fc2ba187e6d8" Name="MainRU5.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU5.rtf" />
           </Component>
-          <Component Id="_5455bee1_e15e_4abf_847d_25bb80e417e0" Guid="7da632a5-f5a0-4d3e-9674-3051883ad04b">
-            <File Id="_5455bee1_e15e_4abf_847d_25bb80e417e0" Name="MainRU6.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU6.rtf" />
+          <Component Id="_20a08626_fedf_42dc_9009_fbb38bb95a63" Guid="92be0356-3436-4d5c-b617-6431810e3344">
+            <File Id="_20a08626_fedf_42dc_9009_fbb38bb95a63" Name="MainRU6.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU6.rtf" />
           </Component>
-          <Component Id="_7a25474e_22f3_4dff_9a9f_3fd7f6f08b91" Guid="e1e44daf-24e6-4b06-b167-e4190e6af113">
-            <File Id="_7a25474e_22f3_4dff_9a9f_3fd7f6f08b91" Name="MainRU7.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU7.rtf" />
+          <Component Id="_74fdbb39_b94f_4244_88dc_52cee5772296" Guid="dbc6dedb-c9b3-484f-95ac-7b39cf9dc963">
+            <File Id="_74fdbb39_b94f_4244_88dc_52cee5772296" Name="MainRU7.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU7.rtf" />
           </Component>
-          <Component Id="_8e074e0f_49fd_4e7a_b982_81e7a9f94ed6" Guid="bdda6a5e-f3b7-4402-b8a6-a8dc6b361338">
-            <File Id="_8e074e0f_49fd_4e7a_b982_81e7a9f94ed6" Name="MainRU8.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU8.rtf" />
+          <Component Id="_4297ba03_599a_4d8d_bdff_cfd141795c7a" Guid="3ce8dfcb-4da0-4b3e-af0e-8e21c4376b88">
+            <File Id="_4297ba03_599a_4d8d_bdff_cfd141795c7a" Name="MainRU8.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU8.rtf" />
           </Component>
-          <Component Id="_403e3032_f0ca_4334_8a82_c0411f96cc93" Guid="0e25a91c-ecd9-4461-80b1-bed83f8a9101">
-            <File Id="_403e3032_f0ca_4334_8a82_c0411f96cc93" Name="MainRU9.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU9.rtf" />
+          <Component Id="_93db6d73_bcda_4393_b679_2adde6a12b58" Guid="b949555f-ef94-4bc2-89d3-137da1546f04">
+            <File Id="_93db6d73_bcda_4393_b679_2adde6a12b58" Name="MainRU9.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU9.rtf" />
           </Component>
-          <Component Id="_4bf97f9a_53f9_45ac_9a25_3d7b929155a0" Guid="ea70a1da-d616-467f-a050-4e3c3a5c2160">
-            <File Id="_4bf97f9a_53f9_45ac_9a25_3d7b929155a0" Name="report.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\report.xml" />
+          <Component Id="_0ff2cd16_9582_4804_a4ba_5a8324690034" Guid="3c90c8ad-da93-41b8-96ab-609205f8c0ab">
+            <File Id="_0ff2cd16_9582_4804_a4ba_5a8324690034" Name="report.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\report.xml" />
           </Component>
-          <Directory Name="Owner" Id="_5a93f944_2cff_422f_860b_327aaf697bea">
-            <Component Id="_ba3b8b9a_03ee_4e3a_b3a1_34c5502fc04a" Guid="1679908e-a0d7-4216-b516-c3289f0b38fc">
-              <File Id="_ba3b8b9a_03ee_4e3a_b3a1_34c5502fc04a" Name="report.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Owner\report.xml" />
+          <Directory Name="Owner" Id="_4322f659_dbb9_45eb_82df_ce525ee93b82">
+            <Component Id="_3ba8da4a_5db3_44d9_8aa3_6f9f8f09ba6b" Guid="3a8804cf-00c2-41f1-a9fe-28c22e04c8b7">
+              <File Id="_3ba8da4a_5db3_44d9_8aa3_6f9f8f09ba6b" Name="report.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Owner\report.xml" />
             </Component>
           </Directory>
         </Directory>
-        <Directory Name="Main" Id="_e8f2b9a6_bcaf_43cf_8e99_98893b728c10">
-          <Component Id="_6f4848a6_2a59_4541_bfe7_2bb02939428d" Guid="cae60559-ad89-4305-994e-0fb5b3f87209">
-            <File Id="_6f4848a6_2a59_4541_bfe7_2bb02939428d" Name="MainRU1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU1.rtf" />
+      </Directory>
+      <Directory Name="Main" Id="_ffac8b7d_0127_48de_b75b_b057092c2e3a">
+        <Component Id="_a96e80d4_bf84_445f_9a0f_9b6aa4867b02" Guid="4df8a696-ecbb-44ac-860b-f02bcef8a106">
+          <File Id="_a96e80d4_bf84_445f_9a0f_9b6aa4867b02" Name="MainRU1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU1.rtf" />
+        </Component>
+        <Component Id="_7d25e069_cfa5_465b_893c_84bd0b469599" Guid="e7572be0-c962-4bd5-bbee-cc31a5215b64">
+          <File Id="_7d25e069_cfa5_465b_893c_84bd0b469599" Name="MainRU10.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU10.rtf" />
+        </Component>
+        <Component Id="_0f801335_563b_42aa_99f3_90ddc8bd2d3b" Guid="61749955-50cc-40cf-9ed1-ea01847f291c">
+          <File Id="_0f801335_563b_42aa_99f3_90ddc8bd2d3b" Name="MainRU11.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU11.rtf" />
+        </Component>
+        <Component Id="_82317d12_897d_47f2_b47a_b805cc7ac96d" Guid="1bb7a234-326f-4b49-a7c4-8b0085f1dc71">
+          <File Id="_82317d12_897d_47f2_b47a_b805cc7ac96d" Name="MainRU12.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU12.rtf" />
+        </Component>
+        <Component Id="_de049c5c_66e0_4a2c_b751_15c6a7601f82" Guid="3b60376c-91e0-4998-a673-64893652336b">
+          <File Id="_de049c5c_66e0_4a2c_b751_15c6a7601f82" Name="MainRU13.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU13.rtf" />
+        </Component>
+        <Component Id="_5f604a01_e534_4aa1_989f_e82cc26740f8" Guid="5132976b-6612-4720-9df2-3322f5a63ffd">
+          <File Id="_5f604a01_e534_4aa1_989f_e82cc26740f8" Name="MainRU14.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU14.rtf" />
+        </Component>
+        <Component Id="_83c0d2d6_d69e_4dd0_ba59_2ec5a8a78b68" Guid="e28f3c52-bb4b-4f5b-b7b0-23f1f817a944">
+          <File Id="_83c0d2d6_d69e_4dd0_ba59_2ec5a8a78b68" Name="MainRU15.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU15.rtf" />
+        </Component>
+        <Component Id="_78b6da94_4114_4240_b883_2c3dea67db61" Guid="b5f92436-0d9d-43f3-b2cd-9da135e0965a">
+          <File Id="_78b6da94_4114_4240_b883_2c3dea67db61" Name="MainRU16.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU16.rtf" />
+        </Component>
+        <Component Id="_a8ce73e1_957c_4175_ac57_5e6f2ad429e2" Guid="0faaaee5-7af5-43bc-aa0a-703faedfde9c">
+          <File Id="_a8ce73e1_957c_4175_ac57_5e6f2ad429e2" Name="MainRU17.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU17.rtf" />
+        </Component>
+        <Component Id="_2f2a25a9_7ff8_40e7_911e_34141ff67d93" Guid="03e087c9-ae23-4a37-b132-d8589dc73235">
+          <File Id="_2f2a25a9_7ff8_40e7_911e_34141ff67d93" Name="MainRU18.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU18.rtf" />
+        </Component>
+        <Component Id="_d6fbe50c_f44b_4f7c_9dd4_2d32ae48fd47" Guid="5311b7c3-24c7-4f17-8f28-7c5d5c99adac">
+          <File Id="_d6fbe50c_f44b_4f7c_9dd4_2d32ae48fd47" Name="MainRU19.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU19.rtf" />
+        </Component>
+        <Component Id="_9d3b1cab_2aa8_4b9a_8ea6_0550cfa4b27e" Guid="7e958e25-38d0-49c5-9f95-b68e322d2974">
+          <File Id="_9d3b1cab_2aa8_4b9a_8ea6_0550cfa4b27e" Name="MainRU2.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU2.rtf" />
+        </Component>
+        <Component Id="_d5b8c260_7cba_494e_ac5f_81a5169e4a29" Guid="065e8ca0-09b9-4f2b-9a71-fb696106d22b">
+          <File Id="_d5b8c260_7cba_494e_ac5f_81a5169e4a29" Name="MainRU20.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU20.rtf" />
+        </Component>
+        <Component Id="_ede5bc5a_a6bc_44e1_998e_137071f2ccc6" Guid="a2ced225-78ab-41ba-8ffb-49a56d38fae8">
+          <File Id="_ede5bc5a_a6bc_44e1_998e_137071f2ccc6" Name="MainRU21.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU21.rtf" />
+        </Component>
+        <Component Id="_c7de96fe_ffe7_48ec_ba10_49e05950ae96" Guid="a3d1381c-bae2-4708-a911-a9adba98c245">
+          <File Id="_c7de96fe_ffe7_48ec_ba10_49e05950ae96" Name="MainRU22.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU22.rtf" />
+        </Component>
+        <Component Id="_d9663f32_aede_4735_8a13_88f15f639188" Guid="87cf783d-fe87-4cd9-b26c-e1dcc31d929d">
+          <File Id="_d9663f32_aede_4735_8a13_88f15f639188" Name="MainRU23.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU23.rtf" />
+        </Component>
+        <Component Id="_bb9ea8c1_5041_4bcc_bbc0_8c2aa63d0969" Guid="cb06c2d8-e033-45c5-a080-aa35eae76841">
+          <File Id="_bb9ea8c1_5041_4bcc_bbc0_8c2aa63d0969" Name="MainRU24.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU24.rtf" />
+        </Component>
+        <Component Id="_2c3d710c_a909_47e8_99e3_0c153d6c4773" Guid="4fc1646f-b7a0-4898-ad1a-97f7c73b4ff5">
+          <File Id="_2c3d710c_a909_47e8_99e3_0c153d6c4773" Name="MainRU25.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU25.rtf" />
+        </Component>
+        <Component Id="_6cb9d990_1769_4eb8_9725_e9f81bacc96b" Guid="ad61979d-f7a4-4a35-9d19-b552a85c4553">
+          <File Id="_6cb9d990_1769_4eb8_9725_e9f81bacc96b" Name="MainRU26.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU26.rtf" />
+        </Component>
+        <Component Id="_a9c4946e_692d_41a9_9c73_8599e608d8cb" Guid="392ab74a-3e64-4c3f-b6b2-36b6b59b4fdb">
+          <File Id="_a9c4946e_692d_41a9_9c73_8599e608d8cb" Name="MainRU27.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU27.rtf" />
+        </Component>
+        <Component Id="_8546001e_c1b2_40c2_9f28_25c3940bc444" Guid="eed494ab-263e-4fe3-b99a-84987de3858a">
+          <File Id="_8546001e_c1b2_40c2_9f28_25c3940bc444" Name="MainRU28.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU28.rtf" />
+        </Component>
+        <Component Id="_d0e7812e_27db_413a_bace_e3b80d477b98" Guid="95872dc5-daa0-4b54-aa2f-92d901e0a47d">
+          <File Id="_d0e7812e_27db_413a_bace_e3b80d477b98" Name="MainRU29.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU29.rtf" />
+        </Component>
+        <Component Id="_75ff8112_cdaf_444b_8964_428f020b4326" Guid="d0b70880-4ead-40a6-82d8-514e23030dc0">
+          <File Id="_75ff8112_cdaf_444b_8964_428f020b4326" Name="MainRU3.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU3.rtf" />
+        </Component>
+        <Component Id="_0d21c6ed_6b9c_497d_adfd_def2e016b75d" Guid="1d93f460-8ed4-4922-b3db-a73b84f6a2e7">
+          <File Id="_0d21c6ed_6b9c_497d_adfd_def2e016b75d" Name="MainRU30.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU30.rtf" />
+        </Component>
+        <Component Id="_81c8ce75_4ce4_40c2_81fc_09c0ad292b68" Guid="d1318cff-5699-4a53-ba8e-0d282a5b609d">
+          <File Id="_81c8ce75_4ce4_40c2_81fc_09c0ad292b68" Name="MainRU31.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU31.rtf" />
+        </Component>
+        <Component Id="_52e4aa69_06e3_43b3_aa7a_b8e8bd8b5f0d" Guid="7b8fb315-d8e4-4c61-8096-2c14683358cb">
+          <File Id="_52e4aa69_06e3_43b3_aa7a_b8e8bd8b5f0d" Name="MainRU32.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU32.rtf" />
+        </Component>
+        <Component Id="_07a2daeb_5de4_46d0_8cb4_aa2020ba19c5" Guid="7dd63aea-fa7b-401d-aa3e-efb034333cb6">
+          <File Id="_07a2daeb_5de4_46d0_8cb4_aa2020ba19c5" Name="MainRU33.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU33.rtf" />
+        </Component>
+        <Component Id="_c4cd698c_f3d1_436d_bdf1_14318eb52f53" Guid="dfba2fb6-d8dd-4384-9a8f-c08e1323e9a1">
+          <File Id="_c4cd698c_f3d1_436d_bdf1_14318eb52f53" Name="MainRU34.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU34.rtf" />
+        </Component>
+        <Component Id="_5454c358_73d6_4d76_a4bc_806e29628c91" Guid="2b07a608-3a58-4118-b682-07f7831ff626">
+          <File Id="_5454c358_73d6_4d76_a4bc_806e29628c91" Name="MainRU35.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU35.rtf" />
+        </Component>
+        <Component Id="_7442df0a_a16c_4971_abf3_aa6249cbab7e" Guid="b63da20d-a35c-4fc4-a088-7658c46e6420">
+          <File Id="_7442df0a_a16c_4971_abf3_aa6249cbab7e" Name="MainRU36.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU36.xml" />
+        </Component>
+        <Component Id="_783079c5_0592_497e_9638_d3297da59c3c" Guid="056deb95-a946-4c45-996c-b3e271daeb07">
+          <File Id="_783079c5_0592_497e_9638_d3297da59c3c" Name="MainRU4.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU4.rtf" />
+        </Component>
+        <Component Id="_d35fca77_d26d_4ccf_bfbd_8082bd1cf611" Guid="c0cc7ed6-6876-44a4-a74b-73656e7f6595">
+          <File Id="_d35fca77_d26d_4ccf_bfbd_8082bd1cf611" Name="MainRU5.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU5.rtf" />
+        </Component>
+        <Component Id="_d6904aaf_70e0_4e89_a7d9_b5005f7997d1" Guid="11e81cc1-a333-4e54-8dc3-46bbdc6bddd0">
+          <File Id="_d6904aaf_70e0_4e89_a7d9_b5005f7997d1" Name="MainRU6.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU6.rtf" />
+        </Component>
+        <Component Id="_9f390b31_a3d8_494e_b618_c4086f998ff3" Guid="9e8278ac-83df-47a0-8f63-127cb1626c2f">
+          <File Id="_9f390b31_a3d8_494e_b618_c4086f998ff3" Name="MainRU7.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU7.rtf" />
+        </Component>
+        <Component Id="_a5a2d998_6330_4e35_9714_bfb70baba2eb" Guid="f86d4abe-e090-4c21-b21d-28657063b251">
+          <File Id="_a5a2d998_6330_4e35_9714_bfb70baba2eb" Name="MainRU8.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU8.rtf" />
+        </Component>
+        <Component Id="_c02a9d02_9cb1_469c_81cb_1bf99ec699ba" Guid="f757b98f-abc4-42dc-9ff1-f0ad91adca86">
+          <File Id="_c02a9d02_9cb1_469c_81cb_1bf99ec699ba" Name="MainRU9.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU9.rtf" />
+        </Component>
+        <Component Id="_85255e8f_5ca2_4f24_bbd2_daae56d7e97a" Guid="02abe318-0c34-4846-88c1-2862125b418f">
+          <File Id="_85255e8f_5ca2_4f24_bbd2_daae56d7e97a" Name="report.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\report.xml" />
+        </Component>
+        <Directory Name="Owner" Id="_d18651e4_2bce_4ea6_9922_44e7b88b1e07">
+          <Component Id="_97710ddf_83be_4547_bfb3_061522dfc9a7" Guid="1b5f5732-d397-4122-8cd9-aca8d3c56037">
+            <File Id="_97710ddf_83be_4547_bfb3_061522dfc9a7" Name="report.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Owner\report.xml" />
           </Component>
-          <Component Id="_152720c8_9c72_4123_988d_0b3e2e5c5fa5" Guid="e31bf4d1-db49-4ddb-8272-4b4c00a3a5a9">
-            <File Id="_152720c8_9c72_4123_988d_0b3e2e5c5fa5" Name="MainRU10.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU10.rtf" />
-          </Component>
-          <Component Id="_243e44cc_4c79_4324_87f9_3a124e4e5e4a" Guid="ec1acd1d-49e7-4e9d-ae03-47e1969a4f00">
-            <File Id="_243e44cc_4c79_4324_87f9_3a124e4e5e4a" Name="MainRU11.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU11.rtf" />
-          </Component>
-          <Component Id="_d098f613_4238_47ca_80ba_5ba87112405a" Guid="10c10b59-a9e8-4b5a-83b9-2a680fe8e773">
-            <File Id="_d098f613_4238_47ca_80ba_5ba87112405a" Name="MainRU12.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU12.rtf" />
-          </Component>
-          <Component Id="_66e09d55_1023_4207_8aed_47462c4c4ecb" Guid="14a10ec8-c37c-41d2-9dad-7b88aea8a348">
-            <File Id="_66e09d55_1023_4207_8aed_47462c4c4ecb" Name="MainRU13.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU13.rtf" />
-          </Component>
-          <Component Id="_810fd3ae_8640_4289_a700_eabd1d10594c" Guid="d3c893e9-d597-4fb6-abfe-db51846b991a">
-            <File Id="_810fd3ae_8640_4289_a700_eabd1d10594c" Name="MainRU14.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU14.rtf" />
-          </Component>
-          <Component Id="_1bccd9ae_136f_4b34_8153_07681d259544" Guid="dea9a553-8158-40ee-a6e8-1717512aba8f">
-            <File Id="_1bccd9ae_136f_4b34_8153_07681d259544" Name="MainRU15.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU15.rtf" />
-          </Component>
-          <Component Id="_869fc80c_1554_4e83_b12f_c779a072b154" Guid="74584adc-575d-4139-a2f5-4a61911503b5">
-            <File Id="_869fc80c_1554_4e83_b12f_c779a072b154" Name="MainRU16.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU16.rtf" />
-          </Component>
-          <Component Id="_346ab865_9fc6_4e2d_af25_58c29a590ae4" Guid="48ab35a6-69a3-47cc-9768-2e392c954047">
-            <File Id="_346ab865_9fc6_4e2d_af25_58c29a590ae4" Name="MainRU17.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU17.rtf" />
-          </Component>
-          <Component Id="_54bc09be_7c3b_466e_b5ff_a59c33193166" Guid="70989ae2-c631-43cd-9a14-f596d883be64">
-            <File Id="_54bc09be_7c3b_466e_b5ff_a59c33193166" Name="MainRU18.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU18.rtf" />
-          </Component>
-          <Component Id="_b5450afd_9a6d_4ec0_8d3a_2a6e2383baf1" Guid="41c9dbfc-1a7e-4602-bc6e-b238f9c18c5a">
-            <File Id="_b5450afd_9a6d_4ec0_8d3a_2a6e2383baf1" Name="MainRU19.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU19.rtf" />
-          </Component>
-          <Component Id="_8209b8cf_4585_49e2_961c_04457135aa82" Guid="976980f4-eec9-49fd-b353-74aeb11928eb">
-            <File Id="_8209b8cf_4585_49e2_961c_04457135aa82" Name="MainRU2.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU2.rtf" />
-          </Component>
-          <Component Id="_01fae79a_cc24_45a0_995e_05df955428aa" Guid="897e4daf-ae0b-4d46-954b-698530202844">
-            <File Id="_01fae79a_cc24_45a0_995e_05df955428aa" Name="MainRU20.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU20.rtf" />
-          </Component>
-          <Component Id="_c26a86b0_fbbe_44f1_8de2_a41b28f64e52" Guid="7712bd66-8534-4b0f-8c51-4ada736bba2f">
-            <File Id="_c26a86b0_fbbe_44f1_8de2_a41b28f64e52" Name="MainRU21.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU21.rtf" />
-          </Component>
-          <Component Id="_5f7264a0_a077_4293_8c5d_1587cb076860" Guid="67c59ee3-0ef1-48c2-ae36-df445371232d">
-            <File Id="_5f7264a0_a077_4293_8c5d_1587cb076860" Name="MainRU22.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU22.rtf" />
-          </Component>
-          <Component Id="_f3a5b8b6_3ee7_4b2d_a7f5_bd12c92e8fba" Guid="9771f01a-5b64-43dd-b25b-5086c782ef92">
-            <File Id="_f3a5b8b6_3ee7_4b2d_a7f5_bd12c92e8fba" Name="MainRU23.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU23.rtf" />
-          </Component>
-          <Component Id="_69e8dbfc_e944_4ba6_8eaa_55946f0ced71" Guid="345f8b0c-1ae4-4435-b1d7-b149742d80d1">
-            <File Id="_69e8dbfc_e944_4ba6_8eaa_55946f0ced71" Name="MainRU24.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU24.rtf" />
-          </Component>
-          <Component Id="_3fb68901_50ca_4fd4_845e_3066405995aa" Guid="c881f1b6-c819-44d2-b86f-67a6794e3837">
-            <File Id="_3fb68901_50ca_4fd4_845e_3066405995aa" Name="MainRU25.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU25.rtf" />
-          </Component>
-          <Component Id="_f36104d5_78d6_4d16_a85d_43d190ba3167" Guid="6e4a9739-0c65-4360-8bae-ea93fe786058">
-            <File Id="_f36104d5_78d6_4d16_a85d_43d190ba3167" Name="MainRU26.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU26.rtf" />
-          </Component>
-          <Component Id="_ab431c92_a79b_47e9_923c_a736aaf68a06" Guid="b76a0ccf-359a-4746-ad4a-0eb2c6a1da40">
-            <File Id="_ab431c92_a79b_47e9_923c_a736aaf68a06" Name="MainRU27.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU27.rtf" />
-          </Component>
-          <Component Id="_5baaa746_8630_4b0e_b615_b8fe2adfac53" Guid="85d4da8e-9a2f-4785-9b2f-9796aa74da87">
-            <File Id="_5baaa746_8630_4b0e_b615_b8fe2adfac53" Name="MainRU28.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU28.rtf" />
-          </Component>
-          <Component Id="_2d228152_84ef_45df_8aef_fbba2b322857" Guid="074383cb-ffb4-435b-be20-5fe5e5aa9b46">
-            <File Id="_2d228152_84ef_45df_8aef_fbba2b322857" Name="MainRU29.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU29.rtf" />
-          </Component>
-          <Component Id="_0b0c6a99_8aa6_4cab_9808_84db48b11f55" Guid="6da65c86-3700-48a2-975a-54d3c72e22d5">
-            <File Id="_0b0c6a99_8aa6_4cab_9808_84db48b11f55" Name="MainRU3.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU3.rtf" />
-          </Component>
-          <Component Id="_c1959a0e_795d_4fcf_b250_f0693a8669ff" Guid="9a8b1246-84be-40f2-8040-f02a830bbad2">
-            <File Id="_c1959a0e_795d_4fcf_b250_f0693a8669ff" Name="MainRU30.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU30.rtf" />
-          </Component>
-          <Component Id="_185f1056_2d4a_45f0_9924_04bc8ed50027" Guid="7cc31376-98da-491b-866b-11dd60e3b7b1">
-            <File Id="_185f1056_2d4a_45f0_9924_04bc8ed50027" Name="MainRU31.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU31.rtf" />
-          </Component>
-          <Component Id="_35757ea4_023c_4f73_ac24_dcbbedd65949" Guid="975fc8ad-278a-4593-87ae-88ab97511bc9">
-            <File Id="_35757ea4_023c_4f73_ac24_dcbbedd65949" Name="MainRU32.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU32.rtf" />
-          </Component>
-          <Component Id="_dbe24ec0_f4c0_4bc3_970a_8a81a1e4a400" Guid="41f77c33-864e-48d9-a9b3-2404fabafed3">
-            <File Id="_dbe24ec0_f4c0_4bc3_970a_8a81a1e4a400" Name="MainRU33.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU33.rtf" />
-          </Component>
-          <Component Id="_53b18318_6ecf_4f5a_a201_35ca3c353b10" Guid="61f16e4c-5e6e-4ffd-a8c3-0bb24290fdd1">
-            <File Id="_53b18318_6ecf_4f5a_a201_35ca3c353b10" Name="MainRU34.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU34.rtf" />
-          </Component>
-          <Component Id="_d21e2e3d_7fb9_4731_811c_7d6bc1c5625b" Guid="a51b955f-4cd2-4e13-a102-b257dd4c6c33">
-            <File Id="_d21e2e3d_7fb9_4731_811c_7d6bc1c5625b" Name="MainRU35.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU35.rtf" />
-          </Component>
-          <Component Id="_635f46df_76c4_4b1d_8a0d_db23e2a80ee4" Guid="e3033c04-ee5f-4632-a962-2fe18024357d">
-            <File Id="_635f46df_76c4_4b1d_8a0d_db23e2a80ee4" Name="MainRU36.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU36.xml" />
-          </Component>
-          <Component Id="_efb461d7_07f4_471b_85c5_593c896bafe1" Guid="0c2292e2-5e5b-40c9-92fe-57b91ef6c8d7">
-            <File Id="_efb461d7_07f4_471b_85c5_593c896bafe1" Name="MainRU4.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU4.rtf" />
-          </Component>
-          <Component Id="_dfcadd62_62fd_4f80_84db_cb7a7379d13e" Guid="aac42326-7411-4d13-a4ab-966b7a79e61e">
-            <File Id="_dfcadd62_62fd_4f80_84db_cb7a7379d13e" Name="MainRU5.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU5.rtf" />
-          </Component>
-          <Component Id="_58448dff_7f67_4437_b520_733b86998c47" Guid="058e40b3-7632-4834-abcb-e5654a17d1c9">
-            <File Id="_58448dff_7f67_4437_b520_733b86998c47" Name="MainRU6.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU6.rtf" />
-          </Component>
-          <Component Id="_183b0aa7_476a_49d0_ae4f_73a948d1b2e0" Guid="9fa3c4d6-ceea-47ee-b526-1c09fc8ccb0f">
-            <File Id="_183b0aa7_476a_49d0_ae4f_73a948d1b2e0" Name="MainRU7.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU7.rtf" />
-          </Component>
-          <Component Id="_c22cb528_b8a4_4dec_be02_df5600ac2814" Guid="76da1684-ceea-4daf-a9d8-6bb82b0e2965">
-            <File Id="_c22cb528_b8a4_4dec_be02_df5600ac2814" Name="MainRU8.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU8.rtf" />
-          </Component>
-          <Component Id="_6c64dc71_6c49_4aad_8a4f_6ae67d1df26e" Guid="61d2a809-56da-4c94-8b55-2ec5b9fe8106">
-            <File Id="_6c64dc71_6c49_4aad_8a4f_6ae67d1df26e" Name="MainRU9.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\MainRU9.rtf" />
-          </Component>
-          <Component Id="_fc606f1c_5088_4542_a7dc_7422700f72a4" Guid="28eb58d1-b416-46bb-8141-069bbb38fe45">
-            <File Id="_fc606f1c_5088_4542_a7dc_7422700f72a4" Name="report.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Main\report.xml" />
-          </Component>
-          <Directory Name="Owner" Id="_5fab6ece_6fbc_4c93_b123_67a55824cd65">
-            <Component Id="_6bfbedb2_0403_4ebb_997b_c94ebaf4cf3a" Guid="192b11b2-0346-41a3-9563-2ec6b150fd52">
-              <File Id="_6bfbedb2_0403_4ebb_997b_c94ebaf4cf3a" Name="report.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\ReportRepository\Owner\report.xml" />
-            </Component>
-          </Directory>
         </Directory>
-        <Component Id="_33cf3994_c9c4_40a2_a084_04d3f82fa791" Guid="201d3268-6105-425d-85ca-538d8c008502">
-          <File Id="_33cf3994_c9c4_40a2_a084_04d3f82fa791" Name="AnnualExpendRAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\AnnualExpendRAChart.rtf" />
+      </Directory>
+      <Component Id="_c8976e6d_4b27_4b9d_950d_83f1218474da" Guid="8db18106-70f9-40a1-9ff3-7fe349bb0a71">
+        <File Id="_c8976e6d_4b27_4b9d_950d_83f1218474da" Name="AnnualExpendRAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\AnnualExpendRAChart.rtf" />
+      </Component>
+      <Component Id="_c6afe34b_b616_4c0b_9b99_783fa51b7091" Guid="b32ac2e7-c8dc-4355-96b3-c742ad7417f4">
+        <File Id="_c6afe34b_b616_4c0b_9b99_783fa51b7091" Name="AssessCompRAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\AssessCompRAChart.rtf" />
+      </Component>
+      <Component Id="_fd6237c6_b2a7_4362_bc07_cb8121b7c7f7" Guid="467f3da0-fdfe-4889-b534-d1632a79fc67">
+        <File Id="_fd6237c6_b2a7_4362_bc07_cb8121b7c7f7" Name="blankRUpage.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\blankRUpage.rtf" />
+      </Component>
+      <Component Id="_382f0d2b_602b_4a5e_bc9a_317ff04c3458" Guid="e2aaf61a-c42f-48df-a4f2-8990793ea1b3">
+        <File Id="_382f0d2b_602b_4a5e_bc9a_317ff04c3458" Name="CAFM_Chart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CAFM-Chart.rtf" />
+      </Component>
+      <Component Id="_7701482e_1d53_4cfa_9b92_7cbca37d8251" Guid="5df41df1-22ba-4bce-afa4-774983662141">
+        <File Id="_7701482e_1d53_4cfa_9b92_7cbca37d8251" Name="CatPieRAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CatPieRAChart.rtf" />
+      </Component>
+      <Component Id="_e497ff4b_ee16_4ca6_a226_f31b91f41236" Guid="f027d38d-167a-47da-b4e6-38559b4e6175">
+        <File Id="_e497ff4b_ee16_4ca6_a226_f31b91f41236" Name="CAvFF_RAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CAvFF_RAChart.rtf" />
+      </Component>
+      <Component Id="_5804fee1_a53d_4d09_a577_67e21ccac955" Guid="e735419e-6741-416c-843d-6f15eb82ae96">
+        <File Id="_5804fee1_a53d_4d09_a577_67e21ccac955" Name="CA_Disclosure.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CA_Disclosure.rtf" />
+      </Component>
+      <Component Id="_b6fed579_664a_413b_9775_0b66e011dd2e" Guid="bf55092c-81e7-4884-9d52-985755b4c964">
+        <File Id="_b6fed579_664a_413b_9775_0b66e011dd2e" Name="CFMChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CFMChart.rtf" />
+      </Component>
+      <Component Id="_18e36a35_2fed_40c0_9995_aeccb95b4c08" Guid="891ccf26-fce1-420f-9037-f48744b8e30f">
+        <File Id="_18e36a35_2fed_40c0_9995_aeccb95b4c08" Name="CMvFF_RAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CMvFF_RAChart.rtf" />
+      </Component>
+      <Component Id="_f546c01c_fe53_4d2e_b091_7d25b44da152" Guid="8e889edc-9da3-48e6-b36a-144d46ba20ff">
+        <File Id="_f546c01c_fe53_4d2e_b091_7d25b44da152" Name="cover_page.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\cover_page.xml" />
+      </Component>
+      <Component Id="_03edc2f0_493a_4032_adc5_b27d3aa66892" Guid="6ae28924-2cc2-491d-a862-0e73d1f4cdd1">
+        <File Id="_03edc2f0_493a_4032_adc5_b27d3aa66892" Name="EndBalanceRAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\EndBalanceRAChart.rtf" />
+      </Component>
+      <Component Id="_9f90c620_cccf_444b_bc17_5eff55323718" Guid="9641e960-992b-4027-98ea-e1f73fdcce4f">
+        <File Id="_9f90c620_cccf_444b_bc17_5eff55323718" Name="FMAssessmentComparisonChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\FMAssessmentComparisonChart.rtf" />
+      </Component>
+      <Component Id="_55c9c4e8_ae51_40a6_bd25_7943119b2f27" Guid="d9470218-33b1-4fe6-acdb-3a017910c54a">
+        <File Id="_55c9c4e8_ae51_40a6_bd25_7943119b2f27" Name="FMEndBalanceCompareChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\FMEndBalanceCompareChart.rtf" />
+      </Component>
+      <Component Id="_735d52b5_9ec6_4695_baf8_35c9dfc285aa" Guid="9f8ca58a-d4af-4751-bc82-10a250d0e357">
+        <File Id="_735d52b5_9ec6_4695_baf8_35c9dfc285aa" Name="PercentCompRAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\PercentCompRAChart.rtf" />
+      </Component>
+      <Component Id="_ddab719f_5dbf_4a24_b4e4_13347149874d" Guid="ae5084cb-a820-4da0-b8a9-fe0999c4afb0">
+        <File Id="_ddab719f_5dbf_4a24_b4e4_13347149874d" Name="PercentFundedChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\PercentFundedChart.rtf" />
+      </Component>
+      <Component Id="_b8e8908b_a32b_4739_b068_538b6ea2b66e" Guid="075db1c5-9623-4270-ac4d-a34a4dcad50e">
+        <File Id="_b8e8908b_a32b_4739_b068_538b6ea2b66e" Name="StockCommentsBacki.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\StockCommentsBacki.rtf" />
+      </Component>
+      <Component Id="_ec73ee3f_fbd2_4519_b943_c5d8b573ce92" Guid="5075087b-f536-4f5b-9630-9d3a2629d336">
+        <File Id="_ec73ee3f_fbd2_4519_b943_c5d8b573ce92" Name="TFMChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\TFMChart.rtf" />
+      </Component>
+      <Component Id="_ddb25036_996c_4629_9f67_081dd3452acc" Guid="bdfdbf6a-79bd-4401-bbe4-ca18901fe60c">
+        <File Id="_ddb25036_996c_4629_9f67_081dd3452acc" Name="TMvFF_RAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\TMvFF_RAChart.rtf" />
+      </Component>
+      <Directory Name="SampleReport" Id="_6654dc42_412b_40a9_961f_41fada427232">
+        <Component Id="_b08e7bde_3a9c_464a_9cd2_a54b72d92172" Guid="62f7e5fb-08ef-4f06-b3c7-e14487f94e1d">
+          <File Id="_b08e7bde_3a9c_464a_9cd2_a54b72d92172" Name="Alt_Cover.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Alt_Cover.rtf" />
         </Component>
-        <Component Id="_63963920_a040_47fd_a6d5_073946b76f33" Guid="2ca1d55e-461c-4e32-93fb-428b5dc4b8b9">
-          <File Id="_63963920_a040_47fd_a6d5_073946b76f33" Name="AssessCompRAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\AssessCompRAChart.rtf" />
+        <Component Id="_0da2f686_acfa_4383_b2ba_a10e32c4ebe7" Guid="eae42b1e-5d5f-4b91-ac4f-23c230193cac">
+          <File Id="_0da2f686_acfa_4383_b2ba_a10e32c4ebe7" Name="chart.log" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\chart.log" />
         </Component>
-        <Component Id="_73b22788_4263_4a58_8580_0c97fa3fa487" Guid="c920de09-ca68-4e63-9d05-348dfd4fd357">
-          <File Id="_73b22788_4263_4a58_8580_0c97fa3fa487" Name="blankRUpage.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\blankRUpage.rtf" />
+        <Component Id="_6332b813_b719_469b_b251_0739baececa1" Guid="daea333d-3c65-4954-9344-0f058db78aea">
+          <File Id="_6332b813_b719_469b_b251_0739baececa1" Name="Features_1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Features_1.rtf" />
         </Component>
-        <Component Id="_e862606b_cac0_450d_b726_6bf9f8f12e19" Guid="2f834a90-c460-46aa-8bf1-69f2c44d96a7">
-          <File Id="_e862606b_cac0_450d_b726_6bf9f8f12e19" Name="CAFM_Chart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CAFM-Chart.rtf" />
+        <Component Id="_ba24b65f_60a5_4fa2_9dca_da4fab3f8ad9" Guid="73274eff-c750-4c16-b3ca-6804935f9b1c">
+          <File Id="_ba24b65f_60a5_4fa2_9dca_da4fab3f8ad9" Name="Features_2.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Features_2.rtf" />
         </Component>
-        <Component Id="_c8192ee2_7a8a_4730_b8aa_a1e6a8db4991" Guid="6cce8987-1496-4606-ab63-a0ab62918abe">
-          <File Id="_c8192ee2_7a8a_4730_b8aa_a1e6a8db4991" Name="CatPieRAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CatPieRAChart.rtf" />
+        <Component Id="_fdda67da_9d5d_466b_adfa_e4789024d25d" Guid="d0fb7682-e90a-40b6-817d-0442b50b00c7">
+          <File Id="_fdda67da_9d5d_466b_adfa_e4789024d25d" Name="Features_3.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Features_3.rtf" />
         </Component>
-        <Component Id="_1fc9e45b_7eb9_40c2_b33b_13ef45415d78" Guid="4da5f8f3-c05c-4941-8eb6-282abb427a6f">
-          <File Id="_1fc9e45b_7eb9_40c2_b33b_13ef45415d78" Name="CAvFF_RAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CAvFF_RAChart.rtf" />
+        <Component Id="_18c45274_d217_432c_a1b3_1ef950a19d7d" Guid="e1c05a56-e403-4046-9162-232009d7bb25">
+          <File Id="_18c45274_d217_432c_a1b3_1ef950a19d7d" Name="ParsedRTF0" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\ParsedRTF0" />
         </Component>
-        <Component Id="_0b52c4ea_2ac1_459e_88ee_310e9115fdd6" Guid="5a0e5b45-2221-4bcc-8fd1-67fda1528400">
-          <File Id="_0b52c4ea_2ac1_459e_88ee_310e9115fdd6" Name="CA_Disclosure.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CA_Disclosure.rtf" />
+        <Component Id="_8669c526_d884_4e36_a5c7_14c416e0b45f" Guid="3d5cc3b6-8ea7-4f6b-84a0-64b559d02eab">
+          <File Id="_8669c526_d884_4e36_a5c7_14c416e0b45f" Name="Sample.ars" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Sample.ars" />
         </Component>
-        <Component Id="_67d5fca8_6e48_4be6_99c9_fde171894612" Guid="56956b6b-c871-48aa-a2f5-75a0b8786b9b">
-          <File Id="_67d5fca8_6e48_4be6_99c9_fde171894612" Name="CFMChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CFMChart.rtf" />
+        <Component Id="_c44a4aee_246d_4903_a052_ff929f6dbbe4" Guid="f58848c2-d907-4467-a93e-df8495c13a16">
+          <File Id="_c44a4aee_246d_4903_a052_ff929f6dbbe4" Name="Sample.log" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Sample.log" />
         </Component>
-        <Component Id="_fb5c5031_722b_4397_bf31_87c5cd0f7bc6" Guid="111635c0-7dd1-4f36-8bcf-5d948b1337d6">
-          <File Id="_fb5c5031_722b_4397_bf31_87c5cd0f7bc6" Name="CMvFF_RAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\CMvFF_RAChart.rtf" />
+        <Component Id="_ce9c23e5_9c29_4a32_ae0d_df3009ddeb29" Guid="e89f4065-1fd4-4beb-bfce-64c67c520765">
+          <File Id="_ce9c23e5_9c29_4a32_ae0d_df3009ddeb29" Name="Sample.mdb" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Sample.mdb" />
         </Component>
-        <Component Id="_a029de29_e510_4634_8f8e_f8a05377cd6b" Guid="f8638541-e6a1-4fe4-a6f0-490b0e9cb651">
-          <File Id="_a029de29_e510_4634_8f8e_f8a05377cd6b" Name="cover_page.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\cover_page.xml" />
+        <Component Id="_e51cdc5c_ba65_4237_b159_157c91178927" Guid="a985b0d0-6e78-4f98-b185-94707f04e704">
+          <File Id="_e51cdc5c_ba65_4237_b159_157c91178927" Name="SampleNU1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleNU1.rtf" />
         </Component>
-        <Component Id="_e3a3a68f_ff73_434a_9870_a8e46ca31e3a" Guid="f6ac2ef5-74ef-458e-9966-6f6601d679a8">
-          <File Id="_e3a3a68f_ff73_434a_9870_a8e46ca31e3a" Name="EndBalanceRAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\EndBalanceRAChart.rtf" />
+        <Component Id="_51519992_9a4f_438d_b6f9_2ed856866180" Guid="8d593721-86b7-41e5-bd04-e63af5b0f45d">
+          <File Id="_51519992_9a4f_438d_b6f9_2ed856866180" Name="SampleNU2.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleNU2.rtf" />
         </Component>
-        <Component Id="_47e044ac_2266_4053_a3ec_c8ee264b394f" Guid="24b0d833-f361-43e3-a067-4569264a50d8">
-          <File Id="_47e044ac_2266_4053_a3ec_c8ee264b394f" Name="FMAssessmentComparisonChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\FMAssessmentComparisonChart.rtf" />
+        <Component Id="_a4a7dc05_ac10_48c2_9d5a_bae12494d585" Guid="8b4b0e5d-3f86-479d-97de-6d7bf7cddbbe">
+          <File Id="_a4a7dc05_ac10_48c2_9d5a_bae12494d585" Name="SampleNU3.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleNU3.rtf" />
         </Component>
-        <Component Id="_70bc386e_e0a2_423d_8617_6020d3abace4" Guid="93b620ea-410b-490f-8f78-300de1ffbfb0">
-          <File Id="_70bc386e_e0a2_423d_8617_6020d3abace4" Name="FMEndBalanceCompareChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\FMEndBalanceCompareChart.rtf" />
+        <Component Id="_71518b40_bc5e_4cfa_878a_6946b7ed1693" Guid="583a7c3d-d640-4031-a585-a38832d40120">
+          <File Id="_71518b40_bc5e_4cfa_878a_6946b7ed1693" Name="SampleNU5.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleNU5.xml" />
         </Component>
-        <Component Id="_00c82e08_bb4e_4149_ae17_de9d06a8ce57" Guid="52b50ee0-6bcb-42c9-a481-514cc1ab6828">
-          <File Id="_00c82e08_bb4e_4149_ae17_de9d06a8ce57" Name="PercentCompRAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\PercentCompRAChart.rtf" />
+        <Component Id="_74b9ee97_3141_4f81_b30a_771661106714" Guid="7d6083fe-e7eb-472c-bc10-43c8e7434066">
+          <File Id="_74b9ee97_3141_4f81_b30a_771661106714" Name="SampleUP10.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP10.rtf" />
         </Component>
-        <Component Id="_ccd74185_9e82_4500_ae94_ae5c1af403ce" Guid="bc4d6ef8-be7b-404e-bcdf-c5f35cf7238e">
-          <File Id="_ccd74185_9e82_4500_ae94_ae5c1af403ce" Name="PercentFundedChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\PercentFundedChart.rtf" />
+        <Component Id="_78f28253_3943_4696_bd1e_190020c640e6" Guid="d82cae2b-68c4-4d66-80d2-32bf6e825793">
+          <File Id="_78f28253_3943_4696_bd1e_190020c640e6" Name="SampleUP11.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP11.rtf" />
         </Component>
-        <Component Id="_3be32238_d024_4bb6_a395_1c47b6fc79b8" Guid="1839aa12-985c-4081-adbb-0bea491ce96f">
-          <File Id="_3be32238_d024_4bb6_a395_1c47b6fc79b8" Name="StockCommentsBacki.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\StockCommentsBacki.rtf" />
+        <Component Id="_3094299d_5884_46ed_b63e_1b942b011eb7" Guid="efa39d2b-441b-43c8-bae9-09f081ffca8b">
+          <File Id="_3094299d_5884_46ed_b63e_1b942b011eb7" Name="SampleUP17.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP17.rtf" />
         </Component>
-        <Component Id="_125113f3_16d4_4a6a_96e9_1d7834ab1650" Guid="b7ede515-e6f1-4b73-ad27-dbb81c12bb50">
-          <File Id="_125113f3_16d4_4a6a_96e9_1d7834ab1650" Name="TFMChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\TFMChart.rtf" />
+        <Component Id="_09f46f9b_b54e_4123_bf98_fa2fd52a4d51" Guid="f5f0e591-22a4-4406-8a43-46081307400e">
+          <File Id="_09f46f9b_b54e_4123_bf98_fa2fd52a4d51" Name="SampleUP18.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP18.rtf" />
         </Component>
-        <Component Id="_a416ce01_9fef_4927_9645_7bd3d15bcf31" Guid="d8f87b95-08db-4b8f-a59c-e85762a02291">
-          <File Id="_a416ce01_9fef_4927_9645_7bd3d15bcf31" Name="TMvFF_RAChart.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\report_sections\TMvFF_RAChart.rtf" />
+        <Component Id="_eb8c49e3_a07b_4a81_918c_8f65521d40b1" Guid="efad03d7-ed07-4691-a19a-e1d5b6c04d77">
+          <File Id="_eb8c49e3_a07b_4a81_918c_8f65521d40b1" Name="SampleUP19.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP19.rtf" />
         </Component>
-        <Directory Name="SampleReport" Id="_501368e9_124c_43e4_98bd_e73be895724b">
-          <Component Id="_3460645c_225a_4298_a623_9d91d5c4cd49" Guid="0dc28189-f653-48c1-9cec-3ee089d47d18">
-            <File Id="_3460645c_225a_4298_a623_9d91d5c4cd49" Name="Alt_Cover.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Alt_Cover.rtf" />
+        <Component Id="_8719343e_1d45_417e_9f14_f195f47ca85c" Guid="0c62e46b-59b9-4095-968b-69bdd942dd8d">
+          <File Id="_8719343e_1d45_417e_9f14_f195f47ca85c" Name="SampleUP6.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP6.rtf" />
+        </Component>
+        <Component Id="_154d0cbb_e80b_4c60_87b4_656e6a5a22c3" Guid="c06b3895-fb2b-4885-a5c9-3e533f1b790d">
+          <File Id="_154d0cbb_e80b_4c60_87b4_656e6a5a22c3" Name="SampleUP8.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP8.rtf" />
+        </Component>
+        <Component Id="_d59a1889_a2c1_4c30_890e_df6392dc9087" Guid="db23c5e3-3594-4366-9fef-9111187fd1fb">
+          <File Id="_d59a1889_a2c1_4c30_890e_df6392dc9087" Name="SampleUP9.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP9.rtf" />
+        </Component>
+        <Component Id="_a4caa003_8617_4e8f_ab62_c0ded766c4bb" Guid="afc1ee06-812b-46bc-80a5-93c83e290329">
+          <File Id="_a4caa003_8617_4e8f_ab62_c0ded766c4bb" Name="TagFeatureExample.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\TagFeatureExample.rtf" />
+        </Component>
+        <Directory Name="Photos" Id="_d51f06e3_d330_4dfc_b9b0_36577e164f7e">
+          <Component Id="_a015d391_bc34_4b06_b60d_f84c0a8c29a5" Guid="ac1986a9-807f-48a9-a200-43aef2723061">
+            <File Id="_a015d391_bc34_4b06_b60d_f84c0a8c29a5" Name="L0025.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\L0025.jpg" />
           </Component>
-          <Component Id="_aff38087_6de6_4f16_8bc1_ba6bd95ac9ea" Guid="48768f1f-e4ce-4620-ac3b-aacc97282fcb">
-            <File Id="_aff38087_6de6_4f16_8bc1_ba6bd95ac9ea" Name="chart.log" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\chart.log" />
+          <Component Id="_b2220249_f6e7_4040_9f5c_ac9915d22d0d" Guid="1294e85a-3634-403a-9e93-932ca72831fa">
+            <File Id="_b2220249_f6e7_4040_9f5c_ac9915d22d0d" Name="L099.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\L099.jpg" />
           </Component>
-          <Component Id="_a3a4cb04_c27a_4d46_bd56_0ff46b378a82" Guid="c85afad7-5966-42fd-b5ba-5a61ada191a9">
-            <File Id="_a3a4cb04_c27a_4d46_bd56_0ff46b378a82" Name="Features_1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Features_1.rtf" />
+          <Component Id="_4e46d09b_d477_4c6e_96c2_5573f814e3cd" Guid="8f3de9ee-d7e1-4b1b-9eff-f77f2be7266f">
+            <File Id="_4e46d09b_d477_4c6e_96c2_5573f814e3cd" Name="P1080037.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080037.jpg" />
           </Component>
-          <Component Id="_a1cd6854_8b26_42b2_ad90_a24be46606f6" Guid="f29a0841-07c1-4171-b673-c7e09654a245">
-            <File Id="_a1cd6854_8b26_42b2_ad90_a24be46606f6" Name="Features_2.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Features_2.rtf" />
+          <Component Id="_c3601d73_5c23_45f3_9a57_f490077a16ca" Guid="953befda-0a9b-40ff-b6f2-77185bafd7e9">
+            <File Id="_c3601d73_5c23_45f3_9a57_f490077a16ca" Name="P1080062.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080062.jpg" />
           </Component>
-          <Component Id="_428a96fc_8a89_437b_b26b_c47770b746d3" Guid="5be68031-11b3-44c9-bd1c-ac98d052d80e">
-            <File Id="_428a96fc_8a89_437b_b26b_c47770b746d3" Name="Features_3.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Features_3.rtf" />
+          <Component Id="_a0fe4ca9_4e0b_415a_89ed_56bff45ba1b2" Guid="16ee3b4b-b2a7-4a62-8e30-66ce53ae5c62">
+            <File Id="_a0fe4ca9_4e0b_415a_89ed_56bff45ba1b2" Name="P1080065.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080065.jpg" />
           </Component>
-          <Component Id="_c5c39655_f460_4949_8f82_e916f10775ef" Guid="b0e38bce-428d-40a2-9cca-9e8a9f36754e">
-            <File Id="_c5c39655_f460_4949_8f82_e916f10775ef" Name="ParsedRTF0" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\ParsedRTF0" />
+          <Component Id="_f932fdc5_7d8f_4125_bc5f_709ec159a2cf" Guid="f84904ce-28a2-4c99-8f72-da5e4dd85734">
+            <File Id="_f932fdc5_7d8f_4125_bc5f_709ec159a2cf" Name="P1150199.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1150199.jpg" />
           </Component>
-          <Component Id="_bb55f7ac_4f9c_4d5a_a9b3_bffd095c4bd4" Guid="d19da6ee-4a8d-4f53-9a40-d60eeadb8467">
-            <File Id="_bb55f7ac_4f9c_4d5a_a9b3_bffd095c4bd4" Name="Sample.ars" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Sample.ars" />
+          <Component Id="_82e1e22d_3254_4f90_b1af_569c153cc6fd" Guid="f31ed0c7-df6b-489b-9254-53eccc90e25b">
+            <File Id="_82e1e22d_3254_4f90_b1af_569c153cc6fd" Name="P1160062.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1160062.jpg" />
           </Component>
-          <Component Id="_1826dbe7_ddbc_47b3_825b_fcbb772fda14" Guid="396a95eb-a6c9-4d46-a510-70f709f3046f">
-            <File Id="_1826dbe7_ddbc_47b3_825b_fcbb772fda14" Name="Sample.log" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Sample.log" />
+          <Component Id="_088a4dab_da3a_4c04_851b_95f51c7626e8" Guid="49d46c02-86ff-4a3b-a613-e8b6a373478f">
+            <File Id="_088a4dab_da3a_4c04_851b_95f51c7626e8" Name="P1160242.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1160242.jpg" />
           </Component>
-          <Component Id="_1aef9ea1_469c_4032_8486_db5047a52897" Guid="2d83d07b-1cba-46b9-ba14-27847a49d9dc">
-            <File Id="_1aef9ea1_469c_4032_8486_db5047a52897" Name="Sample.mdb" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Sample.mdb" />
+          <Component Id="_21c0aa35_51cd_47b8_9982_779ced7918ad" Guid="786e6cd6-6986-4b7e-a76b-e2263b60b270">
+            <File Id="_21c0aa35_51cd_47b8_9982_779ced7918ad" Name="P1170143.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1170143.jpg" />
           </Component>
-          <Component Id="_c88fef2a_1147_42c2_8c87_ff5ba34cb692" Guid="ad863202-98eb-4988-b94c-20d0f4367353">
-            <File Id="_c88fef2a_1147_42c2_8c87_ff5ba34cb692" Name="SampleNU1.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleNU1.rtf" />
+          <Component Id="_7b011567_6508_4383_89db_6e29d8f7cd3f" Guid="1d1a30ca-2d15-4f74-9878-957c303207fe">
+            <File Id="_7b011567_6508_4383_89db_6e29d8f7cd3f" Name="P3130097.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P3130097.jpg" />
           </Component>
-          <Component Id="_9e64f5eb_916d_48d7_985e_a1e9eb421983" Guid="47f271c3-8e0e-4cb5-928c-84fac697688c">
-            <File Id="_9e64f5eb_916d_48d7_985e_a1e9eb421983" Name="SampleNU2.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleNU2.rtf" />
+          <Component Id="_8c88a543_571b_436d_af12_44e660e79d4a" Guid="de2d286c-c0d5-468f-8855-4ac31b0cbdc2">
+            <File Id="_8c88a543_571b_436d_af12_44e660e79d4a" Name="P4240161.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P4240161.jpg" />
           </Component>
-          <Component Id="_0e104c1f_c4ce_49b8_a6b8_6c750ae79205" Guid="64d3d1c3-4352-4aa6-bf6a-62a2e5b2e150">
-            <File Id="_0e104c1f_c4ce_49b8_a6b8_6c750ae79205" Name="SampleNU3.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleNU3.rtf" />
+          <Component Id="_d2a48b05_8f71_43bc_87da_c461345453bc" Guid="8ed9347f-7529-4d41-af0d-d53bb59c3c6f">
+            <File Id="_d2a48b05_8f71_43bc_87da_c461345453bc" Name="P8230051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P8230051.jpg" />
           </Component>
-          <Component Id="_6f542f45_ec1d_4150_9f16_005b328befc0" Guid="6d93fccd-77be-40a3-9b0a-1e8c7b4f83e0">
-            <File Id="_6f542f45_ec1d_4150_9f16_005b328befc0" Name="SampleNU5.xml" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleNU5.xml" />
+          <Component Id="_3defe7d0_e5b6_41ee_9030_b151a9d0a10d" Guid="4260e20d-a208-4adb-8135-50e5f470ca7d">
+            <File Id="_3defe7d0_e5b6_41ee_9030_b151a9d0a10d" Name="Pa010063.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa010063.jpg" />
           </Component>
-          <Component Id="_51d481d7_1616_4f4a_89bf_dac63095ee95" Guid="62ff7c39-8bcc-49d5-9c55-4107827ceada">
-            <File Id="_51d481d7_1616_4f4a_89bf_dac63095ee95" Name="SampleUP10.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP10.rtf" />
+          <Component Id="_8288ce8b_e8e0_46b1_a4c6_8ebd1823d9cc" Guid="a41c96d2-fb2c-4433-b4cc-fbcf7ca3f4b9">
+            <File Id="_8288ce8b_e8e0_46b1_a4c6_8ebd1823d9cc" Name="Pa010071.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa010071.jpg" />
           </Component>
-          <Component Id="_fa6de4e0_5339_4d46_85f0_b1c80b3ab208" Guid="e2f77603-a1fc-494d-b86c-3a0321642114">
-            <File Id="_fa6de4e0_5339_4d46_85f0_b1c80b3ab208" Name="SampleUP11.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP11.rtf" />
+          <Component Id="_8a86d30a_269b_4d62_a412_fa53e5cc78da" Guid="08f375bc-8dd1-49ef-b292-e0fb1f8bb08a">
+            <File Id="_8a86d30a_269b_4d62_a412_fa53e5cc78da" Name="Pa110034.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa110034.jpg" />
           </Component>
-          <Component Id="_b150fde7_34fa_4290_a124_22938470c953" Guid="794371f0-5079-40d4-8a00-df3a58e98332">
-            <File Id="_b150fde7_34fa_4290_a124_22938470c953" Name="SampleUP17.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP17.rtf" />
+          <Component Id="_d44ce6c0_158e_4b38_aa52_68e848b36851" Guid="cd11bc42-60fe-4a17-97b5-b45c9a5621e0">
+            <File Id="_d44ce6c0_158e_4b38_aa52_68e848b36851" Name="Pa120051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa120051.jpg" />
           </Component>
-          <Component Id="_5e449a05_4926_4575_9492_a17cfcaa4138" Guid="4b2fd0ba-b9ac-4570-9287-75c57029cd06">
-            <File Id="_5e449a05_4926_4575_9492_a17cfcaa4138" Name="SampleUP18.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP18.rtf" />
+          <Component Id="_735a8dea_76d9_4761_95fb_41bbcd295782" Guid="e4a9649c-59da-4ee5-bf59-901a7d520dec">
+            <File Id="_735a8dea_76d9_4761_95fb_41bbcd295782" Name="Pa120077.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa120077.jpg" />
           </Component>
-          <Component Id="_ace25a21_0b21_4f8e_ad60_3d673ee345ab" Guid="9a0c2b5e-46e2-4a60-ac51-61610c99ac52">
-            <File Id="_ace25a21_0b21_4f8e_ad60_3d673ee345ab" Name="SampleUP19.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP19.rtf" />
+          <Component Id="_4b6308fc_a63c_4238_9c9a_78a4cc95505d" Guid="8fffd65f-78b3-43a2-8a05-767bdee52182">
+            <File Id="_4b6308fc_a63c_4238_9c9a_78a4cc95505d" Name="Pb120037.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb120037.jpg" />
           </Component>
-          <Component Id="_3d9ae59e_b90e_40fa_bd86_fc7f3e41cf50" Guid="b701a568-9c78-4af3-91bc-8a1d7d3c2de9">
-            <File Id="_3d9ae59e_b90e_40fa_bd86_fc7f3e41cf50" Name="SampleUP6.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP6.rtf" />
+          <Component Id="_0444d514_3e5a_41b1_be7b_944edcd0288d" Guid="30cea9a0-e067-4e8e-b778-07db4d930801">
+            <File Id="_0444d514_3e5a_41b1_be7b_944edcd0288d" Name="Pb130113.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb130113.jpg" />
           </Component>
-          <Component Id="_71cd8755_0b31_40d4_a993_ed9ef751e9a4" Guid="20ee5b51-51ee-47c4-8e69-c59bfa5d69cc">
-            <File Id="_71cd8755_0b31_40d4_a993_ed9ef751e9a4" Name="SampleUP8.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP8.rtf" />
+          <Component Id="_981da769_47da_44dc_af15_ab51d4c1bb2c" Guid="d31f7e21-4ff6-49e3-8f4f-06a3d8356bcd">
+            <File Id="_981da769_47da_44dc_af15_ab51d4c1bb2c" Name="Pb200027.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb200027.jpg" />
           </Component>
-          <Component Id="_35e29239_2c8d_471f_8b1c_6073db31fc2a" Guid="927d0f37-6dab-44cf-99aa-1f8693ca675a">
-            <File Id="_35e29239_2c8d_471f_8b1c_6073db31fc2a" Name="SampleUP9.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\SampleUP9.rtf" />
+          <Component Id="_bdcb4d60_ed80_446d_90cc_7b7439d7ac36" Guid="b8046581-4a71-40ec-8431-df318461b69f">
+            <File Id="_bdcb4d60_ed80_446d_90cc_7b7439d7ac36" Name="Pb200052.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb200052.jpg" />
           </Component>
-          <Component Id="_556db89d_b494_4c4f_b6b9_0de60f14a006" Guid="76a514ae-9b5c-4d3c-86c8-68bfa5c97306">
-            <File Id="_556db89d_b494_4c4f_b6b9_0de60f14a006" Name="TagFeatureExample.rtf" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\TagFeatureExample.rtf" />
+          <Component Id="_6d5c7919_a165_4458_8629_70f28c93e495" Guid="9626f037-a29b-4dee-9ac0-18ed0bccbe0c">
+            <File Id="_6d5c7919_a165_4458_8629_70f28c93e495" Name="Pb220187.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb220187.jpg" />
           </Component>
-          <Directory Name="Photos" Id="_478cd23f_dd37_4823_b039_71a1d57e7360">
-            <Component Id="_68dc78a3_24a7_4214_b33e_b668ef76db3c" Guid="05465c24-3dda-4bab-b36f-9ed97dd16e01">
-              <File Id="_68dc78a3_24a7_4214_b33e_b668ef76db3c" Name="L0025.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\L0025.jpg" />
+          <Component Id="_d225b06a_0240_405e_8fbc_95628970e5fc" Guid="925d99f0-9687-4dc5-bb5f-7cdc31484f84">
+            <File Id="_d225b06a_0240_405e_8fbc_95628970e5fc" Name="Pb290028.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290028.jpg" />
+          </Component>
+          <Component Id="_0c7a0c02_2c25_49b9_8d37_937b0fd572dd" Guid="285a00a6-e474-42d9-9e6b-1cdd7447943a">
+            <File Id="_0c7a0c02_2c25_49b9_8d37_937b0fd572dd" Name="Pb290029.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290029.jpg" />
+          </Component>
+          <Component Id="_0ce78a67_123e_4474_aeaf_f92fa230ad1a" Guid="34ecce40-af56-4bfb-9ca3-6c14373aeea4">
+            <File Id="_0ce78a67_123e_4474_aeaf_f92fa230ad1a" Name="Pb290051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290051.jpg" />
+          </Component>
+          <Directory Name="Photos" Id="_94a02606_dbd4_4b7e_904d_1ff19fe458cd">
+            <Component Id="_dea7f6e6_d349_432e_bd5e_e2562c2b8775" Guid="6a85f550-ba18-422d-964e-7740d0f6c14b">
+              <File Id="_dea7f6e6_d349_432e_bd5e_e2562c2b8775" Name="L0025.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\L0025.jpg" />
             </Component>
-            <Component Id="_b4cabd88_b113_4c5e_aac8_defb21daf623" Guid="8cdd04cf-5edf-42a6-a3e2-de60deeca4cc">
-              <File Id="_b4cabd88_b113_4c5e_aac8_defb21daf623" Name="L099.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\L099.jpg" />
+            <Component Id="_48fc87dc_3967_4191_bc5e_b62542543581" Guid="8ba8f2e7-03ae-4941-b8dc-1e0c301a1848">
+              <File Id="_48fc87dc_3967_4191_bc5e_b62542543581" Name="L099.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\L099.jpg" />
             </Component>
-            <Component Id="_d047350a_6cf2_4471_8161_00063a2c3960" Guid="d08885d6-795f-4f57-90f2-9fe275d0142b">
-              <File Id="_d047350a_6cf2_4471_8161_00063a2c3960" Name="P1080037.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080037.jpg" />
+            <Component Id="_a3fd7685_aa0a_4f67_b077_35ca1cc43443" Guid="083e5fba-eef0-46bf-92dc-75027646c356">
+              <File Id="_a3fd7685_aa0a_4f67_b077_35ca1cc43443" Name="P1080037.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080037.jpg" />
             </Component>
-            <Component Id="_90736551_9a52_4032_b64e_7bfe7f593f9c" Guid="e247d69c-b5f8-4d82-8aa3-7d9f539cbf1e">
-              <File Id="_90736551_9a52_4032_b64e_7bfe7f593f9c" Name="P1080062.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080062.jpg" />
+            <Component Id="_eefe4056_0738_4450_a815_f5bfa7c5e624" Guid="0eeffd19-3110-4e68-b55f-164e8e5f58a3">
+              <File Id="_eefe4056_0738_4450_a815_f5bfa7c5e624" Name="P1080062.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080062.jpg" />
             </Component>
-            <Component Id="_47e94ff0_f0f2_4e9e_98e3_c34a6705cc4b" Guid="8c4d0e63-68ad-4fdf-8461-4c2e4a8417b6">
-              <File Id="_47e94ff0_f0f2_4e9e_98e3_c34a6705cc4b" Name="P1080065.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080065.jpg" />
+            <Component Id="_5e90099e_aad2_4547_a07d_7dbe187ca061" Guid="a04cd369-70d3-4e61-864b-29f712d51641">
+              <File Id="_5e90099e_aad2_4547_a07d_7dbe187ca061" Name="P1080065.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080065.jpg" />
             </Component>
-            <Component Id="_95ef1486_f438_44d6_a884_8c40d62e6996" Guid="d302071b-1d34-441c-8275-456bd33d483c">
-              <File Id="_95ef1486_f438_44d6_a884_8c40d62e6996" Name="P1150199.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1150199.jpg" />
+            <Component Id="_60a56da3_4422_4561_98a7_bfc7e6d7f306" Guid="b358b982-216c-4aad-a74e-11a1f75c38e0">
+              <File Id="_60a56da3_4422_4561_98a7_bfc7e6d7f306" Name="P1150199.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1150199.jpg" />
             </Component>
-            <Component Id="_6f4d8c3c_3d74_41a0_8421_723d7e226ebc" Guid="b43673b1-ffe2-4df7-96a1-e21a23e13110">
-              <File Id="_6f4d8c3c_3d74_41a0_8421_723d7e226ebc" Name="P1160062.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1160062.jpg" />
+            <Component Id="_244444cb_6519_403c_8335_ef0807a7f3ed" Guid="d651ce9e-81b4-4183-919d-4beb20e00783">
+              <File Id="_244444cb_6519_403c_8335_ef0807a7f3ed" Name="P1160062.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1160062.jpg" />
             </Component>
-            <Component Id="_fc191593_3342_482f_93f0_b8d73d8f6efb" Guid="2233fa3b-dc81-4131-aac3-18d858332be1">
-              <File Id="_fc191593_3342_482f_93f0_b8d73d8f6efb" Name="P1160242.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1160242.jpg" />
+            <Component Id="_5b74f5f5_35f8_47ad_8713_0c05f535f183" Guid="ee9d965f-40e4-422d-82b7-5ee2c4822541">
+              <File Id="_5b74f5f5_35f8_47ad_8713_0c05f535f183" Name="P1160242.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1160242.jpg" />
             </Component>
-            <Component Id="_6bd822e2_5a38_4df6_8d67_16fbce664b62" Guid="22c35852-bbeb-45d5-b632-fdd4a895dd5c">
-              <File Id="_6bd822e2_5a38_4df6_8d67_16fbce664b62" Name="P1170143.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1170143.jpg" />
+            <Component Id="_b92572dd_9f94_42c3_8230_f373883e5db4" Guid="13050f3b-2e3a-45ae-b45e-4cb9a92f8abc">
+              <File Id="_b92572dd_9f94_42c3_8230_f373883e5db4" Name="P1170143.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1170143.jpg" />
             </Component>
-            <Component Id="_7a139105_e534_4069_ba6c_e414e1373791" Guid="a861776b-634b-4508-a2cb-22fb47907789">
-              <File Id="_7a139105_e534_4069_ba6c_e414e1373791" Name="P3130097.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P3130097.jpg" />
+            <Component Id="_cce847b6_42bb_4bcc_ae30_da1426b0ae4f" Guid="65e92101-b687-4808-a0b9-5eec176f83ba">
+              <File Id="_cce847b6_42bb_4bcc_ae30_da1426b0ae4f" Name="P3130097.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P3130097.jpg" />
             </Component>
-            <Component Id="_c6ed7d3d_5a16_4b9a_8388_18a3ffb6d093" Guid="026fe088-b683-41a6-9048-5dbac1f3b9dd">
-              <File Id="_c6ed7d3d_5a16_4b9a_8388_18a3ffb6d093" Name="P4240161.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P4240161.jpg" />
+            <Component Id="_463d234e_74cc_48de_b5bb_5bafe78a7f95" Guid="cf7cc062-7949-459c-bdcf-bb9d0e9570b2">
+              <File Id="_463d234e_74cc_48de_b5bb_5bafe78a7f95" Name="P4240161.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P4240161.jpg" />
             </Component>
-            <Component Id="_4c977968_b67b_45c1_a8e2_a15666672e35" Guid="52408b36-9c78-47c7-b11d-06da2982d35b">
-              <File Id="_4c977968_b67b_45c1_a8e2_a15666672e35" Name="P8230051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P8230051.jpg" />
+            <Component Id="_c4232c54_f3bb_498f_9ae2_824c3592d213" Guid="2a8d5bdf-1da6-4eca-aecd-a42243b12ef2">
+              <File Id="_c4232c54_f3bb_498f_9ae2_824c3592d213" Name="P8230051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P8230051.jpg" />
             </Component>
-            <Component Id="_6dd5981b_1fa0_4d55_8c70_012fe37038c1" Guid="a4222ae7-f98e-437d-bbc3-135da75c4c16">
-              <File Id="_6dd5981b_1fa0_4d55_8c70_012fe37038c1" Name="Pa010063.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa010063.jpg" />
+            <Component Id="_8e7588be_e651_4237_8265_14a2bd694722" Guid="f4c64260-a746-4178-8ca0-35a00d03f1ab">
+              <File Id="_8e7588be_e651_4237_8265_14a2bd694722" Name="Pa010063.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa010063.jpg" />
             </Component>
-            <Component Id="_ff50a8fb_edbf_4fc6_95af_03685c890c42" Guid="9c8d0006-39c2-4ee9-bfe2-f5f7ee50d08b">
-              <File Id="_ff50a8fb_edbf_4fc6_95af_03685c890c42" Name="Pa010071.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa010071.jpg" />
+            <Component Id="_e66e49fa_7491_48bf_a408_65fe39ab012f" Guid="61f3d41b-cd06-478a-b271-f0a442553815">
+              <File Id="_e66e49fa_7491_48bf_a408_65fe39ab012f" Name="Pa010071.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa010071.jpg" />
             </Component>
-            <Component Id="_311dadb0_2627_4963_9552_36b8041fe41d" Guid="c6e0e3ff-a4f9-4014-93b1-efa0b6203d6b">
-              <File Id="_311dadb0_2627_4963_9552_36b8041fe41d" Name="Pa110034.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa110034.jpg" />
+            <Component Id="_5d3ed925_2aff_4842_b24f_156bb9087d16" Guid="46983562-219f-4a2d-bdba-34f72faf2afa">
+              <File Id="_5d3ed925_2aff_4842_b24f_156bb9087d16" Name="Pa110034.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa110034.jpg" />
             </Component>
-            <Component Id="_8f4e7adc_2268_4c94_9ba9_4fa5d657b56c" Guid="29cc7ab7-1b38-4444-9ac9-9850e52ba9be">
-              <File Id="_8f4e7adc_2268_4c94_9ba9_4fa5d657b56c" Name="Pa120051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa120051.jpg" />
+            <Component Id="_afcb5109_9bea_4f13_bd14_e1f9d0625898" Guid="b29823ec-c710-4183-b428-ba885132a5c4">
+              <File Id="_afcb5109_9bea_4f13_bd14_e1f9d0625898" Name="Pa120051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa120051.jpg" />
             </Component>
-            <Component Id="_f1b98df0_97ac_4e10_b5fa_c75a553e6977" Guid="5ca701c5-124f-48ef-b6cd-5a0a58829231">
-              <File Id="_f1b98df0_97ac_4e10_b5fa_c75a553e6977" Name="Pa120077.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa120077.jpg" />
+            <Component Id="_ddf56f4d_fb14_4f90_91ee_2185028ed391" Guid="2f2fb13d-1342-4336-932c-1daae38860ce">
+              <File Id="_ddf56f4d_fb14_4f90_91ee_2185028ed391" Name="Pa120077.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa120077.jpg" />
             </Component>
-            <Component Id="_75d7a214_b2a0_4c29_b803_17a58255d957" Guid="1f642d94-166d-477b-b220-511dcffcf02a">
-              <File Id="_75d7a214_b2a0_4c29_b803_17a58255d957" Name="Pb120037.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb120037.jpg" />
+            <Component Id="_5bb453ae_932d_4316_ad8e_87d8362ce6ad" Guid="dddbf415-705a-4e05-bc06-256c08eb4378">
+              <File Id="_5bb453ae_932d_4316_ad8e_87d8362ce6ad" Name="Pb120037.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb120037.jpg" />
             </Component>
-            <Component Id="_43bee111_dddf_48c3_9f5f_83058f6ab856" Guid="0f43898e-4913-4b04-adc0-6a757ae03c1d">
-              <File Id="_43bee111_dddf_48c3_9f5f_83058f6ab856" Name="Pb130113.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb130113.jpg" />
+            <Component Id="_8f1107b3_bf59_4b77_9339_945c02ddf841" Guid="7f7de8b0-60fd-4b98-8e75-c112c9e778e2">
+              <File Id="_8f1107b3_bf59_4b77_9339_945c02ddf841" Name="Pb130113.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb130113.jpg" />
             </Component>
-            <Component Id="_6990ea9d_b103_4db9_ad30_a5acccae5565" Guid="3f13a899-2a7d-4da7-96a5-69589d36921b">
-              <File Id="_6990ea9d_b103_4db9_ad30_a5acccae5565" Name="Pb200027.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb200027.jpg" />
+            <Component Id="_2b2d7261_986c_4867_9c90_558fc897ddda" Guid="1c6dc161-3256-457e-9cb5-120934d146e8">
+              <File Id="_2b2d7261_986c_4867_9c90_558fc897ddda" Name="Pb200027.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb200027.jpg" />
             </Component>
-            <Component Id="_0ec21347_dcc3_4dcf_83f3_000a494934de" Guid="e5714ec9-123c-4c43-bcf4-6b3e9b361501">
-              <File Id="_0ec21347_dcc3_4dcf_83f3_000a494934de" Name="Pb200052.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb200052.jpg" />
+            <Component Id="_73fee389_bf92_4568_ac69_3589188e2e0e" Guid="c858f938-939f-4b80-bcb4-a492bb2e0ee9">
+              <File Id="_73fee389_bf92_4568_ac69_3589188e2e0e" Name="Pb200052.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb200052.jpg" />
             </Component>
-            <Component Id="_97bab1cd_5640_466f_ba85_de541810c6d1" Guid="ee32aad7-7575-423d-8300-556d363ea9f7">
-              <File Id="_97bab1cd_5640_466f_ba85_de541810c6d1" Name="Pb220187.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb220187.jpg" />
+            <Component Id="_5fa6c6fb_cbf3_418b_9157_f768f24bca70" Guid="6037b089-fcb3-4723-9682-adaab8e15a62">
+              <File Id="_5fa6c6fb_cbf3_418b_9157_f768f24bca70" Name="Pb220187.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb220187.jpg" />
             </Component>
-            <Component Id="_59733ddf_7771_4eb9_a71c_a6f555925b42" Guid="51704f9d-5e91-4059-8d78-3cf05dc513d9">
-              <File Id="_59733ddf_7771_4eb9_a71c_a6f555925b42" Name="Pb290028.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290028.jpg" />
+            <Component Id="_89976ac1_b773_42e5_a660_77be1acdac16" Guid="47892b78-fa0e-4410-af9c-f7c8981e733f">
+              <File Id="_89976ac1_b773_42e5_a660_77be1acdac16" Name="Pb290028.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290028.jpg" />
             </Component>
-            <Component Id="_780b66b0_0e00_4380_948f_8fa0f8c5c879" Guid="fb087eb9-885b-4916-bbd1-4a37bf421a2c">
-              <File Id="_780b66b0_0e00_4380_948f_8fa0f8c5c879" Name="Pb290029.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290029.jpg" />
+            <Component Id="_8baf74ad_6e4a_48e6_a247_de2b7f50cb1a" Guid="1e57be47-5e8d-4701-ac55-f9e74a04ad7c">
+              <File Id="_8baf74ad_6e4a_48e6_a247_de2b7f50cb1a" Name="Pb290029.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290029.jpg" />
             </Component>
-            <Component Id="_c551b4c7_4190_4f77_9243_17c771fe4976" Guid="f8470b24-36b4-4c2d-a8b9-2739a3f7f075">
-              <File Id="_c551b4c7_4190_4f77_9243_17c771fe4976" Name="Pb290051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290051.jpg" />
+            <Component Id="_cb634e4d_2156_4817_a4b3_32b3ff6bfc66" Guid="caa82f9c-a014-482a-8135-c95706b6f460">
+              <File Id="_cb634e4d_2156_4817_a4b3_32b3ff6bfc66" Name="Pb290051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290051.jpg" />
             </Component>
           </Directory>
-          <Component Id="_3f23f0e5_cac3_4b7e_bae8_5343c7a9af7d" Guid="b0d5765f-bf03-48d5-a7e8-18eabbdaf343">
-            <File Id="_3f23f0e5_cac3_4b7e_bae8_5343c7a9af7d" Name="L0025.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\L0025.jpg" />
-          </Component>
-          <Component Id="_31fc84e3_10c9_4e47_9543_c80888bf03d9" Guid="ba712e31-0e6c-4dc3-834b-f776da7f6e2f">
-            <File Id="_31fc84e3_10c9_4e47_9543_c80888bf03d9" Name="L099.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\L099.jpg" />
-          </Component>
-          <Component Id="_17a8ac36_a052_4239_a6b7_02c7c71d43b2" Guid="703fd6fe-3ac8-4e43-bccb-b8bc01bbae0c">
-            <File Id="_17a8ac36_a052_4239_a6b7_02c7c71d43b2" Name="P1080037.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080037.jpg" />
-          </Component>
-          <Component Id="_e2417064_c91d_4c44_ae3a_d1f47317f02f" Guid="faefffb6-7dda-466a-be08-4af5ae7e2189">
-            <File Id="_e2417064_c91d_4c44_ae3a_d1f47317f02f" Name="P1080062.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080062.jpg" />
-          </Component>
-          <Component Id="_23b452c2_7802_4d99_b9fe_4535e9cddcef" Guid="5e67d8b2-b729-44bc-926c-c175eb104070">
-            <File Id="_23b452c2_7802_4d99_b9fe_4535e9cddcef" Name="P1080065.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1080065.jpg" />
-          </Component>
-          <Component Id="_e505da0b_8df4_46e1_b005_66baecf179ed" Guid="9ffc7f37-3acf-41e1-9d0c-41f1710e29b6">
-            <File Id="_e505da0b_8df4_46e1_b005_66baecf179ed" Name="P1150199.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1150199.jpg" />
-          </Component>
-          <Component Id="_7d4d99cd_a4c3_4224_ac00_86befdc86678" Guid="c3e7de87-e673-463e-b037-a3342c4444e1">
-            <File Id="_7d4d99cd_a4c3_4224_ac00_86befdc86678" Name="P1160062.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1160062.jpg" />
-          </Component>
-          <Component Id="_ab72a562_0f20_4ad2_9bd6_ded3fb03cbc7" Guid="dda62d00-41a6-4543-8f00-2b37993ebae3">
-            <File Id="_ab72a562_0f20_4ad2_9bd6_ded3fb03cbc7" Name="P1160242.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1160242.jpg" />
-          </Component>
-          <Component Id="_73deffd6_ba54_4c71_90f2_fc72181d9f99" Guid="ef6f1a98-18c0-46fa-bcc3-cdbf8fc71a8d">
-            <File Id="_73deffd6_ba54_4c71_90f2_fc72181d9f99" Name="P1170143.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P1170143.jpg" />
-          </Component>
-          <Component Id="_9d29ccbe_bd04_4433_8298_a78fdc31e33f" Guid="cfc08f54-9ddb-4af1-b7ee-d446cbeae98f">
-            <File Id="_9d29ccbe_bd04_4433_8298_a78fdc31e33f" Name="P3130097.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P3130097.jpg" />
-          </Component>
-          <Component Id="_0ce12966_d987_4a71_ae25_bdcc8e27cf0f" Guid="bc9e64eb-15bf-4dca-ab86-5d1ff86c1350">
-            <File Id="_0ce12966_d987_4a71_ae25_bdcc8e27cf0f" Name="P4240161.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P4240161.jpg" />
-          </Component>
-          <Component Id="_2213a19a_ce89_48d8_b31b_69d9a551a4e2" Guid="9b08f3e5-4212-43f8-b9c5-b247bc533ae1">
-            <File Id="_2213a19a_ce89_48d8_b31b_69d9a551a4e2" Name="P8230051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\P8230051.jpg" />
-          </Component>
-          <Component Id="_c74cadbd_c62a_49c4_abc9_5146cc5ada52" Guid="f4f22ad7-4937-49b6-ad32-91a8009322a8">
-            <File Id="_c74cadbd_c62a_49c4_abc9_5146cc5ada52" Name="Pa010063.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa010063.jpg" />
-          </Component>
-          <Component Id="_7674667a_8a7b_4c77_b126_6a2cd392409f" Guid="3dc4a96c-48c3-45de-920e-2f044310f316">
-            <File Id="_7674667a_8a7b_4c77_b126_6a2cd392409f" Name="Pa010071.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa010071.jpg" />
-          </Component>
-          <Component Id="_5c6f520b_25fd_4f9b_9f5a_a0d4fcae7217" Guid="5c839495-46de-4cd7-97e5-ea1d0a4d6230">
-            <File Id="_5c6f520b_25fd_4f9b_9f5a_a0d4fcae7217" Name="Pa110034.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa110034.jpg" />
-          </Component>
-          <Component Id="_c6fb4df9_f546_47ae_b7de_8b9b44b02183" Guid="776d029a-e434-4d1b-9e66-4481156d5c78">
-            <File Id="_c6fb4df9_f546_47ae_b7de_8b9b44b02183" Name="Pa120051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa120051.jpg" />
-          </Component>
-          <Component Id="_bde947e5_c5d2_4119_9dcd_eb820058510f" Guid="ef29df24-bb72-43a1-8b2c-fa06024353e0">
-            <File Id="_bde947e5_c5d2_4119_9dcd_eb820058510f" Name="Pa120077.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pa120077.jpg" />
-          </Component>
-          <Component Id="_f1120a44_21c5_4ae3_96c7_1c62f24f059b" Guid="dd885a38-ec3b-4616-9588-fe07067d50a2">
-            <File Id="_f1120a44_21c5_4ae3_96c7_1c62f24f059b" Name="Pb120037.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb120037.jpg" />
-          </Component>
-          <Component Id="_9aefa74d_4630_4552_a2f0_e1d8eabdb565" Guid="1735cc0a-5932-41fe-8adb-87ed063bc5d0">
-            <File Id="_9aefa74d_4630_4552_a2f0_e1d8eabdb565" Name="Pb130113.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb130113.jpg" />
-          </Component>
-          <Component Id="_5375da64_dc23_4103_a589_ebaf1b558ff0" Guid="b6a20850-47e7-45b7-a8ae-6896c58a7661">
-            <File Id="_5375da64_dc23_4103_a589_ebaf1b558ff0" Name="Pb200027.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb200027.jpg" />
-          </Component>
-          <Component Id="_77a477d2_6da5_4b1f_ad39_5f54376e334b" Guid="3a822b42-6b12-446d-8915-019d2e7c2368">
-            <File Id="_77a477d2_6da5_4b1f_ad39_5f54376e334b" Name="Pb200052.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb200052.jpg" />
-          </Component>
-          <Component Id="_9bc89da0_7dff_4e8e_93e3_62c3a61ee5eb" Guid="3a3ffd35-f612-4a18-bdfa-b04d835f2a91">
-            <File Id="_9bc89da0_7dff_4e8e_93e3_62c3a61ee5eb" Name="Pb220187.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb220187.jpg" />
-          </Component>
-          <Component Id="_c20d2e5c_913e_4bbe_86f5_4f91acb4ae81" Guid="a69ba7bf-c086-445c-b234-0d1282b2dfbb">
-            <File Id="_c20d2e5c_913e_4bbe_86f5_4f91acb4ae81" Name="Pb290028.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290028.jpg" />
-          </Component>
-          <Component Id="_d249a630_675d_4981_a60e_3ed0a505ff97" Guid="5cb4206a-7694-4c9e-8349-ab81b7367b67">
-            <File Id="_d249a630_675d_4981_a60e_3ed0a505ff97" Name="Pb290029.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290029.jpg" />
-          </Component>
-          <Component Id="_c979395a_e1cf_4269_be59_026da0c7b8e3" Guid="fd1fa508-f650-42e0-b614-399ead3528d1">
-            <File Id="_c979395a_e1cf_4269_be59_026da0c7b8e3" Name="Pb290051.jpg" KeyPath="yes" DiskId="1" Source="C:\cpp\ReserveAnalyst_142\Program\User\SampleReport\Photos\Pb290051.jpg" />
-          </Component>
         </Directory>
       </Directory>
     </Directory>
   </DirectoryRef>
   <Feature Id="MainApplication" Level="1">
-    <ComponentRef Id="_dafc159b_3b1f_46a0_9e58_2aefa58a3b33" />
-    <ComponentRef Id="_6b2d8336_fffb_4eb4_b17e_4478c34e1e24" />
-    <ComponentRef Id="_43b1c3c8_7d31_4e99_95f0_2f970b4e703a" />
-    <ComponentRef Id="_68ebaf79_6415_4581_a4d4_0819b66d955a" />
-    <ComponentRef Id="_226cfad0_f197_4cb1_9917_76ebcdba1459" />
-    <ComponentRef Id="_f2086149_9e1b_403a_b944_9e51205d600e" />
-    <ComponentRef Id="_d0a46ac7_62d8_4b8c_beb6_42814e1e0881" />
-    <ComponentRef Id="_547a0aba_b546_414b_93f6_ecf972486bfe" />
-    <ComponentRef Id="_e654b95f_7394_41e1_8f39_41090803a93d" />
-    <ComponentRef Id="_023959f0_1326_4784_b661_cee777bf118b" />
-    <ComponentRef Id="_51e6c1e7_9683_45de_a4a7_3092e2aa8302" />
-    <ComponentRef Id="_6cef5715_3e70_48a2_9965_6ae0801fcb6f" />
-    <ComponentRef Id="_ecada459_0cb6_4cf6_b710_8cc5d3f429fb" />
-    <ComponentRef Id="_41e0473f_a601_4443_86c6_631b532baa54" />
-    <ComponentRef Id="_d29bb104_e91a_4b3a_a4fe_2dbdc22cd098" />
-    <ComponentRef Id="_ca3a8d08_dd4d_4fda_ac09_d0d9751e5968" />
-    <ComponentRef Id="_031b3982_f882_49fe_ac9e_c643ac2122f9" />
-    <ComponentRef Id="_fcd8d0a6_7262_4f40_967d_da81e1b489e6" />
-    <ComponentRef Id="_69cf3543_b6b6_4804_87e2_dca284aaf574" />
-    <ComponentRef Id="_078cf09f_a80c_443a_bf26_62333fa9db95" />
-    <ComponentRef Id="_a8044e3e_4274_458b_8096_2b68e3f91f6e" />
-    <ComponentRef Id="_ae59cd0e_d7cf_46a6_91db_659551b00eeb" />
-    <ComponentRef Id="_2fc0c4d4_573f_4c2c_948d_e72b4f710dc5" />
-    <ComponentRef Id="_ed9e1dd9_da22_4256_a2f0_099b3dac520f" />
-    <ComponentRef Id="_2e7ff093_8f1f_46d1_afd3_7f1752f5377c" />
-    <ComponentRef Id="_3d1d6229_5e56_425e_8811_bdfbf5c440af" />
-    <ComponentRef Id="_8f55ded9_bcf3_4883_9e21_171f98876a9a" />
-    <ComponentRef Id="_8f38781c_730b_4f73_9a63_2e0017b63780" />
-    <ComponentRef Id="_975c201f_bf52_46dc_81fd_1e65bd634e69" />
-    <ComponentRef Id="_4810969e_2c8f_4afe_b9f1_39a2f9a8cbe2" />
-    <ComponentRef Id="_f32b31bf_2843_41da_8d9e_8c2528db1cab" />
-    <ComponentRef Id="_6cc14baf_fb54_443b_a43b_4272dd6f2e11" />
-    <ComponentRef Id="_7d370460_ba00_4e57_80f0_dffd5203be47" />
-    <ComponentRef Id="_d2898bbc_1002_4144_9f28_cc5e0b899df4" />
-    <ComponentRef Id="_90bd8b98_7968_44fe_aa66_2dfb99231605" />
-    <ComponentRef Id="_25ff57dc_f8c7_4c82_8a51_ad217723b718" />
-    <ComponentRef Id="_9426009b_1d9b_4f49_bab9_65e1cdf6d676" />
-    <ComponentRef Id="_ffeef211_3138_4c84_a863_4d77805ea7c2" />
-    <ComponentRef Id="_ca0abb8e_5833_4cd3_9f72_3089acd662e7" />
-    <ComponentRef Id="_2dfdbe25_35f7_4509_a9f8_23573f9cab3a" />
-    <ComponentRef Id="_67266ca8_b471_4dda_9be1_510f7a9cddd5" />
-    <ComponentRef Id="_7adc5e7e_cedd_435d_b81c_0a8b9e671382" />
-    <ComponentRef Id="_6b6d94aa_f350_4ed0_ba6b_7fad03bd4fa6" />
-    <ComponentRef Id="_e0bf98fe_0189_4314_bb05_0b9ed6998bbb" />
-    <ComponentRef Id="_4902210b_03b3_484d_90bf_5cff89c536ba" />
-    <ComponentRef Id="_2056b846_2e64_47d8_84ca_fe0fbe8337cd" />
-    <ComponentRef Id="_5e3c91f5_fb6f_4930_89d1_8b8d80491603" />
-    <ComponentRef Id="_98071d50_3291_41b3_b946_a09230436d20" />
-    <ComponentRef Id="_b2bd7c50_1922_4aa7_a289_561e1b73c556" />
-    <ComponentRef Id="_f460bf1e_93f4_419b_9d93_79e3f0099ea7" />
-    <ComponentRef Id="_a715c7fb_7ed0_40a3_82e8_b516215c05c1" />
-    <ComponentRef Id="_ca8b9e24_6fb7_4d82_af4a_e67ca8d8a7d3" />
-    <ComponentRef Id="_4d50b86e_6155_4e97_a7ce_791f08850896" />
-    <ComponentRef Id="_76bce35b_9a26_41ac_aa98_2abebce1da8c" />
-    <ComponentRef Id="_c71276bb_07d3_4d90_89a0_674706c7bb56" />
-    <ComponentRef Id="_7f70845d_229b_42fc_a1ba_c21778d02b2c" />
-    <ComponentRef Id="_ff0cf2f9_21c3_4a99_a1a1_c2d777a55e33" />
-    <ComponentRef Id="_1333a87c_e65b_41b2_9052_27b8cb925292" />
-    <ComponentRef Id="_6211f4d9_e30e_4d1a_b652_5ef55d036958" />
-    <ComponentRef Id="_eb01ed2d_d594_40c0_a8b6_4c8524d0ea2e" />
-    <ComponentRef Id="_18d2340e_6ca2_414a_b487_b1112f68529e" />
-    <ComponentRef Id="_d54d1a04_3f4b_4143_877e_e6417175f4d1" />
-    <ComponentRef Id="_ea1cc0df_2904_491e_847f_b45db083cd2a" />
-    <ComponentRef Id="_6dfa2a51_a874_45a5_ba07_4731cfccf31c" />
-    <ComponentRef Id="_0c61c8b4_e085_4ae6_8500_19ec29104445" />
-    <ComponentRef Id="_52f4bf4e_7ed7_4708_a7d4_a7ce679e9e53" />
-    <ComponentRef Id="_1014be40_5e71_4c5d_a08b_b3fbaa575831" />
-    <ComponentRef Id="_e3eb63ba_75b5_4be0_a40c_aa616075f4cd" />
-    <ComponentRef Id="_3570f10a_25c5_4823_977c_3adcbe30750e" />
-    <ComponentRef Id="_d456ac5a_f19d_4dc2_9d6a_cdbf79728404" />
-    <ComponentRef Id="_39ea4a8d_2eb9_4ef9_a193_d11dba69cf33" />
-    <ComponentRef Id="_016df013_0d3b_4fc6_8492_c7d43a0cb62f" />
-    <ComponentRef Id="_40aea0ae_3ab3_4aa6_9b63_9d130dad7c8a" />
-    <ComponentRef Id="_9b3e8a7f_004c_4b04_9cd2_8c1264a7a91d" />
-    <ComponentRef Id="_762dd863_fd2e_4383_9cdc_56bdab860205" />
-    <ComponentRef Id="_5b9ffca8_8607_4b2b_872a_4b90094060c2" />
-    <ComponentRef Id="_0d42f842_d5a8_4a66_a419_1fa4d8465287" />
-    <ComponentRef Id="_162d0b99_1d76_483c_835e_051762375898" />
-    <ComponentRef Id="_af19eb0e_01cd_4d2e_9c75_a05014f3916a" />
-    <ComponentRef Id="_b8ad8469_fa21_4341_aee9_600c6c0ef089" />
-    <ComponentRef Id="_83b9197c_063a_408c_933b_186263f8dd9a" />
-    <ComponentRef Id="_0c69d846_a77f_4191_9d1d_22c3def62d57" />
-    <ComponentRef Id="_81a8703f_38fb_4300_b1db_78e357209ba7" />
-    <ComponentRef Id="_5455bee1_e15e_4abf_847d_25bb80e417e0" />
-    <ComponentRef Id="_7a25474e_22f3_4dff_9a9f_3fd7f6f08b91" />
-    <ComponentRef Id="_8e074e0f_49fd_4e7a_b982_81e7a9f94ed6" />
-    <ComponentRef Id="_403e3032_f0ca_4334_8a82_c0411f96cc93" />
-    <ComponentRef Id="_4bf97f9a_53f9_45ac_9a25_3d7b929155a0" />
-    <ComponentRef Id="_ba3b8b9a_03ee_4e3a_b3a1_34c5502fc04a" />
-    <ComponentRef Id="_6f4848a6_2a59_4541_bfe7_2bb02939428d" />
-    <ComponentRef Id="_152720c8_9c72_4123_988d_0b3e2e5c5fa5" />
-    <ComponentRef Id="_243e44cc_4c79_4324_87f9_3a124e4e5e4a" />
-    <ComponentRef Id="_d098f613_4238_47ca_80ba_5ba87112405a" />
-    <ComponentRef Id="_66e09d55_1023_4207_8aed_47462c4c4ecb" />
-    <ComponentRef Id="_810fd3ae_8640_4289_a700_eabd1d10594c" />
-    <ComponentRef Id="_1bccd9ae_136f_4b34_8153_07681d259544" />
-    <ComponentRef Id="_869fc80c_1554_4e83_b12f_c779a072b154" />
-    <ComponentRef Id="_346ab865_9fc6_4e2d_af25_58c29a590ae4" />
-    <ComponentRef Id="_54bc09be_7c3b_466e_b5ff_a59c33193166" />
-    <ComponentRef Id="_b5450afd_9a6d_4ec0_8d3a_2a6e2383baf1" />
-    <ComponentRef Id="_8209b8cf_4585_49e2_961c_04457135aa82" />
-    <ComponentRef Id="_01fae79a_cc24_45a0_995e_05df955428aa" />
-    <ComponentRef Id="_c26a86b0_fbbe_44f1_8de2_a41b28f64e52" />
-    <ComponentRef Id="_5f7264a0_a077_4293_8c5d_1587cb076860" />
-    <ComponentRef Id="_f3a5b8b6_3ee7_4b2d_a7f5_bd12c92e8fba" />
-    <ComponentRef Id="_69e8dbfc_e944_4ba6_8eaa_55946f0ced71" />
-    <ComponentRef Id="_3fb68901_50ca_4fd4_845e_3066405995aa" />
-    <ComponentRef Id="_f36104d5_78d6_4d16_a85d_43d190ba3167" />
-    <ComponentRef Id="_ab431c92_a79b_47e9_923c_a736aaf68a06" />
-    <ComponentRef Id="_5baaa746_8630_4b0e_b615_b8fe2adfac53" />
-    <ComponentRef Id="_2d228152_84ef_45df_8aef_fbba2b322857" />
-    <ComponentRef Id="_0b0c6a99_8aa6_4cab_9808_84db48b11f55" />
-    <ComponentRef Id="_c1959a0e_795d_4fcf_b250_f0693a8669ff" />
-    <ComponentRef Id="_185f1056_2d4a_45f0_9924_04bc8ed50027" />
-    <ComponentRef Id="_35757ea4_023c_4f73_ac24_dcbbedd65949" />
-    <ComponentRef Id="_dbe24ec0_f4c0_4bc3_970a_8a81a1e4a400" />
-    <ComponentRef Id="_53b18318_6ecf_4f5a_a201_35ca3c353b10" />
-    <ComponentRef Id="_d21e2e3d_7fb9_4731_811c_7d6bc1c5625b" />
-    <ComponentRef Id="_635f46df_76c4_4b1d_8a0d_db23e2a80ee4" />
-    <ComponentRef Id="_efb461d7_07f4_471b_85c5_593c896bafe1" />
-    <ComponentRef Id="_dfcadd62_62fd_4f80_84db_cb7a7379d13e" />
-    <ComponentRef Id="_58448dff_7f67_4437_b520_733b86998c47" />
-    <ComponentRef Id="_183b0aa7_476a_49d0_ae4f_73a948d1b2e0" />
-    <ComponentRef Id="_c22cb528_b8a4_4dec_be02_df5600ac2814" />
-    <ComponentRef Id="_6c64dc71_6c49_4aad_8a4f_6ae67d1df26e" />
-    <ComponentRef Id="_fc606f1c_5088_4542_a7dc_7422700f72a4" />
-    <ComponentRef Id="_6bfbedb2_0403_4ebb_997b_c94ebaf4cf3a" />
-    <ComponentRef Id="_33cf3994_c9c4_40a2_a084_04d3f82fa791" />
-    <ComponentRef Id="_63963920_a040_47fd_a6d5_073946b76f33" />
-    <ComponentRef Id="_73b22788_4263_4a58_8580_0c97fa3fa487" />
-    <ComponentRef Id="_e862606b_cac0_450d_b726_6bf9f8f12e19" />
-    <ComponentRef Id="_c8192ee2_7a8a_4730_b8aa_a1e6a8db4991" />
-    <ComponentRef Id="_1fc9e45b_7eb9_40c2_b33b_13ef45415d78" />
-    <ComponentRef Id="_0b52c4ea_2ac1_459e_88ee_310e9115fdd6" />
-    <ComponentRef Id="_67d5fca8_6e48_4be6_99c9_fde171894612" />
-    <ComponentRef Id="_fb5c5031_722b_4397_bf31_87c5cd0f7bc6" />
-    <ComponentRef Id="_a029de29_e510_4634_8f8e_f8a05377cd6b" />
-    <ComponentRef Id="_e3a3a68f_ff73_434a_9870_a8e46ca31e3a" />
-    <ComponentRef Id="_47e044ac_2266_4053_a3ec_c8ee264b394f" />
-    <ComponentRef Id="_70bc386e_e0a2_423d_8617_6020d3abace4" />
-    <ComponentRef Id="_00c82e08_bb4e_4149_ae17_de9d06a8ce57" />
-    <ComponentRef Id="_ccd74185_9e82_4500_ae94_ae5c1af403ce" />
-    <ComponentRef Id="_3be32238_d024_4bb6_a395_1c47b6fc79b8" />
-    <ComponentRef Id="_125113f3_16d4_4a6a_96e9_1d7834ab1650" />
-    <ComponentRef Id="_a416ce01_9fef_4927_9645_7bd3d15bcf31" />
-    <ComponentRef Id="_3460645c_225a_4298_a623_9d91d5c4cd49" />
-    <ComponentRef Id="_aff38087_6de6_4f16_8bc1_ba6bd95ac9ea" />
-    <ComponentRef Id="_a3a4cb04_c27a_4d46_bd56_0ff46b378a82" />
-    <ComponentRef Id="_a1cd6854_8b26_42b2_ad90_a24be46606f6" />
-    <ComponentRef Id="_428a96fc_8a89_437b_b26b_c47770b746d3" />
-    <ComponentRef Id="_c5c39655_f460_4949_8f82_e916f10775ef" />
-    <ComponentRef Id="_bb55f7ac_4f9c_4d5a_a9b3_bffd095c4bd4" />
-    <ComponentRef Id="_1826dbe7_ddbc_47b3_825b_fcbb772fda14" />
-    <ComponentRef Id="_1aef9ea1_469c_4032_8486_db5047a52897" />
-    <ComponentRef Id="_c88fef2a_1147_42c2_8c87_ff5ba34cb692" />
-    <ComponentRef Id="_9e64f5eb_916d_48d7_985e_a1e9eb421983" />
-    <ComponentRef Id="_0e104c1f_c4ce_49b8_a6b8_6c750ae79205" />
-    <ComponentRef Id="_6f542f45_ec1d_4150_9f16_005b328befc0" />
-    <ComponentRef Id="_51d481d7_1616_4f4a_89bf_dac63095ee95" />
-    <ComponentRef Id="_fa6de4e0_5339_4d46_85f0_b1c80b3ab208" />
-    <ComponentRef Id="_b150fde7_34fa_4290_a124_22938470c953" />
-    <ComponentRef Id="_5e449a05_4926_4575_9492_a17cfcaa4138" />
-    <ComponentRef Id="_ace25a21_0b21_4f8e_ad60_3d673ee345ab" />
-    <ComponentRef Id="_3d9ae59e_b90e_40fa_bd86_fc7f3e41cf50" />
-    <ComponentRef Id="_71cd8755_0b31_40d4_a993_ed9ef751e9a4" />
-    <ComponentRef Id="_35e29239_2c8d_471f_8b1c_6073db31fc2a" />
-    <ComponentRef Id="_556db89d_b494_4c4f_b6b9_0de60f14a006" />
-    <ComponentRef Id="_68dc78a3_24a7_4214_b33e_b668ef76db3c" />
-    <ComponentRef Id="_b4cabd88_b113_4c5e_aac8_defb21daf623" />
-    <ComponentRef Id="_d047350a_6cf2_4471_8161_00063a2c3960" />
-    <ComponentRef Id="_90736551_9a52_4032_b64e_7bfe7f593f9c" />
-    <ComponentRef Id="_47e94ff0_f0f2_4e9e_98e3_c34a6705cc4b" />
-    <ComponentRef Id="_95ef1486_f438_44d6_a884_8c40d62e6996" />
-    <ComponentRef Id="_6f4d8c3c_3d74_41a0_8421_723d7e226ebc" />
-    <ComponentRef Id="_fc191593_3342_482f_93f0_b8d73d8f6efb" />
-    <ComponentRef Id="_6bd822e2_5a38_4df6_8d67_16fbce664b62" />
-    <ComponentRef Id="_7a139105_e534_4069_ba6c_e414e1373791" />
-    <ComponentRef Id="_c6ed7d3d_5a16_4b9a_8388_18a3ffb6d093" />
-    <ComponentRef Id="_4c977968_b67b_45c1_a8e2_a15666672e35" />
-    <ComponentRef Id="_6dd5981b_1fa0_4d55_8c70_012fe37038c1" />
-    <ComponentRef Id="_ff50a8fb_edbf_4fc6_95af_03685c890c42" />
-    <ComponentRef Id="_311dadb0_2627_4963_9552_36b8041fe41d" />
-    <ComponentRef Id="_8f4e7adc_2268_4c94_9ba9_4fa5d657b56c" />
-    <ComponentRef Id="_f1b98df0_97ac_4e10_b5fa_c75a553e6977" />
-    <ComponentRef Id="_75d7a214_b2a0_4c29_b803_17a58255d957" />
-    <ComponentRef Id="_43bee111_dddf_48c3_9f5f_83058f6ab856" />
-    <ComponentRef Id="_6990ea9d_b103_4db9_ad30_a5acccae5565" />
-    <ComponentRef Id="_0ec21347_dcc3_4dcf_83f3_000a494934de" />
-    <ComponentRef Id="_97bab1cd_5640_466f_ba85_de541810c6d1" />
-    <ComponentRef Id="_59733ddf_7771_4eb9_a71c_a6f555925b42" />
-    <ComponentRef Id="_780b66b0_0e00_4380_948f_8fa0f8c5c879" />
-    <ComponentRef Id="_c551b4c7_4190_4f77_9243_17c771fe4976" />
-    <ComponentRef Id="_3f23f0e5_cac3_4b7e_bae8_5343c7a9af7d" />
-    <ComponentRef Id="_31fc84e3_10c9_4e47_9543_c80888bf03d9" />
-    <ComponentRef Id="_17a8ac36_a052_4239_a6b7_02c7c71d43b2" />
-    <ComponentRef Id="_e2417064_c91d_4c44_ae3a_d1f47317f02f" />
-    <ComponentRef Id="_23b452c2_7802_4d99_b9fe_4535e9cddcef" />
-    <ComponentRef Id="_e505da0b_8df4_46e1_b005_66baecf179ed" />
-    <ComponentRef Id="_7d4d99cd_a4c3_4224_ac00_86befdc86678" />
-    <ComponentRef Id="_ab72a562_0f20_4ad2_9bd6_ded3fb03cbc7" />
-    <ComponentRef Id="_73deffd6_ba54_4c71_90f2_fc72181d9f99" />
-    <ComponentRef Id="_9d29ccbe_bd04_4433_8298_a78fdc31e33f" />
-    <ComponentRef Id="_0ce12966_d987_4a71_ae25_bdcc8e27cf0f" />
-    <ComponentRef Id="_2213a19a_ce89_48d8_b31b_69d9a551a4e2" />
-    <ComponentRef Id="_c74cadbd_c62a_49c4_abc9_5146cc5ada52" />
-    <ComponentRef Id="_7674667a_8a7b_4c77_b126_6a2cd392409f" />
-    <ComponentRef Id="_5c6f520b_25fd_4f9b_9f5a_a0d4fcae7217" />
-    <ComponentRef Id="_c6fb4df9_f546_47ae_b7de_8b9b44b02183" />
-    <ComponentRef Id="_bde947e5_c5d2_4119_9dcd_eb820058510f" />
-    <ComponentRef Id="_f1120a44_21c5_4ae3_96c7_1c62f24f059b" />
-    <ComponentRef Id="_9aefa74d_4630_4552_a2f0_e1d8eabdb565" />
-    <ComponentRef Id="_5375da64_dc23_4103_a589_ebaf1b558ff0" />
-    <ComponentRef Id="_77a477d2_6da5_4b1f_ad39_5f54376e334b" />
-    <ComponentRef Id="_9bc89da0_7dff_4e8e_93e3_62c3a61ee5eb" />
-    <ComponentRef Id="_c20d2e5c_913e_4bbe_86f5_4f91acb4ae81" />
-    <ComponentRef Id="_d249a630_675d_4981_a60e_3ed0a505ff97" />
-    <ComponentRef Id="_c979395a_e1cf_4269_be59_026da0c7b8e3" />
+    <ComponentRef Id="_4d48d217_e8ed_40c2_9df2_8e96c5c97df7" />
+    <ComponentRef Id="_95311328_c5f9_4b69_8ff6_5257b3b61080" />
+    <ComponentRef Id="_58a9b519_da86_4002_92c1_8e42097100c3" />
+    <ComponentRef Id="_26427548_5af1_4237_b96b_cf9f8cfab2bd" />
+    <ComponentRef Id="_2096c3cb_f8d3_4aa2_858b_ebecd5ff2ccd" />
+    <ComponentRef Id="_7965aec6_33ae_49ca_97d7_f4c2d96ea1bd" />
+    <ComponentRef Id="_66e5a52a_00d0_4771_8df3_61d2f6fb5346" />
+    <ComponentRef Id="_29f66343_63a4_4e5c_be73_4ddd54e9e8c6" />
+    <ComponentRef Id="_663ba022_2e02_43d0_b8c7_392401a0c35d" />
+    <ComponentRef Id="_fec76809_a126_47f1_b32e_7122032a159f" />
+    <ComponentRef Id="_51e0102c_a5f2_42a5_ac26_108281e6f4c5" />
+    <ComponentRef Id="_e6d3af57_0473_407d_a20f_8790f2ab834b" />
+    <ComponentRef Id="_2cd938fa_5f85_428b_b6f1_5c21dad12667" />
+    <ComponentRef Id="_2163c0bd_fa07_4af5_baf3_903c1372341e" />
+    <ComponentRef Id="_8a1eb83c_df63_439b_88e0_ae6565686351" />
+    <ComponentRef Id="_45208b0e_1334_4cd4_9418_ebcf43b8fc61" />
+    <ComponentRef Id="_a93e30c2_49c7_42e7_ae42_147bbc59cae5" />
+    <ComponentRef Id="_494982bb_6628_46ca_82e7_b4d5ef938c1e" />
+    <ComponentRef Id="_d20b7a37_e298_4e2a_a3d5_4efb1ec719d9" />
+    <ComponentRef Id="_cb1b6576_bad8_457a_b460_18b3494f7265" />
+    <ComponentRef Id="_448bbb54_906c_4858_a55d_df6029ca20d9" />
+    <ComponentRef Id="_4047ad39_204e_4111_b544_ad74fdbdcaa8" />
+    <ComponentRef Id="_6aad30ac_0d04_4b84_8687_dfa1bf36494f" />
+    <ComponentRef Id="_012544cd_44b2_4313_a114_cf653c882958" />
+    <ComponentRef Id="_f18bf86b_112f_4b1f_afaf_15d61ba17579" />
+    <ComponentRef Id="_ee74f091_940b_40b9_b8b6_e55b6c9a84f7" />
+    <ComponentRef Id="_8e8cb881_aaff_4b35_8d90_4728215b7115" />
+    <ComponentRef Id="_169f38d2_a8b4_4963_99ad_fe18fe9615f9" />
+    <ComponentRef Id="_0c152163_8d80_4842_ac01_a4da6dcb2bf4" />
+    <ComponentRef Id="_666ea05b_8620_4ed7_9ab9_5bdd56d5c5ea" />
+    <ComponentRef Id="_1778e73b_c64f_42e8_83d1_091549e7f701" />
+    <ComponentRef Id="_826720b1_eca8_4f57_a471_ad7df16f1380" />
+    <ComponentRef Id="_4d202d53_ad4f_447f_82a6_b08fad8c1b3f" />
+    <ComponentRef Id="_7135b660_670e_4b06_bf69_94a2f8318605" />
+    <ComponentRef Id="_7eeb41ee_06ba_4f13_a9e3_dcddfb419dc6" />
+    <ComponentRef Id="_3382d3d7_39b9_44af_97a7_20691074e076" />
+    <ComponentRef Id="_f3da9a5d_435e_4168_890b_9e268d536df8" />
+    <ComponentRef Id="_a21afde5_aeaf_430e_b495_f2a38eee92e3" />
+    <ComponentRef Id="_b579fdd9_d520_4363_88e6_a899a8e023d9" />
+    <ComponentRef Id="_824bdaa8_4d0e_482f_8788_78ea724d2f6e" />
+    <ComponentRef Id="_762b14ea_bd8a_4c02_bf72_a5601cfaed7e" />
+    <ComponentRef Id="_c675ebdb_c8e1_42d5_81f5_7fce819d485b" />
+    <ComponentRef Id="_b171cb17_bab1_421c_9bb2_e30751f95b5f" />
+    <ComponentRef Id="_e73738ce_f12d_4d38_96cc_36d0b73e6e37" />
+    <ComponentRef Id="_fc46e4c7_dcdc_4b37_9fbc_b1f5900c726f" />
+    <ComponentRef Id="_5dcc0d17_31fe_4bd5_ac05_5df50de8b272" />
+    <ComponentRef Id="_3052afa4_0eab_4371_a979_48f5da3d3dc0" />
+    <ComponentRef Id="_c39f87e7_c4a8_47e4_8b72_6a6a721e0dab" />
+    <ComponentRef Id="_4d78c5dc_ce3d_4ef7_81e7_c3a7916d7ac2" />
+    <ComponentRef Id="_d23f79e7_fdb3_469c_a0de_7577f1b3d712" />
+    <ComponentRef Id="_aff1db15_656e_4e12_8773_c0c99f311964" />
+    <ComponentRef Id="_39f592f4_15ba_41dd_bf7c_180ec0a5732d" />
+    <ComponentRef Id="_f234c5ff_9758_483d_8c1e_31f7ec9d8cb4" />
+    <ComponentRef Id="_d5a5b6ae_a7e8_43f1_8c12_42a1d5b84180" />
+    <ComponentRef Id="_06fb9b5e_68ff_41e2_b698_aac5001ea59d" />
+    <ComponentRef Id="_fe6c898c_6f93_4f13_a698_d9493805b765" />
+    <ComponentRef Id="_2cc57a33_d61d_40b2_b352_190dd6ebcf6f" />
+    <ComponentRef Id="_d80f0c50_15c4_4585_b054_05a1c080a867" />
+    <ComponentRef Id="_ed380b9b_69d8_4a41_8108_77abb23abcee" />
+    <ComponentRef Id="_d9a5d04a_e8b9_4ff5_8f67_01f4374ca4ae" />
+    <ComponentRef Id="_8e38c433_30eb_4e2b_be3e_587f4fe14016" />
+    <ComponentRef Id="_8aed29dd_d340_4c1c_8b86_d3f8b4af56f0" />
+    <ComponentRef Id="_79046065_893d_4c09_9893_6aef2f91398c" />
+    <ComponentRef Id="_fe007799_2cae_4401_bb09_12fd3e84c70b" />
+    <ComponentRef Id="_0619afc1_8fda_4fac_88a3_43d82b396e13" />
+    <ComponentRef Id="_187c6e61_7fd3_404f_86b5_93e448b9e151" />
+    <ComponentRef Id="_2a5a61c6_c1c2_47df_b4d7_60c5e913c708" />
+    <ComponentRef Id="_229a16bb_8e16_4185_9517_5637a4632667" />
+    <ComponentRef Id="_0fbe2d3a_0e59_4be7_a7c1_ca0a8abdad16" />
+    <ComponentRef Id="_55cc9871_be88_4fec_9f34_30d54510777b" />
+    <ComponentRef Id="_4b481f89_1742_45cf_adcf_c020655b52dd" />
+    <ComponentRef Id="_15ac66a4_c2ad_4820_bff1_1c43a10042a9" />
+    <ComponentRef Id="_85653eb8_8306_4305_8a95_19a474bf3b2b" />
+    <ComponentRef Id="_4dc74c2a_da09_497e_9085_00d67b332939" />
+    <ComponentRef Id="_40596299_b883_43ed_950f_511b979dbcca" />
+    <ComponentRef Id="_a8228ac5_cbb1_4604_8926_a7e2863c4432" />
+    <ComponentRef Id="_5cea34e2_0e8a_40af_8dc9_8a8a073f5089" />
+    <ComponentRef Id="_55a91aed_7209_4043_90a1_90ee06806c9d" />
+    <ComponentRef Id="_7d32dc91_bdd1_40ea_8bc9_6aebe7a460a1" />
+    <ComponentRef Id="_3fdcedc7_4945_4436_ac72_1c3275702c1e" />
+    <ComponentRef Id="_c40f0539_9659_4de1_9a3b_6b9e277d54b2" />
+    <ComponentRef Id="_f3fd3ac0_2b8a_4855_a736_555dba82bb07" />
+    <ComponentRef Id="_c0480433_2f6b_4883_a37c_446f04ec6035" />
+    <ComponentRef Id="_d0871d5f_dd56_4c15_853d_fc2ba187e6d8" />
+    <ComponentRef Id="_20a08626_fedf_42dc_9009_fbb38bb95a63" />
+    <ComponentRef Id="_74fdbb39_b94f_4244_88dc_52cee5772296" />
+    <ComponentRef Id="_4297ba03_599a_4d8d_bdff_cfd141795c7a" />
+    <ComponentRef Id="_93db6d73_bcda_4393_b679_2adde6a12b58" />
+    <ComponentRef Id="_0ff2cd16_9582_4804_a4ba_5a8324690034" />
+    <ComponentRef Id="_3ba8da4a_5db3_44d9_8aa3_6f9f8f09ba6b" />
+    <ComponentRef Id="_a96e80d4_bf84_445f_9a0f_9b6aa4867b02" />
+    <ComponentRef Id="_7d25e069_cfa5_465b_893c_84bd0b469599" />
+    <ComponentRef Id="_0f801335_563b_42aa_99f3_90ddc8bd2d3b" />
+    <ComponentRef Id="_82317d12_897d_47f2_b47a_b805cc7ac96d" />
+    <ComponentRef Id="_de049c5c_66e0_4a2c_b751_15c6a7601f82" />
+    <ComponentRef Id="_5f604a01_e534_4aa1_989f_e82cc26740f8" />
+    <ComponentRef Id="_83c0d2d6_d69e_4dd0_ba59_2ec5a8a78b68" />
+    <ComponentRef Id="_78b6da94_4114_4240_b883_2c3dea67db61" />
+    <ComponentRef Id="_a8ce73e1_957c_4175_ac57_5e6f2ad429e2" />
+    <ComponentRef Id="_2f2a25a9_7ff8_40e7_911e_34141ff67d93" />
+    <ComponentRef Id="_d6fbe50c_f44b_4f7c_9dd4_2d32ae48fd47" />
+    <ComponentRef Id="_9d3b1cab_2aa8_4b9a_8ea6_0550cfa4b27e" />
+    <ComponentRef Id="_d5b8c260_7cba_494e_ac5f_81a5169e4a29" />
+    <ComponentRef Id="_ede5bc5a_a6bc_44e1_998e_137071f2ccc6" />
+    <ComponentRef Id="_c7de96fe_ffe7_48ec_ba10_49e05950ae96" />
+    <ComponentRef Id="_d9663f32_aede_4735_8a13_88f15f639188" />
+    <ComponentRef Id="_bb9ea8c1_5041_4bcc_bbc0_8c2aa63d0969" />
+    <ComponentRef Id="_2c3d710c_a909_47e8_99e3_0c153d6c4773" />
+    <ComponentRef Id="_6cb9d990_1769_4eb8_9725_e9f81bacc96b" />
+    <ComponentRef Id="_a9c4946e_692d_41a9_9c73_8599e608d8cb" />
+    <ComponentRef Id="_8546001e_c1b2_40c2_9f28_25c3940bc444" />
+    <ComponentRef Id="_d0e7812e_27db_413a_bace_e3b80d477b98" />
+    <ComponentRef Id="_75ff8112_cdaf_444b_8964_428f020b4326" />
+    <ComponentRef Id="_0d21c6ed_6b9c_497d_adfd_def2e016b75d" />
+    <ComponentRef Id="_81c8ce75_4ce4_40c2_81fc_09c0ad292b68" />
+    <ComponentRef Id="_52e4aa69_06e3_43b3_aa7a_b8e8bd8b5f0d" />
+    <ComponentRef Id="_07a2daeb_5de4_46d0_8cb4_aa2020ba19c5" />
+    <ComponentRef Id="_c4cd698c_f3d1_436d_bdf1_14318eb52f53" />
+    <ComponentRef Id="_5454c358_73d6_4d76_a4bc_806e29628c91" />
+    <ComponentRef Id="_7442df0a_a16c_4971_abf3_aa6249cbab7e" />
+    <ComponentRef Id="_783079c5_0592_497e_9638_d3297da59c3c" />
+    <ComponentRef Id="_d35fca77_d26d_4ccf_bfbd_8082bd1cf611" />
+    <ComponentRef Id="_d6904aaf_70e0_4e89_a7d9_b5005f7997d1" />
+    <ComponentRef Id="_9f390b31_a3d8_494e_b618_c4086f998ff3" />
+    <ComponentRef Id="_a5a2d998_6330_4e35_9714_bfb70baba2eb" />
+    <ComponentRef Id="_c02a9d02_9cb1_469c_81cb_1bf99ec699ba" />
+    <ComponentRef Id="_85255e8f_5ca2_4f24_bbd2_daae56d7e97a" />
+    <ComponentRef Id="_97710ddf_83be_4547_bfb3_061522dfc9a7" />
+    <ComponentRef Id="_c8976e6d_4b27_4b9d_950d_83f1218474da" />
+    <ComponentRef Id="_c6afe34b_b616_4c0b_9b99_783fa51b7091" />
+    <ComponentRef Id="_fd6237c6_b2a7_4362_bc07_cb8121b7c7f7" />
+    <ComponentRef Id="_382f0d2b_602b_4a5e_bc9a_317ff04c3458" />
+    <ComponentRef Id="_7701482e_1d53_4cfa_9b92_7cbca37d8251" />
+    <ComponentRef Id="_e497ff4b_ee16_4ca6_a226_f31b91f41236" />
+    <ComponentRef Id="_5804fee1_a53d_4d09_a577_67e21ccac955" />
+    <ComponentRef Id="_b6fed579_664a_413b_9775_0b66e011dd2e" />
+    <ComponentRef Id="_18e36a35_2fed_40c0_9995_aeccb95b4c08" />
+    <ComponentRef Id="_f546c01c_fe53_4d2e_b091_7d25b44da152" />
+    <ComponentRef Id="_03edc2f0_493a_4032_adc5_b27d3aa66892" />
+    <ComponentRef Id="_9f90c620_cccf_444b_bc17_5eff55323718" />
+    <ComponentRef Id="_55c9c4e8_ae51_40a6_bd25_7943119b2f27" />
+    <ComponentRef Id="_735d52b5_9ec6_4695_baf8_35c9dfc285aa" />
+    <ComponentRef Id="_ddab719f_5dbf_4a24_b4e4_13347149874d" />
+    <ComponentRef Id="_b8e8908b_a32b_4739_b068_538b6ea2b66e" />
+    <ComponentRef Id="_ec73ee3f_fbd2_4519_b943_c5d8b573ce92" />
+    <ComponentRef Id="_ddb25036_996c_4629_9f67_081dd3452acc" />
+    <ComponentRef Id="_b08e7bde_3a9c_464a_9cd2_a54b72d92172" />
+    <ComponentRef Id="_0da2f686_acfa_4383_b2ba_a10e32c4ebe7" />
+    <ComponentRef Id="_6332b813_b719_469b_b251_0739baececa1" />
+    <ComponentRef Id="_ba24b65f_60a5_4fa2_9dca_da4fab3f8ad9" />
+    <ComponentRef Id="_fdda67da_9d5d_466b_adfa_e4789024d25d" />
+    <ComponentRef Id="_18c45274_d217_432c_a1b3_1ef950a19d7d" />
+    <ComponentRef Id="_8669c526_d884_4e36_a5c7_14c416e0b45f" />
+    <ComponentRef Id="_c44a4aee_246d_4903_a052_ff929f6dbbe4" />
+    <ComponentRef Id="_ce9c23e5_9c29_4a32_ae0d_df3009ddeb29" />
+    <ComponentRef Id="_e51cdc5c_ba65_4237_b159_157c91178927" />
+    <ComponentRef Id="_51519992_9a4f_438d_b6f9_2ed856866180" />
+    <ComponentRef Id="_a4a7dc05_ac10_48c2_9d5a_bae12494d585" />
+    <ComponentRef Id="_71518b40_bc5e_4cfa_878a_6946b7ed1693" />
+    <ComponentRef Id="_74b9ee97_3141_4f81_b30a_771661106714" />
+    <ComponentRef Id="_78f28253_3943_4696_bd1e_190020c640e6" />
+    <ComponentRef Id="_3094299d_5884_46ed_b63e_1b942b011eb7" />
+    <ComponentRef Id="_09f46f9b_b54e_4123_bf98_fa2fd52a4d51" />
+    <ComponentRef Id="_eb8c49e3_a07b_4a81_918c_8f65521d40b1" />
+    <ComponentRef Id="_8719343e_1d45_417e_9f14_f195f47ca85c" />
+    <ComponentRef Id="_154d0cbb_e80b_4c60_87b4_656e6a5a22c3" />
+    <ComponentRef Id="_d59a1889_a2c1_4c30_890e_df6392dc9087" />
+    <ComponentRef Id="_a4caa003_8617_4e8f_ab62_c0ded766c4bb" />
+    <ComponentRef Id="_a015d391_bc34_4b06_b60d_f84c0a8c29a5" />
+    <ComponentRef Id="_b2220249_f6e7_4040_9f5c_ac9915d22d0d" />
+    <ComponentRef Id="_4e46d09b_d477_4c6e_96c2_5573f814e3cd" />
+    <ComponentRef Id="_c3601d73_5c23_45f3_9a57_f490077a16ca" />
+    <ComponentRef Id="_a0fe4ca9_4e0b_415a_89ed_56bff45ba1b2" />
+    <ComponentRef Id="_f932fdc5_7d8f_4125_bc5f_709ec159a2cf" />
+    <ComponentRef Id="_82e1e22d_3254_4f90_b1af_569c153cc6fd" />
+    <ComponentRef Id="_088a4dab_da3a_4c04_851b_95f51c7626e8" />
+    <ComponentRef Id="_21c0aa35_51cd_47b8_9982_779ced7918ad" />
+    <ComponentRef Id="_7b011567_6508_4383_89db_6e29d8f7cd3f" />
+    <ComponentRef Id="_8c88a543_571b_436d_af12_44e660e79d4a" />
+    <ComponentRef Id="_d2a48b05_8f71_43bc_87da_c461345453bc" />
+    <ComponentRef Id="_3defe7d0_e5b6_41ee_9030_b151a9d0a10d" />
+    <ComponentRef Id="_8288ce8b_e8e0_46b1_a4c6_8ebd1823d9cc" />
+    <ComponentRef Id="_8a86d30a_269b_4d62_a412_fa53e5cc78da" />
+    <ComponentRef Id="_d44ce6c0_158e_4b38_aa52_68e848b36851" />
+    <ComponentRef Id="_735a8dea_76d9_4761_95fb_41bbcd295782" />
+    <ComponentRef Id="_4b6308fc_a63c_4238_9c9a_78a4cc95505d" />
+    <ComponentRef Id="_0444d514_3e5a_41b1_be7b_944edcd0288d" />
+    <ComponentRef Id="_981da769_47da_44dc_af15_ab51d4c1bb2c" />
+    <ComponentRef Id="_bdcb4d60_ed80_446d_90cc_7b7439d7ac36" />
+    <ComponentRef Id="_6d5c7919_a165_4458_8629_70f28c93e495" />
+    <ComponentRef Id="_d225b06a_0240_405e_8fbc_95628970e5fc" />
+    <ComponentRef Id="_0c7a0c02_2c25_49b9_8d37_937b0fd572dd" />
+    <ComponentRef Id="_0ce78a67_123e_4474_aeaf_f92fa230ad1a" />
+    <ComponentRef Id="_dea7f6e6_d349_432e_bd5e_e2562c2b8775" />
+    <ComponentRef Id="_48fc87dc_3967_4191_bc5e_b62542543581" />
+    <ComponentRef Id="_a3fd7685_aa0a_4f67_b077_35ca1cc43443" />
+    <ComponentRef Id="_eefe4056_0738_4450_a815_f5bfa7c5e624" />
+    <ComponentRef Id="_5e90099e_aad2_4547_a07d_7dbe187ca061" />
+    <ComponentRef Id="_60a56da3_4422_4561_98a7_bfc7e6d7f306" />
+    <ComponentRef Id="_244444cb_6519_403c_8335_ef0807a7f3ed" />
+    <ComponentRef Id="_5b74f5f5_35f8_47ad_8713_0c05f535f183" />
+    <ComponentRef Id="_b92572dd_9f94_42c3_8230_f373883e5db4" />
+    <ComponentRef Id="_cce847b6_42bb_4bcc_ae30_da1426b0ae4f" />
+    <ComponentRef Id="_463d234e_74cc_48de_b5bb_5bafe78a7f95" />
+    <ComponentRef Id="_c4232c54_f3bb_498f_9ae2_824c3592d213" />
+    <ComponentRef Id="_8e7588be_e651_4237_8265_14a2bd694722" />
+    <ComponentRef Id="_e66e49fa_7491_48bf_a408_65fe39ab012f" />
+    <ComponentRef Id="_5d3ed925_2aff_4842_b24f_156bb9087d16" />
+    <ComponentRef Id="_afcb5109_9bea_4f13_bd14_e1f9d0625898" />
+    <ComponentRef Id="_ddf56f4d_fb14_4f90_91ee_2185028ed391" />
+    <ComponentRef Id="_5bb453ae_932d_4316_ad8e_87d8362ce6ad" />
+    <ComponentRef Id="_8f1107b3_bf59_4b77_9339_945c02ddf841" />
+    <ComponentRef Id="_2b2d7261_986c_4867_9c90_558fc897ddda" />
+    <ComponentRef Id="_73fee389_bf92_4568_ac69_3589188e2e0e" />
+    <ComponentRef Id="_5fa6c6fb_cbf3_418b_9157_f768f24bca70" />
+    <ComponentRef Id="_89976ac1_b773_42e5_a660_77be1acdac16" />
+    <ComponentRef Id="_8baf74ad_6e4a_48e6_a247_de2b7f50cb1a" />
+    <ComponentRef Id="_cb634e4d_2156_4817_a4b3_32b3ff6bfc66" />
   </Feature>
 </root>

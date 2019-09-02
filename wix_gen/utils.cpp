@@ -127,10 +127,10 @@ void write_components(const dir_tree& tree, pugi::xml_node& xmlnode)
 				target.append_attribute("Id").set_value(idr.c_str());
 			}
 			else
-				for (; index > node.ipos.size(); --index)
+				for (; index >= node.ipos.size(); --index)
 					target = target.parent();
 
-			//std::cout << *node << " at: " << node.ipos.size() << " index: " << index << std::endl;
+			std::cout << *node << " at: " << node.ipos.size() << " index: " << index << std::endl;
 		}
 		else//File
 		{
