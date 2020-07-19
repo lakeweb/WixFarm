@@ -6,7 +6,7 @@ using _SILENCE_CXX17_ITERATOR_BASE_CLASS_DEPRECATION_WARNING
 fix this
 */
 //windows namespace
-namespace fs = std::experimental::filesystem;
+namespace fs = std::filesystem;
 
 template<typename T>
 struct tree_node {
@@ -95,8 +95,8 @@ struct tree_helper {
 			std::cout << std::endl;
 			for (auto st : ipos)
 			{
-				std::cout << "stack: " << st.node->item
-					<< "\n     iter: ";
+				//std::cout << "stack: " << st.node->item
+				//	<< "\n     iter: ";
 				std::visit(var_print(), *st.iter);
 			}
 			std::cout << std::endl;
@@ -116,7 +116,7 @@ struct tree_helper {
 			return initer != top_node().children.end();
 		}
 		bool pop() {
-			std::cout << "in pop....";
+			//std::cout << "in pop....";
 			//print_stack();
 			ipos.pop_back();
 			if (!ipos.size())

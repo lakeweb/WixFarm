@@ -50,6 +50,9 @@ the video:
 https://channel9.msdn.com/blogs/scobleizer/wix-team-the-most-used-piece-of-software-at-microsoft-and-its-open-source#Page=2
 */
 // ............................................................................
+//to log
+std::ofstream log_os("../build.log");
+#define LOG(x)(log_os << x << std::endl;)
 // ............................................................................
 int main(int argc, char* argv[])
 {
@@ -145,7 +148,7 @@ int main(int argc, char* argv[])
 	auto files_node = XMLNODE(directives.select_nodes("root/Files").first().node());
 	fs::path product_destination(files_node.GetElement("OutputProductFile").GetAttribute("path"));
 	product_destination = directives_folder / product_destination;
-	COUT("creating proeuct document: " << product_destination << "\n");
+	COUT("creating product document: " << product_destination << "\n");
 
 	CXML product; //the target project document
 	product.Open(product_destination.string(), pugi::parse_declaration| pugi::parse_doctype|pugi::parse_comments|pugi::parse_embed_pcdata);
@@ -220,8 +223,8 @@ int main(int argc, char* argv[])
 	std::cout << "writing document to file: " << product_destination << std::endl;
 	product.Close();
 
-	fs::copy_file(R"(C:\cpp\ReserveAnalyst_142\WixSetup\RaProject\bin\Product.wxs)",
-		R"(C:\cpp\ReserveAnalyst_142\wix\Product.wxs)",
-		fs::copy_options::overwrite_existing);
+	//fs::copy_file(R"(C:\cpp\ReserveAnalyst\deployment\WixSetup\RaProject\bin\Product.wxs)",
+	//	R"(C:\cpp\ReserveAnalyst\deployment\Product.wxs)",
+	//	fs::copy_options::overwrite_existing);
 }
 

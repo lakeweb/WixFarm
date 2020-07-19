@@ -21,8 +21,8 @@ legacy code
 */
 
 
-//ok, the begining...............................
-//two classes should sufice
+//ok, the beginning...............................
+//two classes should suffice
 //	CXML the document container:  derived from pugi::xml_document as public
 //  XMLNODE where most of the work is done:  derived from pugi::xml_node as public
 //  

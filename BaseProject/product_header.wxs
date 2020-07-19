@@ -4,10 +4,10 @@
            Manufacturer="$(var.Manufacturer)" Name="$(var.ProductName)" Version="$(var.ProductVersion)">
     <Package Compressed="yes" InstallerVersion="200" Languages="1033" Manufacturer="$(var.Manufacturer)" Platform="x86" />
     <Media Id = "1" Cabinet = "myapplication.cab" EmbedCab = "yes"/>
-    <Binary Id="MSVBDPCADLL" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\Binary\MSVBDPCADLL.idb" />
-    <Binary Id="VSDNETCFG" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\Binary\VSDNETCFG.idb" />
-    <Binary Id="UpFldrBtn" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\images\UpFldrBtn.ico" />
-    <Binary Id="NewFldrBtn" SourceFile="C:\cpp\ReserveAnalyst_142\WixSetup\BaseProject\images\NewFldrBtn.ico" />
+    <Binary Id="MSVBDPCADLL" SourceFile="C:\cpp\ReserveAnalyst\deployment\WixSetup\BaseProject\Binary\MSVBDPCADLL.idb" />
+    <Binary Id="VSDNETCFG" SourceFile="C:\cpp\ReserveAnalyst\deployment\WixSetup\BaseProject\Binary\VSDNETCFG.idb" />
+    <Binary Id="UpFldrBtn" SourceFile="C:\cpp\ReserveAnalyst\deployment\WixSetup\BaseProject\images\UpFldrBtn.ico" />
+    <Binary Id="NewFldrBtn" SourceFile="C:\cpp\ReserveAnalyst\deployment\WixSetup\BaseProject\images\NewFldrBtn.ico" />
     <MajorUpgrade DowngradeErrorMessage="Can't downgrade." />
     <CustomAction Id="DIRCA_CheckFX" BinaryKey="MSVBDPCADLL" DllEntry="CheckFX" />
     <CustomAction Id="VSDCA_VsdLaunchConditions" BinaryKey="MSVBDPCADLL" DllEntry="VsdLaunchConditions" />
